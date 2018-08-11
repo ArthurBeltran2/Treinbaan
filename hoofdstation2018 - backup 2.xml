@@ -615,47 +615,13 @@
     </reporter>
   </reporters>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="9:41 PM">
+    <memory value="10:38 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
       <systemName>IMRATEFACTOR</systemName>
     </memory>
   </memories>
-  <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
-    <signalhead class="jmri.implementation.configurexml.VirtualSignalHeadXml">
-      <systemName>IH1.07-3.01</systemName>
-      <userName>IH1.07-3.01</userName>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.VirtualSignalHeadXml">
-      <systemName>IH1.08-3.02</systemName>
-      <userName>IH1.08-3.02</userName>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.VirtualSignalHeadXml">
-      <systemName>IH1.09-1.11</systemName>
-      <userName>IH1.09-1.11</userName>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.VirtualSignalHeadXml">
-      <systemName>IH1.10-1.12</systemName>
-      <userName>IH1.10-1.12</userName>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.VirtualSignalHeadXml">
-      <systemName>IH1.11-1.09</systemName>
-      <userName>IH1.11-1.09</userName>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.VirtualSignalHeadXml">
-      <systemName>IH1.12-1.10</systemName>
-      <userName>IH1.12-1.10</userName>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.VirtualSignalHeadXml">
-      <systemName>IH3.01-1.07</systemName>
-      <userName>IH3.01-1.07</userName>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.VirtualSignalHeadXml">
-      <systemName>IH3.02-1.08</systemName>
-      <userName>IH3.02-1.08</userName>
-    </signalhead>
-  </signalheads>
   <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml" />
   <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
   <blocks class="jmri.configurexml.BlockManagerXml">
@@ -1434,7 +1400,7 @@
     </block>
   </blocks>
   <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
-  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
     <layoutblock systemName="ILB1" occupiedsense="2" trackcolor="#009999" occupiedcolor="red" extracolor="orange">
       <systemName>ILB1</systemName>
       <userName>IB2:09</userName>
@@ -1625,7 +1591,7 @@
     </layoutblock>
   </layoutblocks>
   <sections class="jmri.configurexml.SectionManagerXml">
-    <section systemName="IY:AUTO:0001" userName="Sectie01" creationtype="userdefined" fstopsensorname="IBM2:01" rstopsensorname="IBM1:01" fsensorname="IBM1:01" rsensorname="IBM2:01">
+    <section systemName="IY:AUTO:0001" userName="Sectie01" creationtype="userdefined">
       <systemName>IY:AUTO:0001</systemName>
       <userName>Sectie01</userName>
       <blockentry sName="IB17" order="0" />
@@ -1633,7 +1599,7 @@
       <entrypoint fromblock="IB33" toblock="IB17" direction="4" fixed="no" fromblockdirection="West" />
       <entrypoint fromblock="IB18" toblock="IB29" direction="8" fixed="no" fromblockdirection="East" />
     </section>
-    <section systemName="IY:AUTO:0002" userName="Sectie02" creationtype="userdefined" fstopsensorname="IBM1:09" rstopsensorname="IBM1:07" fsensorname="IBM1:07" rsensorname="IBM1:09">
+    <section systemName="IY:AUTO:0002" userName="Sectie02" creationtype="userdefined">
       <systemName>IY:AUTO:0002</systemName>
       <userName>Sectie02</userName>
       <blockentry sName="IB20" order="0" />
@@ -1641,7 +1607,7 @@
       <entrypoint fromblock="IB18" toblock="IB19" direction="4" fixed="no" fromblockdirection="West" />
       <entrypoint fromblock="IB21" toblock="IB20" direction="8" fixed="no" fromblockdirection="South" />
     </section>
-    <section systemName="IY:AUTO:0003" userName="Sectie03" creationtype="userdefined" fstopsensorname="IBM1:13" rstopsensorname="IBM1:11" fsensorname="IBM1:11" rsensorname="IBM1:13">
+    <section systemName="IY:AUTO:0003" userName="Sectie03" creationtype="userdefined">
       <systemName>IY:AUTO:0003</systemName>
       <userName>Sectie03</userName>
       <blockentry sName="IB21" order="0" />
@@ -1649,7 +1615,7 @@
       <entrypoint fromblock="IB20" toblock="IB21" direction="4" fixed="no" fromblockdirection="North" />
       <entrypoint fromblock="IB23" toblock="IB22" direction="8" fixed="no" fromblockdirection="West" />
     </section>
-    <section systemName="IY:AUTO:0004" userName="Sectie04" creationtype="userdefined" fstopsensorname="IBM2:15" rstopsensorname="IBM1:15" fsensorname="IBM1:15" rsensorname="IBM2:15">
+    <section systemName="IY:AUTO:0004" userName="Sectie04" creationtype="userdefined">
       <systemName>IY:AUTO:0004</systemName>
       <userName>Sectie04</userName>
       <blockentry sName="IB24" order="0" />
@@ -1657,7 +1623,7 @@
       <entrypoint fromblock="IB23" toblock="IB24" direction="4" fixed="no" fromblockdirection="East" />
       <entrypoint fromblock="IB:AUTO:0003" toblock="IB25" direction="8" fixed="no" fromblockdirection="West" />
     </section>
-    <section systemName="IY:AUTO:0006" userName="Sectie05" creationtype="userdefined" fstopsensorname="IBM2:11" rstopsensorname="IBM2:13" fsensorname="IBM2:13" rsensorname="IBM2:11">
+    <section systemName="IY:AUTO:0006" userName="Sectie05" creationtype="userdefined">
       <systemName>IY:AUTO:0006</systemName>
       <userName>Sectie05</userName>
       <blockentry sName="IB26" order="0" />
@@ -1665,7 +1631,7 @@
       <entrypoint fromblock="IB:AUTO:0003" toblock="IB26" direction="4" fixed="no" fromblockdirection="East" />
       <entrypoint fromblock="IB30" toblock="IB27" direction="8" fixed="no" fromblockdirection="North" />
     </section>
-    <section systemName="IY:AUTO:0007" userName="Sectie06" creationtype="userdefined" fstopsensorname="IBM2:07" rstopsensorname="IBM2:09" fsensorname="IBM2:09" rsensorname="IBM2:07">
+    <section systemName="IY:AUTO:0007" userName="Sectie06" creationtype="userdefined">
       <systemName>IY:AUTO:0007</systemName>
       <userName>Sectie06</userName>
       <blockentry sName="IB30" order="0" />
@@ -1860,20 +1826,8 @@
       <transitsection sectionname="IY:AUTO:0006" sequence="8" direction="4" alternate="no" safe="no" />
       <transitsection sectionname="IY:AUTO:0007" sequence="9" direction="4" alternate="no" safe="no" />
       <transitsection sectionname="IY:AUTO:0022" sequence="10" direction="4" alternate="no" safe="no" />
-      <transitsection sectionname="IY:AUTO:0001" sequence="11" direction="4" alternate="no" safe="no" />
     </transit>
   </transits>
-  <signalelements class="jmri.jmrit.blockboss.configurexml.BlockBossLogicXml">
-    <signalelement signal="IH1.10-1.12" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <sensorname>IBM1:10</sensorname>
-      <comment />
-    </signalelement>
-    <signalelement signal="IH3.01-1.07" mode="1" watchedsignal1="IH3.01-1.07" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <sensorname>IBM1:07</sensorname>
-      <sensorname>IBM3:01</sensorname>
-      <comment />
-    </signalelement>
-  </signalelements>
   <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
@@ -2107,7 +2061,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sat Aug 01 13:29:58 CEST 2015" rate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="0" showbutton="no" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="baan 1 met wissels .any" x="186" y="204" height="646" width="1193" windowheight="728" windowwidth="1366" panelheight="646" panelwidth="1193" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="yes" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="#009999" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="orange" defaulttextcolor="black" turnoutcirclecolor="#FF66FF" turnoutcirclesize="1" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="5" gridSize2nd="5" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="baan 1 met wissels .any" x="186" y="204" height="646" width="1193" windowheight="728" windowwidth="1366" panelheight="646" panelwidth="1193" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="yes" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="#009999" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="orange" defaulttextcolor="black" turnoutcirclecolor="#FF66FF" turnoutcirclesize="1" turnoutdrawunselectedleg="no" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="5" gridSize2nd="5" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="baan 1 met wissels .any" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -2134,224 +2088,12 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <locoicon x="247" y="169" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" text="3" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" icon="yes" dockX="0" dockY="0" rosterentry="loc8" class="jmri.jmrit.display.configurexml.LocoIconXml">
+    <locoicon x="247" y="169" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="3" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" icon="yes" dockX="0" dockY="0" rosterentry="loc8" class="jmri.jmrit.display.configurexml.LocoIconXml">
       <icon url="program:resources/icons/markers/loco-white.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </icon>
     </locoicon>
-    <signalheadicon signalhead="IH1.10-1.12" x="57" y="389" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
-      <tooltip>IH1.10-1.12</tooltip>
-      <icons>
-        <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="91" scale="1.0">
-          <rotation>0</rotation>
-        </held>
-        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-short.gif" degrees="91" scale="1.0">
-          <rotation>0</rotation>
-        </dark>
-        <red url="program:resources/icons/smallschematics/searchlights/left-red-short.gif" degrees="91" scale="1.0">
-          <rotation>0</rotation>
-        </red>
-        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-short.gif" degrees="91" scale="1.0">
-          <rotation>0</rotation>
-        </yellow>
-        <green url="program:resources/icons/smallschematics/searchlights/left-green-short.gif" degrees="91" scale="1.0">
-          <rotation>0</rotation>
-        </green>
-        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-short.gif" degrees="91" scale="1.0">
-          <rotation>0</rotation>
-        </flashred>
-        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-short.gif" degrees="91" scale="1.0">
-          <rotation>0</rotation>
-        </flashyellow>
-        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-short.gif" degrees="91" scale="1.0">
-          <rotation>0</rotation>
-        </flashgreen>
-      </icons>
-      <iconmaps />
-    </signalheadicon>
-    <signalheadicon signalhead="IH1.12-1.10" x="48" y="409" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="271" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
-      <tooltip>IH1.12-1.10</tooltip>
-      <icons>
-        <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="271" scale="1.0">
-          <rotation>0</rotation>
-        </held>
-        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-short.gif" degrees="271" scale="1.0">
-          <rotation>0</rotation>
-        </dark>
-        <red url="program:resources/icons/smallschematics/searchlights/left-red-short.gif" degrees="271" scale="1.0">
-          <rotation>0</rotation>
-        </red>
-        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-short.gif" degrees="271" scale="1.0">
-          <rotation>0</rotation>
-        </yellow>
-        <green url="program:resources/icons/smallschematics/searchlights/left-green-short.gif" degrees="271" scale="1.0">
-          <rotation>0</rotation>
-        </green>
-        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-short.gif" degrees="271" scale="1.0">
-          <rotation>0</rotation>
-        </flashred>
-        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-short.gif" degrees="271" scale="1.0">
-          <rotation>0</rotation>
-        </flashyellow>
-        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-short.gif" degrees="271" scale="1.0">
-          <rotation>0</rotation>
-        </flashgreen>
-      </icons>
-      <iconmaps />
-    </signalheadicon>
-    <signalheadicon signalhead="IH1.11-1.09" x="27" y="341" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="272" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
-      <tooltip>IH1.11-1.09</tooltip>
-      <icons>
-        <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="272" scale="1.0">
-          <rotation>0</rotation>
-        </held>
-        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-short.gif" degrees="272" scale="1.0">
-          <rotation>0</rotation>
-        </dark>
-        <red url="program:resources/icons/smallschematics/searchlights/left-red-short.gif" degrees="272" scale="1.0">
-          <rotation>0</rotation>
-        </red>
-        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-short.gif" degrees="272" scale="1.0">
-          <rotation>0</rotation>
-        </yellow>
-        <green url="program:resources/icons/smallschematics/searchlights/left-green-short.gif" degrees="272" scale="1.0">
-          <rotation>0</rotation>
-        </green>
-        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-short.gif" degrees="272" scale="1.0">
-          <rotation>0</rotation>
-        </flashred>
-        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-short.gif" degrees="272" scale="1.0">
-          <rotation>0</rotation>
-        </flashyellow>
-        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-short.gif" degrees="272" scale="1.0">
-          <rotation>0</rotation>
-        </flashgreen>
-      </icons>
-      <iconmaps />
-    </signalheadicon>
-    <signalheadicon signalhead="IH1.09-1.11" x="47" y="342" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="92" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
-      <tooltip>IH1.09-1.11</tooltip>
-      <icons>
-        <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="92" scale="1.0">
-          <rotation>0</rotation>
-        </held>
-        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-short.gif" degrees="92" scale="1.0">
-          <rotation>0</rotation>
-        </dark>
-        <red url="program:resources/icons/smallschematics/searchlights/left-red-short.gif" degrees="92" scale="1.0">
-          <rotation>0</rotation>
-        </red>
-        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-short.gif" degrees="92" scale="1.0">
-          <rotation>0</rotation>
-        </yellow>
-        <green url="program:resources/icons/smallschematics/searchlights/left-green-short.gif" degrees="92" scale="1.0">
-          <rotation>0</rotation>
-        </green>
-        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-short.gif" degrees="92" scale="1.0">
-          <rotation>0</rotation>
-        </flashred>
-        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-short.gif" degrees="92" scale="1.0">
-          <rotation>0</rotation>
-        </flashyellow>
-        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-short.gif" degrees="92" scale="1.0">
-          <rotation>0</rotation>
-        </flashgreen>
-      </icons>
-      <iconmaps />
-    </signalheadicon>
-    <signalheadicon signalhead="IH1.07-3.01" x="221" y="601" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="353" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
-      <tooltip>IH1.07-3.01</tooltip>
-      <icons>
-        <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="353" scale="1.0">
-          <rotation>0</rotation>
-        </held>
-        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-short.gif" degrees="353" scale="1.0">
-          <rotation>0</rotation>
-        </dark>
-        <red url="program:resources/icons/smallschematics/searchlights/left-red-short.gif" degrees="353" scale="1.0">
-          <rotation>0</rotation>
-        </red>
-        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-short.gif" degrees="353" scale="1.0">
-          <rotation>0</rotation>
-        </yellow>
-        <green url="program:resources/icons/smallschematics/searchlights/left-green-short.gif" degrees="353" scale="1.0">
-          <rotation>0</rotation>
-        </green>
-        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-short.gif" degrees="353" scale="1.0">
-          <rotation>0</rotation>
-        </flashred>
-        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-short.gif" degrees="353" scale="1.0">
-          <rotation>0</rotation>
-        </flashyellow>
-        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-short.gif" degrees="353" scale="1.0">
-          <rotation>0</rotation>
-        </flashgreen>
-      </icons>
-      <iconmaps />
-    </signalheadicon>
-    <signalheadicon signalhead="IH3.01-1.07" x="222" y="612" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="173" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
-      <tooltip>IH3.01-1.07</tooltip>
-      <icons>
-        <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="173" scale="1.0">
-          <rotation>0</rotation>
-        </held>
-        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-short.gif" degrees="173" scale="1.0">
-          <rotation>0</rotation>
-        </dark>
-        <red url="program:resources/icons/smallschematics/searchlights/left-red-short.gif" degrees="173" scale="1.0">
-          <rotation>0</rotation>
-        </red>
-        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-short.gif" degrees="173" scale="1.0">
-          <rotation>0</rotation>
-        </yellow>
-        <green url="program:resources/icons/smallschematics/searchlights/left-green-short.gif" degrees="173" scale="1.0">
-          <rotation>0</rotation>
-        </green>
-        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-short.gif" degrees="173" scale="1.0">
-          <rotation>0</rotation>
-        </flashred>
-        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-short.gif" degrees="173" scale="1.0">
-          <rotation>0</rotation>
-        </flashyellow>
-        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-short.gif" degrees="173" scale="1.0">
-          <rotation>0</rotation>
-        </flashgreen>
-      </icons>
-      <iconmaps />
-    </signalheadicon>
-    <sensoricon sensor="IBM1:09" x="48" y="335" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="184" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>IBM1:09 (IS809)</tooltip>
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="184" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="184" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="184" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="184" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="IBM1:11" x="26" y="354" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="1" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>IBM1:11 (IS811)</tooltip>
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="1" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="1" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="1" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="1" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <layoutturnout ident="TOR165" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="387.8187561035156" ycen="145.9794464111328" xa="373.61767578125" ya="150.02420043945312" xb="402.01983642578125" yb="141.9346923828125" xc="396.3409729003906" yc="146.9166259765625" xd="373.61767578125" yd="150.02420043945312" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW430" blockname="IB4:01" connectaname="TS194" connectbname="TS166" connectcname="T-ER-TOR165" />
+    <layoutturnout ident="TOR165" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="387.8187561035156" ycen="145.9794464111328" xa="379.61767578125" ya="148.02420043945312" xb="396.01983642578125" yb="143.9346923828125" xc="396.3409729003906" yc="146.9166259765625" xd="379.61767578125" yd="148.02420043945312" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW430" blockname="IB4:01" connectaname="TS194" connectbname="TS166" connectcname="T-ER-TOR165" />
     <layoutturnout ident="TOL1330" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="987.3986206054688" ycen="24.987714767456055" xa="1001.8494262695312" ya="25.135225296020508" xb="972.9478149414062" yb="24.8402042388916" xc="963.3056640625" yc="30.817955017089844" xd="1001.8494262695312" yd="25.135225296020508" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW434" blockname="IB4:03" connectaname="T16" connectbname="TS1344" connectcname="T17" />
     <layoutturnout ident="TOL177" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="466.7335205078125" ycen="148.9337615966797" xa="458.2826843261719" ya="148.7862548828125" xb="475.1843566894531" yb="149.08126831054688" xc="481.82647705078125" yc="144.103515625" xd="458.2826843261719" yd="148.7862548828125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW432" blockname="IB4:02" connectaname="T-I-TOL177" connectbname="TC184" connectcname="T-EL-TOL177" />
     <layoutturnout ident="TOL78" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="870.1498413085938" ycen="602.5267944335938" xa="854.702880859375" ya="602.82177734375" xb="885.5968017578125" yb="602.2318115234375" xc="882.0835571289062" yc="598.2769165039062" xd="854.702880859375" yd="602.82177734375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW406" blockname="IB3:06" connectaname="TS202" connectbname="TS213" connectcname="T-EL-TOL78" />
@@ -2367,7 +2109,7 @@
     <layoutturnout ident="TO7" type="4" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="312.0" ycen="598.0" xa="328.1119689941406" ya="597.982666015625" xb="297.07630079744854" yb="604.0728121531073" xc="295.8880310058594" yc="598.017333984375" xd="326.92369920255146" yd="591.9271878468927" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW410" blockname="IB3.02" connectaname="T4" connectbname="T18" connectcname="T3" connectdname="T-I-TOR310" />
     <layoutturnout ident="TO10" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="907.0" ycen="589.0" xa="925.98779296875" ya="588.302001953125" xb="888.01220703125" yb="589.697998046875" xc="892.3612060546875" yc="594.69189453125" xd="925.98779296875" yd="588.302001953125" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW405" blockname="IB3:03" connectaname="T-I-TOL75" connectbname="T-ER-TOL75" connectcname="T-EL-TOL78" />
     <layoutturnout ident="TO12" type="4" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="987.0" ycen="575.0" xa="978.5645141601562" ya="569.521484375" xb="997.0584071705003" yb="575.0" xc="995.4354858398438" yc="580.478515625" xd="976.9415928294997" yd="575.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW402" blockname="IB3:04" connectaname="SL-D-SL71" connectbname="TS409" connectcname="SL-B-SL71" connectdname="SL-C-SL71" />
-    <layoutturnout ident="TO15" type="4" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="890.0" ycen="51.0" xa="863.8090209960938" ya="49.70026779174805" xb="915.1131521956886" yb="43.45107479223659" xc="916.1909790039062" yc="52.29973220825195" xd="864.8868478043114" yd="58.54892520776341" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW435" blockname="IB4:04" connectaname="T6" connectbname="TS1333" connectcname="T9" connectdname="SL-B-SL1329" />
+    <layoutturnout ident="TO15" type="4" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="890.0" ycen="51.0" xa="863.8090209960938" ya="49.70026779174805" xb="915.1131479890523" yb="43.45106079795439" xc="916.1909790039062" yc="52.29973220825195" xd="864.8868520109477" yd="58.54893920204561" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW435" blockname="IB4:04" connectaname="T6" connectbname="TS1333" connectcname="T9" connectdname="SL-B-SL1329" />
     <layoutturnout ident="TO16" type="4" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="428.0" ycen="148.0" xa="418.0" ya="147.0" xb="437.5341476233627" yb="144.82194570595024" xc="438.0" yc="149.0" xd="418.4658523766373" yd="151.17805429404976" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW431" blockname="IB4:02" connectaname="T-ER-TOR165" connectbname="SL-A-SL146" connectcname="T-I-TOL177" connectdname="T15" />
     <tracksegment ident="TS278" blockname="IB3:08" connect1name="A31" type1="1" connect2name="A86" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="TS331" blockname="IB3:07" connect1name="A23" type1="1" connect2name="A86" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -2387,6 +2129,7 @@
     <tracksegment ident="TS316" blockname="IB3:11" connect1name="A17" type1="1" connect2name="A13" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="TS293" blockname="IB3:12" connect1name="A7" type1="1" connect2name="A17" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T-ER-TOR165" blockname="IB4:01" connect1name="TOR165" type1="4" connect2name="TO16" type2="2" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="TS470" blockname="IB1:08" connect1name="A58" type1="1" connect2name="A33" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="TC431" blockname="IB1:08" connect1name="A70" type1="1" connect2name="A72" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="36.000000000000206" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="TC432" blockname="IB1:08" connect1name="A72" type1="1" connect2name="A22" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="35.99999999999989" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="TC455" blockname="IB1:08" connect1name="A27" type1="1" connect2name="A70" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="14.999999999999982" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -2488,27 +2231,26 @@
     <tracksegment ident="T19" blockname="IB2:09" connect1name="A19" type1="1" connect2name="A220" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T18" blockname="IB3:01" connect1name="TOL108" type1="4" connect2name="TO7" type2="3" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" blockname="IB1:02" connect1name="A177" type1="1" connect2name="TO7" type2="2" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T20" blockname="IB1:08" connect1name="A33" type1="1" connect2name="A58" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="A10" type="1" x="1062.2708740234375" y="56.41064453125" connect1name="TC395" connect2name="TS188" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A2" type="1" x="215.68946838378906" y="615.085693359375" connect1name="TS85" connect2name="TC234" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A8" type="1" x="57.726654052734375" y="405.34326171875" connect1name="TS351" connect2name="T1" eastboundsignal="IH1.10-1.12" westboundsignal="IH1.12-1.10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A8" type="1" x="59.726654052734375" y="332.34326171875" connect1name="TS351" connect2name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="1" x="432.94500732421875" y="568.3181762695312" connect1name="TC336" connect2name="TS316" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A5" type="1" x="413.8780517578125" y="569.4325561523438" connect1name="TC336" connect2name="T-EL-TOR319" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A27" type="1" x="146.4603729248047" y="617.4657592773438" connect1name="TS466" connect2name="TC455" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A23" type="1" x="420.2621765136719" y="586.1966552734375" connect1name="TS34" connect2name="TS331" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A22" type="1" x="58.233821868896484" y="567.4412231445312" connect1name="TC432" connect2name="TC441" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A35" type="1" x="662.2371826171875" y="107.69789123535156" connect1name="TS182" connect2name="TS186" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A39" type="1" x="55.943511962890625" y="484.20953369140625" connect1name="TS351" connect2name="TS467" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A39" type="1" x="57.943511962890625" y="377.20953369140625" connect1name="TS351" connect2name="TS467" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A36" type="1" x="112.48992919921875" y="172.7426300048828" connect1name="TC459" connect2name="TC464" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A34" type="1" x="1167.9144287109375" y="99.3678207397461" connect1name="T5" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A37" type="1" x="1066.2169189453125" y="583.78857421875" connect1name="TS68" connect2name="TC69" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A31" type="1" x="914.0077514648438" y="568.0467529296875" connect1name="TS278" connect2name="T-EL-TOL283" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A20" type="1" x="659.51708984375" y="99.3780517578125" connect1name="TS170" connect2name="TS175" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A33" type="1" x="245.4095458984375" y="599.1107788085938" connect1name="T20" connect2name="SL-D-SL90" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A33" type="1" x="245.4095458984375" y="599.1107788085938" connect1name="TS470" connect2name="SL-D-SL90" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A55" type="1" x="1131.5244140625" y="108.5969009399414" connect1name="TC398" connect2name="TC396" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A45" type="1" x="1135.1881103515625" y="130.49066162109375" connect1name="TS400" connect2name="TC398" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A56" type="1" x="1137.481689453125" y="521.6571044921875" connect1name="TC414" connect2name="TC413" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A58" type="1" x="221.95303344726562" y="600.3446655273438" connect1name="T20" connect2name="TC472" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A58" type="1" x="221.95303344726562" y="600.3446655273438" connect1name="TS470" connect2name="TC472" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A42" type="1" x="966.48779296875" y="569.6777954101562" connect1name="T-I-TOL283" connect2name="SL-D-SL71" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A50" type="1" x="96.50019836425781" y="165.0184326171875" connect1name="TC361" connect2name="TC225" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A62" type="1" x="157.49452209472656" y="614.7146606445312" connect1name="TS443" connect2name="TS466" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -2516,7 +2258,7 @@
     <positionablepoint ident="A63" type="1" x="497.9450378417969" y="139.33465576171875" connect1name="T-EL-TOL177" connect2name="TS170" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A86" type="1" x="660.2471923828125" y="577.57177734375" connect1name="TS331" connect2name="TS278" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A77" type="1" x="1105.375732421875" y="71.25286102294922" connect1name="TC396" connect2name="TC395" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A87" type="1" x="43.081947326660156" y="350.3889465332031" connect1name="TS4" connect2name="TS2" eastboundsignal="IH1.11-1.09" westboundsignal="IH1.09-1.11" eastboundsensor="IBM1:09" westboundsensor="IBM1:11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A87" type="1" x="45.081947326660156" y="330.3889465332031" connect1name="TS4" connect2name="TS2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A70" type="1" x="127.4873275756836" y="619.62744140625" connect1name="TC455" connect2name="TC431" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A72" type="1" x="84.38240051269531" y="604.7852172851562" connect1name="TC432" connect2name="TC431" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A65" type="1" x="965.9251708984375" y="575.5213012695312" connect1name="TS272" connect2name="SL-C-SL71" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -2547,9 +2289,9 @@
     <positionablepoint ident="A184" type="1" x="62.796592712402344" y="195.902099609375" connect1name="TC225" connect2name="TC224" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A166" type="1" x="463.16729736328125" y="138.8059844970703" connect1name="SL-A-SL146" connect2name="TS137" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A176" type="1" x="655.7089233398438" y="80.1424560546875" connect1name="TS152" connect2name="TS153" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A178" type="1" x="237.61703491210938" y="610.9905395507812" connect1name="T-I-TOL108" connect2name="TC234" eastboundsignal="IH1.07-3.01" westboundsignal="IH3.01-1.07" eastboundsensor="IBM3:01" westboundsensor="IBM1:07" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A178" type="1" x="237.61703491210938" y="610.9905395507812" connect1name="T-I-TOL108" connect2name="TC234" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A177" type="1" x="650.1618041992188" y="586.5479736328125" connect1name="TS272" connect2name="T4" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A203" type="1" x="124.66895294189453" y="633.8355102539062" connect1name="TC366" connect2name="TS85" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A203" type="1" x="123.66895294189453" y="633.8355102539062" connect1name="TC366" connect2name="TS85" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A195" type="1" x="55.02191925048828" y="544.5873413085938" connect1name="TC441" connect2name="TS467" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A190" type="1" x="1088.871337890625" y="581.3849487304688" connect1name="TS70" connect2name="TC69" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A208" type="1" x="900.6038208007812" y="554.46728515625" connect1name="TC333" connect2name="T-ER-TOL284" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -2561,9 +2303,9 @@
     <positionablepoint ident="A192" type="1" x="657.6903686523438" y="598.0546264648438" connect1name="T2" connect2name="T14" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A206" type="1" x="1056.3333740234375" y="572.3641357421875" connect1name="TC406" connect2name="TS409" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A214" type="1" x="1136.6158447265625" y="565.8272094726562" connect1name="TC65" connect2name="TS70" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A215" type="1" x="39.09779739379883" y="485.8334655761719" connect1name="TS1" connect2name="TS2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A215" type="1" x="43.09779739379883" y="375.8334655761719" connect1name="TS1" connect2name="TS2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A231" type="1" x="430.1404113769531" y="136.15187072753906" connect1name="TS153" connect2name="TS166" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A239" type="1" x="47.344234466552734" y="602.5421142578125" connect1name="TC10" connect2name="TC9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A239" type="1" x="47.344234466552734" y="601.5421142578125" connect1name="TC10" connect2name="TC9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A220" type="1" x="1180.106201171875" y="491.9374084472656" connect1name="TC66" connect2name="T19" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A237" type="1" x="35.161197662353516" y="557.6114501953125" connect1name="TS1" connect2name="TC9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A224" type="1" x="671.41552734375" y="609.4667358398438" connect1name="TS202" connect2name="TS392" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -2585,104 +2327,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Aug 11 21:26:01 CEST 2018</date>
+      <date>Fri Aug 10 22:38:11 CEST 2018</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Aug 11 21:26:15 CEST 2018</date>
+      <date>Fri Aug 10 22:38:33 CEST 2018</date>
       <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Sat Aug 11 20:58:55 CEST 2018</date>
+          <date>Fri Aug 10 22:12:51 CEST 2018</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Sat Aug 11 20:59:49 CEST 2018</date>
+          <date>Fri Aug 10 22:13:04 CEST 2018</date>
           <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Sat Aug 11 18:34:12 CEST 2018</date>
+              <date>Fri Aug 10 17:45:14 CEST 2018</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Sat Aug 11 18:43:44 CEST 2018</date>
+              <date>Fri Aug 10 17:45:39 CEST 2018</date>
               <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sat Aug 11 10:40:07 CEST 2018</date>
+                  <date>Thu Aug 09 19:59:17 CEST 2018</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sat Aug 11 11:10:51 CEST 2018</date>
+                  <date>Thu Aug 09 19:59:32 CEST 2018</date>
                   <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Fri Aug 10 22:38:11 CEST 2018</date>
+                      <date>Thu Aug 09 17:23:40 CEST 2018</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Fri Aug 10 22:38:33 CEST 2018</date>
+                      <date>Thu Aug 09 17:23:54 CEST 2018</date>
                       <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Fri Aug 10 22:12:51 CEST 2018</date>
+                          <date>Wed Aug 08 20:34:38 CEST 2018</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Fri Aug 10 22:13:04 CEST 2018</date>
+                          <date>Wed Aug 08 20:34:54 CEST 2018</date>
                           <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Fri Aug 10 22:33:17 CEST 2018</date>
+                          <date>Wed Aug 08 23:47:05 CEST 2018</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Fri Aug 10 22:38:58 CEST 2018</date>
+                      <date>Thu Aug 09 19:53:23 CEST 2018</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sat Aug 11 11:20:03 CEST 2018</date>
+                  <date>Thu Aug 09 20:07:47 CEST 2018</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Sat Aug 11 20:36:59 CEST 2018</date>
+              <date>Fri Aug 10 21:35:20 CEST 2018</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Sat Aug 11 21:17:48 CEST 2018</date>
+          <date>Fri Aug 10 22:33:17 CEST 2018</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Aug 11 21:41:03 CEST 2018</date>
+      <date>Fri Aug 10 22:38:58 CEST 2018</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Aug 11 21:41:03 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Fri Aug 10 22:38:58 CEST 2018-->
 </layout-config>

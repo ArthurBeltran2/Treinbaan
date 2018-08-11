@@ -2,10 +2,12 @@
 <?xml-stylesheet href="/xml/XSLT/blockValues.xsl" type="text/xsl"?>
 <!DOCTYPE block_values SYSTEM "/xml/DTD/block-values.dtd">
 <block_values>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Aug 11 17:14:30 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Aug 11 21:19:30 CEST 2018-->
   <blockvalues>
+    <block systemname="IB17" value="loc8" dir="64" />
     <block systemname="IB19" value="loc8" />
-    <block systemname="IB20" value="loc8" />
+    <block systemname="IB20" value="loc8" dir="32" />
+    <block systemname="IB22" value="loc8" dir="80" />
     <block systemname="IB29" value="loc8" />
   </blockvalues>
 </block_values>
