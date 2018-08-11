@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>12</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.tams.configurexml.TamsSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>TS0:01</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:02</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:03</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:04</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:05</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:06</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:07</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:08</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:09</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:10</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:11</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:12</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:13</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:14</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:15</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:16</systemName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>IS801</systemName>
+      <userName>Bezetmelder801</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS802</systemName>
+      <userName>Bezetmelder802</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS803</systemName>
+      <userName>Bezetmelder803</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS804</systemName>
+      <userName>Bezetmelder804</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS805</systemName>
+      <userName>Bezetmelder805</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS806</systemName>
+      <userName>Bezetmelder806</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS901</systemName>
+      <userName>Interlock :Blok1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS902</systemName>
+      <userName>Interlock :2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS903</systemName>
+      <userName>Interlock :3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS904</systemName>
+      <userName>Interlock :4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS01</systemName>
+      <userName>ExterneTerugmelder1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISITBLOK1</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISLOGIXSBLOK1</systemName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT400</systemName>
+      <userName>IW400</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT401</systemName>
+      <userName>IW401</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT402</systemName>
+      <userName>IW402</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT403</systemName>
+      <userName>IW403</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT404</systemName>
+      <userName>IW404</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT405</systemName>
+      <userName>IW405</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT406</systemName>
+      <userName>IW406</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT407</systemName>
+      <userName>IW407</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT408</systemName>
+      <userName>IW408</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT409</systemName>
+      <userName>IW409</userName>
+    </turnout>
+  </turnouts>
+  <reporters class="jmri.jmrix.internal.configurexml.InternalReporterManagerXml">
+    <reporter>
+      <systemName>IRREPORTER LABEL</systemName>
+    </reporter>
+  </reporters>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="7:28 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml" />
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <blocks class="jmri.configurexml.BlockManagerXml">
+    <defaultspeed>Normal</defaultspeed>
+    <block systemName="IB1">
+      <systemName>IB1</systemName>
+      <userName>Blok1</userName>
+    </block>
+    <block systemName="IB2">
+      <systemName>IB2</systemName>
+      <userName>Blok2</userName>
+    </block>
+    <block systemName="IB3">
+      <systemName>IB3</systemName>
+      <userName>Blok3</userName>
+    </block>
+    <block systemName="IB4">
+      <systemName>IB4</systemName>
+      <userName>Blok4</userName>
+    </block>
+    <block systemName="IB5">
+      <systemName>IB5</systemName>
+      <userName>Blok5</userName>
+    </block>
+    <block systemName="IB1" length="1300.0" curve="0">
+      <systemName>IB1</systemName>
+      <userName>Blok1</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Interlock :Blok1</occupancysensor>
+      <path todir="128" fromdir="64" block="IB5">
+        <beansetting setting="2">
+          <turnout systemName="IW402" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB2" length="0.0" curve="0">
+      <systemName>IB2</systemName>
+      <userName>Blok2</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB1" />
+      <path todir="128" fromdir="64" block="IB3" />
+    </block>
+    <block systemName="IB3" length="0.0" curve="0">
+      <systemName>IB3</systemName>
+      <userName>Blok3</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB5" />
+      <path todir="128" fromdir="64" block="IB5">
+        <beansetting setting="2">
+          <turnout systemName="IW407" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB4" length="0.0" curve="0">
+      <systemName>IB4</systemName>
+      <userName>Blok4</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB5" />
+    </block>
+    <block systemName="IB5" length="0.0" curve="0">
+      <systemName>IB5</systemName>
+      <userName>Blok5</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Bezetmelder803</occupancysensor>
+      <path todir="64" fromdir="128" block="IB1">
+        <beansetting setting="2">
+          <turnout systemName="IW402" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="IW407" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB4" />
+    </block>
+  </blocks>
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
+    <layoutblock systemName="ILB1" occupancysensor="Interlock :Blok1" occupiedsense="2" trackcolor="gray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB1</systemName>
+      <userName>Blok1</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB5" occupiedsense="2" trackcolor="gray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB5</systemName>
+      <userName>Blok4</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB6" occupancysensor="Bezetmelder803" occupiedsense="2" trackcolor="gray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB6</systemName>
+      <userName>Blok5</userName>
+    </layoutblock>
+  </layoutblocks>
+  <sections class="jmri.configurexml.SectionManagerXml">
+    <section systemName="IY:AUTO:0001" userName="baan1" creationtype="userdefined" fsensorname="Bezetmelder801" rsensorname="Bezetmelder802">
+      <systemName>IY:AUTO:0001</systemName>
+      <userName>baan1</userName>
+      <blockentry sName="IB1" order="0" />
+      <blockentry sName="IB2" order="1" />
+      <blockentry sName="IB3" order="2" />
+    </section>
+  </sections>
+  <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
+    <logix userName="LogixBlok1Bezetmelding" enabled="yes">
+      <systemName>IX:AUTO:0005</systemName>
+      <userName>LogixBlok1Bezetmelding</userName>
+      <logixConditional systemName="IX:AUTO:0005C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0005C2" order="1" />
+    </logix>
+    <logix userName="LogixBezetmelder1" enabled="yes">
+      <systemName>IX:AUTO:0006</systemName>
+      <userName>LogixBezetmelder1</userName>
+      <logixConditional systemName="IX:AUTO:0006C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0006C2" order="1" />
+    </logix>
+    <logix userName="LogixBezetmelder2" enabled="yes">
+      <systemName>IX:AUTO:0007</systemName>
+      <userName>LogixBezetmelder2</userName>
+      <logixConditional systemName="IX:AUTO:0007C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0007C2" order="1" />
+    </logix>
+  </logixs>
+  <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
+    <conditional systemName="IX:AUTO:0005C1" userName="LogixBlok1BezetmeldingActief" antecedent="R1 and R2" logicType="2" triggerOnChange="no">
+      <systemName>IX:AUTO:0005C1</systemName>
+      <userName>LogixBlok1BezetmeldingActief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="IS801" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="IS802" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS901" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0005C2" userName="LogixBlok1BezetmeldingInActief" antecedent="R1 and R2" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0005C2</systemName>
+      <userName>LogixBlok1BezetmeldingInActief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="IS801" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="1" negated="no" type="2" systemName="IS802" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS901" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0006C1" userName="BM1isActief" antecedent="R1" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0006C1</systemName>
+      <userName>BM1isActief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TS0:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS801" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0006C2" userName="BM1isInactief" antecedent="R1" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0006C2</systemName>
+      <userName>BM1isInactief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="TS0:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS801" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0007C1" userName="BM2isActief" antecedent="R1" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0007C1</systemName>
+      <userName>BM2isActief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TS0:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS802" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0007C2" userName="BM2isInactief" antecedent="R1" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0007C2</systemName>
+      <userName>BM2isInactief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="TS0:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS802" data="4" delay="0" string="" />
+    </conditional>
+  </conditionals>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sat Aug 01 13:29:58 CEST 2015" rate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="0" showbutton="no" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Sun Aug 05 19:07:42 CEST 2018</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Aug 05 19:08:11 CEST 2018</date>
+      <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Aug 05 18:38:40 CEST 2018</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Aug 05 18:39:42 CEST 2018</date>
+          <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sun Aug 05 17:36:51 CEST 2018</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sun Aug 05 17:37:04 CEST 2018</date>
+              <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sun Aug 05 16:52:29 CEST 2018</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sun Aug 05 16:52:58 CEST 2018</date>
+                  <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Sun Aug 05 15:45:24 CEST 2018</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 15:45:40 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:42:45 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:03 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:08 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel%20nr%202%202018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:19:03 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:19:15 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:19:30 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load with errors</type>
+                          <date>Sun Aug 05 15:19:51 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/Standaardlayout.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 15:20:09 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 15:47:39 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/BlokTabel2018.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:42:45 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:03 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:08 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel%20nr%202%202018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:19:03 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:19:15 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:19:30 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load with errors</type>
+                          <date>Sun Aug 05 15:19:51 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/Standaardlayout.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 15:43:25 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Sun Aug 05 16:45:57 CEST 2018</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Sun Aug 05 17:27:46 CEST 2018</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sun Aug 05 17:37:31 CEST 2018</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Aug 05 19:07:15 CEST 2018</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Sun Aug 05 19:59:05 CEST 2018</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Aug 05 19:59:05 CEST 2018-->
+</layout-config>

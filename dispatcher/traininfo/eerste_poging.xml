@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/dispatcher-traininfo.xsl" type="text/xsl"?>
+<!DOCTYPE traininfofile SYSTEM "/xml/DTD/dispatcher-traininfo.dtd">
+<traininfofile>
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Aug 11 11:17:34 CEST 2018-->
+  <traininfo version="2" transitname="IZ1(Traject 1 Hoofdbaan)" transitid="IZ1" trainname="loc8" dccaddress=" " trainintransit="yes" startblockname="IB20(IB1:09)-3" startblockid="IB20" startblockseq="3" endblockname="IB31(IB2:07)" endblockid="IB31" endblockseq="9" trainfromroster="yes" trainfromtrains="no" trainfromuser="no" priority="5" resetwhendone="yes" delayedrestart="no" reverseatend="no" terminatewhendone="no" departuretimehr="8" departuretimemin="0" traintype="STOP PERSONEN" autorun="no" loadatstartup="no" allocatealltheway="no" allocationmethod="3" speedfactor="1.0" maxspeed="0.6" ramprate="Geen" resistancewheels="yes" runinreverse="no" sounddecoder="no" maxtrainlength="100.0" usespeedprofile="no" stopbyspeedprofile="no" stopbyspeedprofileadjust="1.0" />
+</traininfofile>

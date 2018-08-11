@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>12</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.tams.configurexml.TamsSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>TS0:01</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:02</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:03</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:04</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:05</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:06</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:07</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:08</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:09</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:10</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:11</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:12</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:13</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:14</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:15</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:16</systemName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>IS801</systemName>
+      <userName>Bezetmelder801</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS802</systemName>
+      <userName>Bezetmelder802</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS803</systemName>
+      <userName>Bezetmelder803</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS804</systemName>
+      <userName>Bezetmelder804</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS805</systemName>
+      <userName>Bezetmelder805</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS806</systemName>
+      <userName>Bezetmelder806</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS901</systemName>
+      <userName>Interlock :Blok1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS902</systemName>
+      <userName>Interlock :2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS903</systemName>
+      <userName>Interlock :3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS904</systemName>
+      <userName>Interlock :4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS01</systemName>
+      <userName>ExterneTerugmelder1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISITBLOK1</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISLOGIXSBLOK1</systemName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT400</systemName>
+      <userName>IW400</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT401</systemName>
+      <userName>IW401</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT402</systemName>
+      <userName>IW402</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT403</systemName>
+      <userName>IW403</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT404</systemName>
+      <userName>IW404</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT405</systemName>
+      <userName>IW405</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT406</systemName>
+      <userName>IW406</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT407</systemName>
+      <userName>IW407</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT408</systemName>
+      <userName>IW408</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT409</systemName>
+      <userName>IW409</userName>
+    </turnout>
+  </turnouts>
+  <reporters class="jmri.jmrix.internal.configurexml.InternalReporterManagerXml">
+    <reporter>
+      <systemName>IRREPORTER LABEL</systemName>
+    </reporter>
+  </reporters>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="8:05 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml" />
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <blocks class="jmri.configurexml.BlockManagerXml">
+    <defaultspeed>Normal</defaultspeed>
+    <block systemName="IB1">
+      <systemName>IB1</systemName>
+      <userName>Blok1</userName>
+    </block>
+    <block systemName="IB2">
+      <systemName>IB2</systemName>
+      <userName>Blok2</userName>
+    </block>
+    <block systemName="IB3">
+      <systemName>IB3</systemName>
+      <userName>Blok3</userName>
+    </block>
+    <block systemName="IB4">
+      <systemName>IB4</systemName>
+      <userName>Blok4</userName>
+    </block>
+    <block systemName="IB5">
+      <systemName>IB5</systemName>
+      <userName>Blok5</userName>
+    </block>
+    <block systemName="IB1" length="1300.0" curve="0">
+      <systemName>IB1</systemName>
+      <userName>Blok1</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Interlock :Blok1</occupancysensor>
+      <path todir="128" fromdir="64" block="IB5">
+        <beansetting setting="2">
+          <turnout systemName="IW402" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB2" length="0.0" curve="0">
+      <systemName>IB2</systemName>
+      <userName>Blok2</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB1" />
+      <path todir="128" fromdir="64" block="IB3" />
+    </block>
+    <block systemName="IB3" length="0.0" curve="0">
+      <systemName>IB3</systemName>
+      <userName>Blok3</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB5" />
+      <path todir="128" fromdir="64" block="IB5">
+        <beansetting setting="2">
+          <turnout systemName="IW407" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB4" length="0.0" curve="0">
+      <systemName>IB4</systemName>
+      <userName>Blok4</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB5" />
+    </block>
+    <block systemName="IB5" length="0.0" curve="0">
+      <systemName>IB5</systemName>
+      <userName>Blok5</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Bezetmelder803</occupancysensor>
+      <path todir="64" fromdir="128" block="IB1">
+        <beansetting setting="2">
+          <turnout systemName="IW402" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="IW407" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB4" />
+    </block>
+  </blocks>
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
+    <layoutblock systemName="ILB1" occupancysensor="Interlock :Blok1" occupiedsense="2" trackcolor="gray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB1</systemName>
+      <userName>Blok1</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB5" occupiedsense="2" trackcolor="gray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB5</systemName>
+      <userName>Blok4</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB6" occupancysensor="Bezetmelder803" occupiedsense="2" trackcolor="gray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB6</systemName>
+      <userName>Blok5</userName>
+    </layoutblock>
+  </layoutblocks>
+  <sections class="jmri.configurexml.SectionManagerXml">
+    <section systemName="IY:AUTO:0001" userName="baan1" creationtype="userdefined" fsensorname="Bezetmelder801" rsensorname="Bezetmelder802">
+      <systemName>IY:AUTO:0001</systemName>
+      <userName>baan1</userName>
+      <blockentry sName="IB1" order="0" />
+      <blockentry sName="IB2" order="1" />
+      <blockentry sName="IB3" order="2" />
+    </section>
+  </sections>
+  <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
+    <logix userName="LogixBlok1Bezetmelding" enabled="yes">
+      <systemName>IX:AUTO:0005</systemName>
+      <userName>LogixBlok1Bezetmelding</userName>
+      <logixConditional systemName="IX:AUTO:0005C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0005C2" order="1" />
+    </logix>
+    <logix userName="LogixBezetmelder1" enabled="yes">
+      <systemName>IX:AUTO:0006</systemName>
+      <userName>LogixBezetmelder1</userName>
+      <logixConditional systemName="IX:AUTO:0006C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0006C2" order="1" />
+    </logix>
+    <logix userName="LogixBezetmelder2" enabled="yes">
+      <systemName>IX:AUTO:0007</systemName>
+      <userName>LogixBezetmelder2</userName>
+      <logixConditional systemName="IX:AUTO:0007C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0007C2" order="1" />
+    </logix>
+  </logixs>
+  <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
+    <conditional systemName="IX:AUTO:0005C1" userName="LogixBlok1BezetmeldingActief" antecedent="R1 and R2" logicType="2" triggerOnChange="no">
+      <systemName>IX:AUTO:0005C1</systemName>
+      <userName>LogixBlok1BezetmeldingActief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="IS801" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="IS802" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS901" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0005C2" userName="LogixBlok1BezetmeldingInActief" antecedent="R1 and R2" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0005C2</systemName>
+      <userName>LogixBlok1BezetmeldingInActief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="IS801" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="1" negated="no" type="2" systemName="IS802" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS901" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0006C1" userName="BM1isActief" antecedent="R1" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0006C1</systemName>
+      <userName>BM1isActief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TS0:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS801" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0006C2" userName="BM1isInactief" antecedent="R1" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0006C2</systemName>
+      <userName>BM1isInactief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="TS0:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS801" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0007C1" userName="BM2isActief" antecedent="R1" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0007C1</systemName>
+      <userName>BM2isActief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TS0:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS802" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0007C2" userName="BM2isInactief" antecedent="R1" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0007C2</systemName>
+      <userName>BM2isInactief</userName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="TS0:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IS802" data="4" delay="0" string="" />
+    </conditional>
+  </conditionals>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sat Aug 01 13:29:58 CEST 2015" rate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="0" showbutton="no" />
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="HoofdStation" x="760" y="882" height="2205" width="3952" windowheight="278" windowwidth="1160" panelheight="2205" panelwidth="3952" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="8" xscale="0.375" yscale="0.375" sidetrackwidth="4" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="red" turnoutcirclesize="8" turnoutdrawunselectedleg="no" turnoutbx="100.0" turnoutcx="100.0" turnoutwid="30.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="HoofdStation" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>8</mainBlockLineWidth>
+      <mainRailColor>#808080</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>8</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>4</sideBlockLineWidth>
+      <sideRailColor>#808080</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>4</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <layoutturnout ident="TO3" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1086.0" ycen="243.0" xa="1122.0" ya="243.0" xb="1050.0" yb="243.0" xc="1050.0" yc="233.0" xd="1122.0" yd="243.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" connectaname="T9" connectbname="T13" connectcname="T14" />
+    <layoutturnout ident="TO13" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="801.0" ycen="273.0" xa="763.0" ya="273.0" xb="839.0" yb="273.0" xc="839.0" yc="263.0" xd="763.0" yd="273.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" connectaname="T34" connectbname="T12" connectcname="T11" />
+    <layoutturnout ident="TO19" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="902.0" ycen="243.0" xa="938.0" ya="243.0" xb="866.0" yb="243.0" xc="866.0" yc="254.0" xd="938.0" yd="243.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" connectaname="T13" connectbname="T32" connectcname="T11" />
+    <layoutturnout ident="TO20" type="4" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1003.0" ycen="213.0" xa="969.0" ya="198.0" xb="1040.1618083521241" yb="213.0" xc="1037.0" yc="228.0" xd="965.8381916478759" yd="213.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" connectaname="T15" connectbname="T8" connectcname="T14" connectdname="T25" />
+    <layoutturnout ident="TO24" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="433.0" ycen="149.0" xa="395.0" ya="159.0" xb="471.0" yb="139.0" xc="471.0" yc="149.0" xd="395.0" yd="159.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" connectaname="T24" connectbname="T40" connectcname="T18" />
+    <layoutturnout ident="TO26" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="906.0" ycen="179.0" xa="940.0" ya="187.0" xb="872.0" yb="171.0" xc="866.0" yc="179.0" xd="940.0" yd="187.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" connectaname="T15" connectbname="T23" connectcname="T22" />
+    <layoutturnout ident="TO27" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="802.0" ycen="149.0" xa="838.0" ya="159.0" xb="766.0" yb="139.0" xc="766.0" yc="149.0" xd="838.0" yd="159.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" connectaname="T23" connectbname="T42" connectcname="T18" />
+    <layoutturnout ident="TO28" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="331.0" ycen="179.0" xa="295.0" ya="187.0" xb="367.0" yb="171.0" xc="369.0" yc="179.0" xd="295.0" yd="187.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" connectaname="T26" connectbname="T24" connectcname="T22" />
+    <layoutturnout ident="TO30" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="144.0" ycen="243.0" xa="118.0" ya="243.0" xb="170.0" yb="243.0" xc="182.0" yc="233.0" xd="118.0" yd="243.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW407" blockname="Blok5" connectaname="T36" connectbname="T33" connectcname="T27" />
+    <layoutturnout ident="TO32" type="4" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="230.0" ycen="213.0" xa="192.0" ya="213.0" xb="265.6221634669396" yb="199.76892030351885" xc="268.0" yc="213.0" xd="194.37783653306042" yd="226.23107969648115" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW408" connectaname="T37" connectbname="T26" connectcname="T25" connectdname="T27" />
+    <layoutturnout ident="TO35" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="320.0" ycen="240.0" xa="282.0" ya="240.0" xb="358.0" yb="240.0" xc="358.0" yc="251.0" xd="282.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW402" blockname="Blok5" connectaname="T33" connectbname="T32" connectcname="T38" />
+    <layoutturnout ident="TO36" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="421.0" ycen="273.0" xa="457.0" ya="273.0" xb="385.0" yb="273.0" xc="385.0" yc="263.0" xd="457.0" yd="273.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="IW401" connectaname="T34" connectbname="T35" connectcname="T38" />
+    <tracksegment ident="T8" connect1name="TO20" type1="3" connect2name="EC1" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T9" connect1name="TO3" type1="2" connect2name="EC2" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T11" connect1name="TO13" type1="4" connect2name="TO19" type2="4" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T12" connect1name="TO13" type1="3" connect2name="EB1" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T13" connect1name="TO19" type1="2" connect2name="TO3" type2="3" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T14" connect1name="TO20" type1="4" connect2name="TO3" type2="4" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T15" connect1name="TO26" type1="2" connect2name="TO20" type2="2" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T18" connect1name="TO27" type1="4" connect2name="TO24" type2="4" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T22" connect1name="TO26" type1="4" connect2name="TO28" type2="4" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T23" connect1name="TO26" type1="3" connect2name="TO27" type2="2" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T24" connect1name="TO28" type1="3" connect2name="TO24" type2="2" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T25" connect1name="TO20" type1="5" connect2name="TO32" type2="4" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T26" connect1name="TO32" type1="3" connect2name="TO28" type2="2" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T27" blockname="Blok5" connect1name="TO30" type1="4" connect2name="TO32" type2="5" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T32" blockname="Blok1" connect1name="TO19" type1="3" connect2name="TO35" type2="3" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T33" blockname="Blok5" connect1name="TO35" type1="2" connect2name="TO30" type2="3" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T34" connect1name="TO13" type1="2" connect2name="TO36" type2="2" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T35" connect1name="EB2" type1="1" connect2name="TO36" type2="3" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T36" blockname="Blok4" connect1name="TO30" type1="2" connect2name="EC4" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T37" connect1name="TO32" type1="2" connect2name="EC3" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T38" connect1name="TO36" type1="4" connect2name="TO35" type2="4" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T40" connect1name="TO24" type1="3" connect2name="A31" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T41" connect1name="A31" type1="1" connect2name="A32" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T42" connect1name="A32" type1="1" connect2name="TO27" type2="3" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="EC1" type="3" x="1187.0" y="213.0" connect1name="T8" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EC2" type="3" x="1187.0" y="243.0" connect1name="T9" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB1" type="2" x="1105.0" y="269.0" connect1name="T12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EC3" type="3" x="70.0" y="213.0" connect1name="T37" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EC4" type="3" x="70.0" y="243.0" connect1name="T36" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB2" type="2" x="189.0" y="273.0" connect1name="T35" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A31" type="1" x="526.0" y="119.0" connect1name="T40" connect2name="T41" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A32" type="1" x="712.0" y="119.0" connect1name="T41" connect2name="T42" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Sun Aug 05 19:59:24 CEST 2018</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Aug 05 19:59:40 CEST 2018</date>
+      <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Aug 05 19:07:42 CEST 2018</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Aug 05 19:08:11 CEST 2018</date>
+          <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sun Aug 05 18:38:40 CEST 2018</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sun Aug 05 18:39:42 CEST 2018</date>
+              <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sun Aug 05 17:36:51 CEST 2018</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sun Aug 05 17:37:04 CEST 2018</date>
+                  <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Sun Aug 05 16:52:29 CEST 2018</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 16:52:58 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 15:45:24 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:45:40 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:47:39 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/BlokTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 16:45:57 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Sun Aug 05 17:27:46 CEST 2018</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Sun Aug 05 17:37:31 CEST 2018</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sun Aug 05 19:07:15 CEST 2018</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Aug 05 19:59:05 CEST 2018</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Aug 05 19:59:49 CEST 2018</date>
+      <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Aug 05 19:07:42 CEST 2018</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Aug 05 19:08:11 CEST 2018</date>
+          <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sun Aug 05 18:38:40 CEST 2018</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sun Aug 05 18:39:42 CEST 2018</date>
+              <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sun Aug 05 17:36:51 CEST 2018</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sun Aug 05 17:37:04 CEST 2018</date>
+                  <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Sun Aug 05 16:52:29 CEST 2018</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 16:52:58 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 15:45:24 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:45:40 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:47:39 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/BlokTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 16:45:57 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Sun Aug 05 17:27:46 CEST 2018</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Sun Aug 05 17:37:31 CEST 2018</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sun Aug 05 19:07:15 CEST 2018</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Aug 05 19:59:05 CEST 2018</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Aug 05 20:00:03 CEST 2018</date>
+      <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Aug 05 19:07:42 CEST 2018</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Aug 05 19:08:11 CEST 2018</date>
+          <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sun Aug 05 18:38:40 CEST 2018</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sun Aug 05 18:39:42 CEST 2018</date>
+              <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sun Aug 05 17:36:51 CEST 2018</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sun Aug 05 17:37:04 CEST 2018</date>
+                  <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Sun Aug 05 16:52:29 CEST 2018</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 16:52:58 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 15:45:24 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:45:40 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:47:39 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/BlokTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 16:45:57 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Sun Aug 05 17:27:46 CEST 2018</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Sun Aug 05 17:37:31 CEST 2018</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sun Aug 05 19:07:15 CEST 2018</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Aug 05 19:59:05 CEST 2018</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Aug 05 20:01:29 CEST 2018</date>
+      <filename>/C:/Users/John/JMRI/Treinbaan2019/hoofdstation2018.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Aug 05 17:36:51 CEST 2018</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Aug 05 17:37:04 CEST 2018</date>
+          <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sun Aug 05 16:52:29 CEST 2018</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sun Aug 05 16:52:58 CEST 2018</date>
+              <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sun Aug 05 15:45:24 CEST 2018</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sun Aug 05 15:45:40 CEST 2018</date>
+                  <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Sun Aug 05 14:42:45 CEST 2018</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 14:43:03 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:31:33 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load with errors</type>
+                          <date>Sun Aug 05 14:33:15 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TabelWissels.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 14:39:21 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 14:43:08 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel%20nr%202%202018.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:39:29 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:40:02 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 14:42:30 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 15:19:03 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:42:45 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:03 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:08 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel%20nr%202%202018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 14:46:44 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 15:19:15 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:42:45 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:03 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:08 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel%20nr%202%202018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 14:46:44 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 15:19:30 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:42:45 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:03 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:08 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel%20nr%202%202018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 14:46:44 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load with errors</type>
+                      <date>Sun Aug 05 15:19:51 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/Standaardlayout.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Wed Aug 19 21:01:12 CEST 2015</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Wed Aug 19 21:01:12 CEST 2015</date>
+                          <filename>/home/arthur/JMRI/Treinbaan/UserPrefsProfileConfig.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Wed Aug 19 21:01:12 CEST 2015</date>
+                          <filename>/home/arthur/JMRI/Treinbaan/ProfileConfig.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Wed Aug 19 21:01:16 CEST 2015</date>
+                          <filename>/home/arthur/JMRI/Treinbaan/Standaardlayout.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Wed Aug 19 21:08:20 CEST 2015</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Sun Aug 05 15:20:09 CEST 2018</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sun Aug 05 15:47:39 CEST 2018</date>
+                  <filename>/C:/Users/filip/JMRI/Treinbaan/BlokTabel2018.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Sun Aug 05 14:42:45 CEST 2018</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 14:43:03 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:31:33 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load with errors</type>
+                          <date>Sun Aug 05 14:33:15 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TabelWissels.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 14:39:21 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 14:43:08 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel%20nr%202%202018.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:39:29 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:40:02 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 14:42:30 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 15:19:03 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:42:45 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:03 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:08 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel%20nr%202%202018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 14:46:44 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 15:19:15 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:42:45 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:03 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:08 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel%20nr%202%202018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 14:46:44 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 15:19:30 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/Treinlayout.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 14:42:45 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:03 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 14:43:08 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/TurnoutTabel%20nr%202%202018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 14:46:44 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Load with errors</type>
+                      <date>Sun Aug 05 15:19:51 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/Standaardlayout.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Wed Aug 19 21:01:12 CEST 2015</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Wed Aug 19 21:01:12 CEST 2015</date>
+                          <filename>/home/arthur/JMRI/Treinbaan/UserPrefsProfileConfig.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Wed Aug 19 21:01:12 CEST 2015</date>
+                          <filename>/home/arthur/JMRI/Treinbaan/ProfileConfig.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Wed Aug 19 21:01:16 CEST 2015</date>
+                          <filename>/home/arthur/JMRI/Treinbaan/Standaardlayout.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Wed Aug 19 21:08:20 CEST 2015</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Sun Aug 05 15:43:25 CEST 2018</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Sun Aug 05 16:45:57 CEST 2018</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sun Aug 05 17:27:46 CEST 2018</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Aug 05 17:37:31 CEST 2018</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Aug 05 20:02:22 CEST 2018</date>
+      <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Aug 05 19:07:42 CEST 2018</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Aug 05 19:08:11 CEST 2018</date>
+          <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sun Aug 05 18:38:40 CEST 2018</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sun Aug 05 18:39:42 CEST 2018</date>
+              <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sun Aug 05 17:36:51 CEST 2018</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sun Aug 05 17:37:04 CEST 2018</date>
+                  <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Sun Aug 05 16:52:29 CEST 2018</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 16:52:58 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 15:45:24 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:45:40 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:47:39 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/BlokTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 16:45:57 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Sun Aug 05 17:27:46 CEST 2018</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Sun Aug 05 17:37:31 CEST 2018</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sun Aug 05 19:07:15 CEST 2018</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Aug 05 19:59:05 CEST 2018</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Aug 05 20:03:14 CEST 2018</date>
+      <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Aug 05 19:07:42 CEST 2018</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Aug 05 19:08:11 CEST 2018</date>
+          <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sun Aug 05 18:38:40 CEST 2018</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sun Aug 05 18:39:42 CEST 2018</date>
+              <filename>/C:/Users/John/JMRI/Treinbaan2018/hoofdstation2018.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sun Aug 05 17:36:51 CEST 2018</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sun Aug 05 17:37:04 CEST 2018</date>
+                  <filename>/C:/Users/filip/JMRI/Treinbaan2018/hoofdstation.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Sun Aug 05 16:52:29 CEST 2018</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sun Aug 05 16:52:58 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sun Aug 05 15:45:24 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:45:40 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/hoofdstation.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sun Aug 05 15:47:39 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/Treinbaan/BlokTabel2018.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sun Aug 05 16:45:57 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Sun Aug 05 17:27:46 CEST 2018</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Sun Aug 05 17:37:31 CEST 2018</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sun Aug 05 19:07:15 CEST 2018</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Aug 05 19:59:05 CEST 2018</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Sun Aug 05 20:05:19 CEST 2018</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Aug 05 20:05:19 CEST 2018-->
+</layout-config>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.tams.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Tams" port="COM4" speed="57,600 baud" systemPrefix="T" userName="Tams">
+            <options/>
+        </connection>
+    </connections>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd"/>
+</auxiliary-configuration>
