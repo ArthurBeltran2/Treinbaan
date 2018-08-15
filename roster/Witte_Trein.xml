@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Aug 15 18:45:27 CEST 2018-->
+  <locomotive id="Witte Trein" fileName="Witte_Trein.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="4" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2018-08-15T15:27:50Z</dateUpdated>
+    <decoder model="LD-G-32" family="Multiprotocol Decoder" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="4" longaddress="no" />
+      <number>4</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <attributepairs>
+      <keyvaluepair>
+        <key>DispatcherTrainType</key>
+        <value>STOP PERSONEN</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Start Voltage" value="5" />
+        <varValue item="Acceleration Rate" value="25" />
+        <varValue item="Braking Rate" value="16" />
+        <varValue item="Top Voltage" value="0" />
+        <varValue item="Analog Power Conversion" value="0" />
+        <varValue item="Analog Mode Function Status - F1" value="0" />
+        <varValue item="Analog Mode Function Status - F2" value="0" />
+        <varValue item="Analog Mode Function Status - F3" value="0" />
+        <varValue item="Analog Mode Function Status - F4" value="0" />
+        <varValue item="Analog Mode Function Status - F5" value="0" />
+        <varValue item="Analog Mode Function Status - F6" value="0" />
+        <varValue item="Analog Mode Function Status - F7" value="0" />
+        <varValue item="Analog Mode Function Status - F8" value="0" />
+        <varValue item="Consist Address" value="0" />
+        <varValue item="Marklin Brake mode" value="1" />
+        <varValue item="Enable RailCom" value="0" />
+        <varValue item="FL(f) controls X2" value="0" />
+        <varValue item="FL(r) controls X2" value="1" />
+        <varValue item="F1 controls X2" value="0" />
+        <varValue item="F2 controls X2" value="0" />
+        <varValue item="F3 controls X2" value="0" />
+        <varValue item="F4 controls X2" value="0" />
+        <varValue item="F5 controls X2" value="0" />
+        <varValue item="F6 controls X2" value="0" />
+        <varValue item="F7 controls X2" value="0" />
+        <varValue item="F8 controls X2" value="0" />
+        <varValue item="F9 controls X2" value="0" />
+        <varValue item="F10 controls X2" value="0" />
+        <varValue item="F11 controls X2" value="0" />
+        <varValue item="FL(f) controls X1" value="1" />
+        <varValue item="FL(r) controls X1" value="0" />
+        <varValue item="F1 controls X1" value="0" />
+        <varValue item="F2 controls X1" value="0" />
+        <varValue item="F3 controls X1" value="0" />
+        <varValue item="F4 controls X1" value="0" />
+        <varValue item="F5 controls X1" value="0" />
+        <varValue item="F6 controls X1" value="0" />
+        <varValue item="F7 controls X1" value="0" />
+        <varValue item="F8 controls X1" value="0" />
+        <varValue item="F9 controls X1" value="0" />
+        <varValue item="F10 controls X1" value="0" />
+        <varValue item="F11 controls X1" value="0" />
+        <varValue item="F12 controls X1" value="0" />
+        <varValue item="F12 controls X2" value="0" />
+        <varValue item="Main Motor Control" value="0" />
+        <varValue item="Shunting gear mode F1" value="0" />
+        <varValue item="Shunting gear mode F2" value="0" />
+        <varValue item="Shunting gear mode F3" value="0" />
+        <varValue item="Shunting gear mode F4" value="0" />
+        <varValue item="Enable Acceleration delay on F3" value="0" />
+        <varValue item="Enable Acceleration delay on F4" value="0" />
+        <varValue item="BEMF Kp" value="40" />
+        <varValue item="BEMF Ki" value="20" />
+        <varValue item="BEMF Kd" value="50" />
+        <varValue item="X1 output mode" value="1" />
+        <varValue item="X1 output blinking" value="0" />
+        <varValue item="X2 output mode" value="1" />
+        <varValue item="X2 output blinking" value="0" />
+        <varValue item="Dimming Intensity, Output X1 (0-15)" value="15" />
+        <varValue item="Dimming Intensity, Output X2 (0-15)" value="15" />
+        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
+        <varValue item="Blinking frequency" value="200" />
+        <varValue item="Start Diming at speed" value="16" />
+        <varValue item="X1 output is shunting light" value="0" />
+        <varValue item="X2 output is shunting light" value="0" />
+        <varValue item="Shunting light with F3" value="0" />
+        <varValue item="Shunting light with F4" value="0" />
+        <varValue item="MM secondary Address" value="0" />
+        <varValue item="Speed related Diming enabled for X1" value="0" />
+        <varValue item="Speed related Diming enabled for X2" value="0" />
+        <varValue item="alternative Dimming Intensity, Output X1 (0-15)" value="15" />
+        <varValue item="alternative Dimming Intensity, Output X2 (0-15)" value="15" />
+        <varValue item="Primair adres" value="4" />
+        <varValue item="Lang adres" value="0" />
+        <varValue item="Adresformaat" value="0" />
+        <varValue item="Decoderversie: " value="0" />
+        <varValue item="Fabrikant ID: " value="0" />
+        <varValue item="Rijrichting standaard" value="0" />
+        <varValue item="Rijstappen" value="1" />
+        <varValue item="Stroombron conversie" value="1" />
+        <varValue item="Gebruik de snelheids tabel" value="0" />
+        <varValue item="Kick Start" value="0" />
+      </decoderDef>
+      <CVvalue name="2" value="5" />
+      <CVvalue name="3" value="25" />
+      <CVvalue name="4" value="16" />
+      <CVvalue name="5" value="0" />
+      <CVvalue name="12" value="0" />
+      <CVvalue name="13" value="0" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="27" value="16" />
+      <CVvalue name="29" value="6" />
+      <CVvalue name="33" value="1" />
+      <CVvalue name="34" value="2" />
+      <CVvalue name="35" value="0" />
+      <CVvalue name="36" value="0" />
+      <CVvalue name="37" value="0" />
+      <CVvalue name="38" value="0" />
+      <CVvalue name="39" value="0" />
+      <CVvalue name="40" value="0" />
+      <CVvalue name="41" value="0" />
+      <CVvalue name="42" value="0" />
+      <CVvalue name="43" value="0" />
+      <CVvalue name="44" value="0" />
+      <CVvalue name="45" value="0" />
+      <CVvalue name="46" value="0" />
+      <CVvalue name="49" value="0" />
+      <CVvalue name="50" value="40" />
+      <CVvalue name="51" value="20" />
+      <CVvalue name="52" value="50" />
+      <CVvalue name="53" value="1" />
+      <CVvalue name="54" value="1" />
+      <CVvalue name="62" value="255" />
+      <CVvalue name="67" value="0" />
+      <CVvalue name="68" value="9" />
+      <CVvalue name="69" value="18" />
+      <CVvalue name="70" value="28" />
+      <CVvalue name="71" value="37" />
+      <CVvalue name="72" value="47" />
+      <CVvalue name="73" value="56" />
+      <CVvalue name="74" value="66" />
+      <CVvalue name="75" value="75" />
+      <CVvalue name="76" value="85" />
+      <CVvalue name="77" value="94" />
+      <CVvalue name="78" value="103" />
+      <CVvalue name="79" value="113" />
+      <CVvalue name="80" value="122" />
+      <CVvalue name="81" value="132" />
+      <CVvalue name="82" value="141" />
+      <CVvalue name="83" value="151" />
+      <CVvalue name="84" value="160" />
+      <CVvalue name="85" value="170" />
+      <CVvalue name="86" value="179" />
+      <CVvalue name="87" value="188" />
+      <CVvalue name="88" value="198" />
+      <CVvalue name="89" value="207" />
+      <CVvalue name="90" value="217" />
+      <CVvalue name="91" value="226" />
+      <CVvalue name="92" value="236" />
+      <CVvalue name="93" value="245" />
+      <CVvalue name="94" value="255" />
+      <CVvalue name="112" value="200" />
+      <CVvalue name="113" value="16" />
+      <CVvalue name="115" value="0" />
+      <CVvalue name="116" value="0" />
+      <CVvalue name="118" value="255" />
+      <CVvalue name="1" value="4" />
+      <CVvalue name="17" value="0" />
+      <CVvalue name="18" value="0" />
+      <CVvalue name="7" value="0" />
+      <CVvalue name="8" value="0" />
+      <CVvalue name="65" value="0" />
+    </values>
+  </locomotive>
+</locomotive-config>

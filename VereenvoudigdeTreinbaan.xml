@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>12</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.tams.configurexml.TamsSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>TS0:01</systemName>
+      <userName>TSBM1:01</userName>
+      <comment>Tams Bezetmelder 1:01</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:02</systemName>
+      <userName>TSBM1:02</userName>
+      <comment>Tams Bezetmelder 1:02</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:03</systemName>
+      <userName>TSBM1:03</userName>
+      <comment>Tams Bezetmelder 1:03</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:04</systemName>
+      <userName>TSBM1:04</userName>
+      <comment>Tams Bezetmelder 1:04</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:05</systemName>
+      <userName>TSBM1:05</userName>
+      <comment>Tams Bezetmelder 1:05</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:06</systemName>
+      <userName>TSBM1:06</userName>
+      <comment>Tams Bezetmelder 1:06</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:07</systemName>
+      <userName>TSBM1:07</userName>
+      <comment>Tams Bezetmelder 1:07</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:08</systemName>
+      <userName>TSBM1:08</userName>
+      <comment>Tams Bezetmelder 1:08</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:09</systemName>
+      <userName>TSBM1:09</userName>
+      <comment>Tams Bezetmelder 1:09</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:10</systemName>
+      <userName>TSBM1:10</userName>
+      <comment>Tams Bezetmelder 1:10</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:11</systemName>
+      <userName>TSBM1:11</userName>
+      <comment>Tams Bezetmelder 1:11</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:12</systemName>
+      <userName>TSBM1:12</userName>
+      <comment>Tams Bezetmelder 1:12</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:13</systemName>
+      <userName>TSBM1:13</userName>
+      <comment>Tams Bezetmelder 1:13</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:14</systemName>
+      <userName>TSBM1:14</userName>
+      <comment>Tams Bezetmelder 1:14</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:15</systemName>
+      <userName>TSBM1:15</userName>
+      <comment>Tams Bezetmelder 1:15</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>TS0:16</systemName>
+      <userName>TSBM1:16</userName>
+      <comment>Tams Bezetmelder 1:16</comment>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>IS801</systemName>
+      <userName>IBM1:01</userName>
+      <comment>Interne Bezetmelder 1:01</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS802</systemName>
+      <userName>IBM1:02</userName>
+      <comment>Interne Bezetmelder 1:02</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS803</systemName>
+      <userName>IBM1:03</userName>
+      <comment>Interne Bezetmelder 1:03</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS804</systemName>
+      <userName>IBM1:04</userName>
+      <comment>Interne Bezetmelder 1:04</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS805</systemName>
+      <userName>IBM1:05</userName>
+      <comment>Interne Bezetmelder 1:05</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS806</systemName>
+      <userName>IBM1:06</userName>
+      <comment>Interne Bezetmelder 1:06</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISITBLOK1</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISLOGIXSBLOK1</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS807</systemName>
+      <userName>IBM1:07</userName>
+      <comment>Interne Bezetmelder 1:07</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS808</systemName>
+      <userName>IBM1:08</userName>
+      <comment>Interne Bezetmelder 1:08</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS809</systemName>
+      <userName>IBM1:09</userName>
+      <comment>Interne Bezetmelder 1:09</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS810</systemName>
+      <userName>IBM1:10</userName>
+      <comment>Interne Bezetmelder 1:10</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS811</systemName>
+      <userName>IBM1:11</userName>
+      <comment>Interne Bezetmelder 1:11</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS812</systemName>
+      <userName>IBM1:12</userName>
+      <comment>Interne Bezetmelder 1:12</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS813</systemName>
+      <userName>IBM1:13</userName>
+      <comment>Interne Bezetmelder 1:13</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS814</systemName>
+      <userName>IBM1:14</userName>
+      <comment>Interne Bezetmelder 1:14</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS815</systemName>
+      <userName>IBM1:15</userName>
+      <comment>Interne Bezetmelder 1:15</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS817</systemName>
+      <userName>IBM2:01</userName>
+      <comment>Interne Bezetmelder 2:01</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS816</systemName>
+      <userName>IBM1:16</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS820</systemName>
+      <userName>IBM2:04</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS821</systemName>
+      <userName>IBM2:05</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS822</systemName>
+      <userName>IBM2:06</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS823</systemName>
+      <userName>IBM2:07</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS824</systemName>
+      <userName>IBM2:08</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS825</systemName>
+      <userName>IBM2:09</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS826</systemName>
+      <userName>IBM2:10</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS827</systemName>
+      <userName>IBM2:11</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS818</systemName>
+      <userName>IBM2:02</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS819</systemName>
+      <userName>IBM2:03</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS828</systemName>
+      <userName>IBM2:12</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS829</systemName>
+      <userName>IBM2:13</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS830</systemName>
+      <userName>IBM2:14</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS831</systemName>
+      <userName>IBM2:15</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS832</systemName>
+      <userName>IBM2:16</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS833</systemName>
+      <userName>IBM3:01</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS834</systemName>
+      <userName>IBM3:02</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS835</systemName>
+      <userName>IBM3:03</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS836</systemName>
+      <userName>IBM3:04</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS837</systemName>
+      <userName>IBM3:05</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS838</systemName>
+      <userName>IBM3:06</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS839</systemName>
+      <userName>IBM3:07</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS840</systemName>
+      <userName>IBM3:08</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS841</systemName>
+      <userName>IBM3:09</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS842</systemName>
+      <userName>IBM3:10</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS843</systemName>
+      <userName>IBM3:11</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS844</systemName>
+      <userName>IBM3:12</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS845</systemName>
+      <userName>IBM3:13</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS846</systemName>
+      <userName>IBM3:14</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS847</systemName>
+      <userName>IBM3:15</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS848</systemName>
+      <userName>IBM3:16</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS850</systemName>
+      <userName>IBM4:01</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS851</systemName>
+      <userName>IBM4:02</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS852</systemName>
+      <userName>IBM4:03</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS853</systemName>
+      <userName>IBM4:04</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS854</systemName>
+      <userName>IBM4:05</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS855</systemName>
+      <userName>IBM4:06</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS856</systemName>
+      <userName>IBM4:07</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS857</systemName>
+      <userName>IBM4:08</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS858</systemName>
+      <userName>IBM4:09</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS859</systemName>
+      <userName>IBM4:10</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS860</systemName>
+      <userName>IBM4:11</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS861</systemName>
+      <userName>IBM4:12</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS862</systemName>
+      <userName>IBM4:13</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS863</systemName>
+      <userName>IBM4:14</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS864</systemName>
+      <userName>IBM4:15</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS865</systemName>
+      <userName>IBM4:16</userName>
+    </sensor>
+  </sensors>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="6:47 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0004)</systemName>
+      <userName>ISM1:09-1:11</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0007)</systemName>
+      <userName>ISM2:11-2:09</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0011)</systemName>
+      <userName>ISM2:09-2:11</userName>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0015)</systemName>
+      <userName>ISM1:11-1:13</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0016)</systemName>
+      <userName>ISM1:13-4:01</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0018)</systemName>
+      <userName>ISM1:15-2:15</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0019)</systemName>
+      <userName>ISM2:15-4:03</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0020)</systemName>
+      <userName>ISM4:03-2:13</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0021)</systemName>
+      <userName>ISM2:13-2:11</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0022)</systemName>
+      <userName>ISM2:09-2:07</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0023)</systemName>
+      <userName>ISM2:07-3:03</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0024)</systemName>
+      <userName>ISM3:03-2:01</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0025)</systemName>
+      <userName>ISM2:01-1:01</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0026)</systemName>
+      <userName>ISM1:01-3:01</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0027)</systemName>
+      <userName>ISM3:01-1:07</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0028)</systemName>
+      <userName>ISM1:07-1:09</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:InfraBel-2013:Block($0029)</systemName>
+      <userName>ISM4:01-1:15</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Approach</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+  </signalmasts>
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <blocks class="jmri.configurexml.BlockManagerXml">
+    <defaultspeed>Normal</defaultspeed>
+    <block systemName="IB1">
+      <systemName>IB1</systemName>
+      <userName>IB1:07</userName>
+    </block>
+    <block systemName="IB3">
+      <systemName>IB3</systemName>
+      <userName>IB1:09</userName>
+    </block>
+    <block systemName="IB4">
+      <systemName>IB4</systemName>
+      <userName>IB1:11</userName>
+    </block>
+    <block systemName="IB6">
+      <systemName>IB6</systemName>
+      <userName>IB1:13</userName>
+    </block>
+    <block systemName="IB7">
+      <systemName>IB7</systemName>
+      <userName>IB3:01</userName>
+    </block>
+    <block systemName="IB8">
+      <systemName>IB8</systemName>
+      <userName>IB1:01</userName>
+    </block>
+    <block systemName="IB9">
+      <systemName>IB9</systemName>
+      <userName>IB2:01</userName>
+    </block>
+    <block systemName="IB10">
+      <systemName>IB10</systemName>
+      <userName>IB3:03</userName>
+    </block>
+    <block systemName="IB11">
+      <systemName>IB11</systemName>
+      <userName>IB2:07</userName>
+    </block>
+    <block systemName="IB12">
+      <systemName>IB12</systemName>
+      <userName>IB2:09</userName>
+    </block>
+    <block systemName="IB13">
+      <systemName>IB13</systemName>
+      <userName>IB2:11</userName>
+    </block>
+    <block systemName="IB14">
+      <systemName>IB14</systemName>
+      <userName>IB2:13</userName>
+    </block>
+    <block systemName="IB15">
+      <systemName>IB15</systemName>
+      <userName>IB4:03</userName>
+    </block>
+    <block systemName="IB16">
+      <systemName>IB16</systemName>
+      <userName>IB2:15</userName>
+    </block>
+    <block systemName="IB17">
+      <systemName>IB17</systemName>
+      <userName>IB1:15</userName>
+    </block>
+    <block systemName="IB18">
+      <systemName>IB18</systemName>
+      <userName>IB4:01</userName>
+    </block>
+    <block systemName="IB1" length="0.0" curve="0">
+      <systemName>IB1</systemName>
+      <userName>IB1:07</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM1:07</occupancysensor>
+      <path todir="64" fromdir="128" block="IB7" />
+      <path todir="144" fromdir="96" block="IB3" />
+    </block>
+    <block systemName="IB3" length="0.0" curve="0">
+      <systemName>IB3</systemName>
+      <userName>IB1:09</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM1:09</occupancysensor>
+      <path todir="16" fromdir="32" block="IB4" />
+      <path todir="96" fromdir="144" block="IB1" />
+    </block>
+    <block systemName="IB4" length="0.0" curve="0">
+      <systemName>IB4</systemName>
+      <userName>IB1:11</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM1:11</occupancysensor>
+      <path todir="32" fromdir="16" block="IB3" />
+      <path todir="80" fromdir="160" block="IB6" />
+    </block>
+    <block systemName="IB6" length="0.0" curve="0">
+      <systemName>IB6</systemName>
+      <userName>IB1:13</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM1:13</occupancysensor>
+      <path todir="160" fromdir="80" block="IB4" />
+      <path todir="64" fromdir="128" block="IB18" />
+    </block>
+    <block systemName="IB7" length="0.0" curve="0">
+      <systemName>IB7</systemName>
+      <userName>IB3:01</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM3:01</occupancysensor>
+      <path todir="64" fromdir="128" block="IB8" />
+      <path todir="128" fromdir="64" block="IB1" />
+    </block>
+    <block systemName="IB8" length="0.0" curve="0">
+      <systemName>IB8</systemName>
+      <userName>IB1:01</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM1:01</occupancysensor>
+      <path todir="128" fromdir="64" block="IB7" />
+      <path todir="64" fromdir="128" block="IB9" />
+    </block>
+    <block systemName="IB9" length="0.0" curve="0">
+      <systemName>IB9</systemName>
+      <userName>IB2:01</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM2:01</occupancysensor>
+      <path todir="128" fromdir="64" block="IB8" />
+      <path todir="64" fromdir="128" block="IB10" />
+    </block>
+    <block systemName="IB10" length="0.0" curve="0">
+      <systemName>IB10</systemName>
+      <userName>IB3:03</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM3:03</occupancysensor>
+      <path todir="128" fromdir="64" block="IB9" />
+      <path todir="64" fromdir="128" block="IB11" />
+    </block>
+    <block systemName="IB11" length="0.0" curve="0">
+      <systemName>IB11</systemName>
+      <userName>IB2:07</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM2:07</occupancysensor>
+      <path todir="80" fromdir="160" block="IB12" />
+      <path todir="128" fromdir="64" block="IB10" />
+    </block>
+    <block systemName="IB12" length="0.0" curve="0">
+      <systemName>IB12</systemName>
+      <userName>IB2:09</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM2:09</occupancysensor>
+      <path todir="160" fromdir="80" block="IB11" />
+      <path todir="16" fromdir="32" block="IB13" />
+    </block>
+    <block systemName="IB13" length="0.0" curve="0">
+      <systemName>IB13</systemName>
+      <userName>IB2:11</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM2:11</occupancysensor>
+      <path todir="32" fromdir="16" block="IB12" />
+      <path todir="144" fromdir="96" block="IB14" />
+    </block>
+    <block systemName="IB14" length="0.0" curve="0">
+      <systemName>IB14</systemName>
+      <userName>IB2:13</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM2:13</occupancysensor>
+      <path todir="96" fromdir="144" block="IB13" />
+      <path todir="128" fromdir="64" block="IB15" />
+    </block>
+    <block systemName="IB15" length="0.0" curve="0">
+      <systemName>IB15</systemName>
+      <userName>IB4:03</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM4:03</occupancysensor>
+      <path todir="64" fromdir="128" block="IB14" />
+      <path todir="128" fromdir="64" block="IB16" />
+    </block>
+    <block systemName="IB16" length="0.0" curve="0">
+      <systemName>IB16</systemName>
+      <userName>IB2:15</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM2:15</occupancysensor>
+      <path todir="64" fromdir="128" block="IB15" />
+      <path todir="128" fromdir="64" block="IB17" />
+    </block>
+    <block systemName="IB17" length="0.0" curve="0">
+      <systemName>IB17</systemName>
+      <userName>IB1:15</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM1:15</occupancysensor>
+      <path todir="64" fromdir="128" block="IB16" />
+      <path todir="128" fromdir="64" block="IB18" />
+    </block>
+    <block systemName="IB18" length="0.0" curve="0">
+      <systemName>IB18</systemName>
+      <userName>IB4:01</userName>
+      <permissive>no</permissive>
+      <occupancysensor>IBM4:01</occupancysensor>
+      <path todir="128" fromdir="64" block="IB6" />
+      <path todir="64" fromdir="128" block="IB17" />
+    </block>
+  </blocks>
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
+    <layoutblock systemName="ILB1" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB1</systemName>
+      <userName>IB1:07</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB3" occupancysensor="IBM1:09" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB3</systemName>
+      <userName>IB1:09</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB4" occupancysensor="IBM1:11" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB4</systemName>
+      <userName>IB1:11</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB5" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB5</systemName>
+      <userName>IB3:03</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB6" occupancysensor="IBM1:13" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB6</systemName>
+      <userName>IB1:13</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB7" occupancysensor="IBM3:01" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB7</systemName>
+      <userName>IB3:01</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB8" occupancysensor="IBM1:01" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB8</systemName>
+      <userName>IB1:01</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB9" occupancysensor="IBM2:01" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB9</systemName>
+      <userName>IB2:01</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB11" occupancysensor="IBM2:07" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB11</systemName>
+      <userName>IB2:07</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB12" occupancysensor="IBM2:09" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB12</systemName>
+      <userName>IB2:09</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB13" occupancysensor="IBM2:11" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB13</systemName>
+      <userName>IB2:11</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB14" occupancysensor="IBM2:13" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB14</systemName>
+      <userName>IB2:13</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB15" occupancysensor="IBM4:03" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB15</systemName>
+      <userName>IB4:03</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB16" occupancysensor="IBM2:15" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB16</systemName>
+      <userName>IB2:15</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB17" occupancysensor="IBM1:15" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB17</systemName>
+      <userName>IB1:15</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB18" occupancysensor="IBM4:01" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB18</systemName>
+      <userName>IB4:01</userName>
+    </layoutblock>
+  </layoutblocks>
+  <sections class="jmri.configurexml.SectionManagerXml">
+    <section systemName="IY:AUTO:0001" userName="BV1" creationtype="userdefined">
+      <systemName>IY:AUTO:0001</systemName>
+      <userName>BV1</userName>
+      <blockentry sName="IB8" order="0" />
+      <blockentry sName="IB9" order="1" />
+      <entrypoint fromblock="IB10" toblock="IB9" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB7" toblock="IB8" direction="8" fixed="no" fromblockdirection="East" />
+    </section>
+    <section systemName="IY:AUTO:0002" userName="BV2" creationtype="userdefined">
+      <systemName>IY:AUTO:0002</systemName>
+      <userName>BV2</userName>
+      <blockentry sName="IB1" order="0" />
+      <blockentry sName="IB3" order="1" />
+      <entrypoint fromblock="IB7" toblock="IB1" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB4" toblock="IB3" direction="8" fixed="no" fromblockdirection="South" />
+    </section>
+    <section systemName="IY:AUTO:0003" userName="BV3" creationtype="userdefined">
+      <systemName>IY:AUTO:0003</systemName>
+      <userName>BV3</userName>
+      <blockentry sName="IB4" order="0" />
+      <blockentry sName="IB6" order="1" />
+      <entrypoint fromblock="IB3" toblock="IB4" direction="4" fixed="no" fromblockdirection="North" />
+      <entrypoint fromblock="IB18" toblock="IB6" direction="8" fixed="no" fromblockdirection="West" />
+    </section>
+    <section systemName="IY:AUTO:0004" userName="BV41" creationtype="userdefined">
+      <systemName>IY:AUTO:0004</systemName>
+      <userName>BV41</userName>
+      <blockentry sName="IB18" order="0" />
+      <entrypoint fromblock="IB6" toblock="IB18" direction="4" fixed="no" fromblockdirection="East" />
+      <entrypoint fromblock="IB17" toblock="IB18" direction="8" fixed="no" fromblockdirection="West" />
+    </section>
+    <section systemName="IY:AUTO:0005" userName="BV4" creationtype="userdefined">
+      <systemName>IY:AUTO:0005</systemName>
+      <userName>BV4</userName>
+      <blockentry sName="IB17" order="0" />
+      <blockentry sName="IB16" order="1" />
+      <entrypoint fromblock="IB18" toblock="IB17" direction="4" fixed="no" fromblockdirection="East" />
+      <entrypoint fromblock="IB15" toblock="IB16" direction="8" fixed="no" fromblockdirection="West" />
+    </section>
+    <section systemName="IY:AUTO:0006" userName="BV43" creationtype="userdefined">
+      <systemName>IY:AUTO:0006</systemName>
+      <userName>BV43</userName>
+      <blockentry sName="IB15" order="0" />
+      <entrypoint fromblock="IB16" toblock="IB15" direction="4" fixed="no" fromblockdirection="East" />
+      <entrypoint fromblock="IB14" toblock="IB15" direction="8" fixed="no" fromblockdirection="West" />
+    </section>
+    <section systemName="IY:AUTO:0007" userName="BV5" creationtype="userdefined">
+      <systemName>IY:AUTO:0007</systemName>
+      <userName>BV5</userName>
+      <blockentry sName="IB14" order="0" />
+      <blockentry sName="IB13" order="1" />
+      <entrypoint fromblock="IB15" toblock="IB14" direction="4" fixed="no" fromblockdirection="East" />
+      <entrypoint fromblock="IB12" toblock="IB13" direction="8" fixed="no" fromblockdirection="North" />
+    </section>
+    <section systemName="IY:AUTO:0008" userName="BV6" creationtype="userdefined">
+      <systemName>IY:AUTO:0008</systemName>
+      <userName>BV6</userName>
+      <blockentry sName="IB12" order="0" />
+      <blockentry sName="IB11" order="1" />
+      <entrypoint fromblock="IB13" toblock="IB12" direction="4" fixed="no" fromblockdirection="South" />
+      <entrypoint fromblock="IB10" toblock="IB11" direction="8" fixed="no" fromblockdirection="East" />
+    </section>
+    <section systemName="IY:AUTO:0009" userName="BV33" creationtype="userdefined">
+      <systemName>IY:AUTO:0009</systemName>
+      <userName>BV33</userName>
+      <blockentry sName="IB10" order="0" />
+      <entrypoint fromblock="IB11" toblock="IB10" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB9" toblock="IB10" direction="8" fixed="no" fromblockdirection="East" />
+    </section>
+    <section systemName="IY:AUTO:0010" userName="BV31" creationtype="userdefined">
+      <systemName>IY:AUTO:0010</systemName>
+      <userName>BV31</userName>
+      <blockentry sName="IB7" order="0" />
+      <entrypoint fromblock="IB8" toblock="IB7" direction="4" fixed="no" fromblockdirection="West" />
+      <entrypoint fromblock="IB1" toblock="IB7" direction="8" fixed="no" fromblockdirection="East" />
+    </section>
+  </sections>
+  <transits class="jmri.configurexml.TransitManagerXml">
+    <transit systemName="IZ1" userName="Traject1">
+      <systemName>IZ1</systemName>
+      <userName>Traject1</userName>
+      <transitsection sectionname="IY:AUTO:0001" sequence="1" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0010" sequence="2" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0002" sequence="3" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0003" sequence="4" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0004" sequence="5" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0005" sequence="6" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0006" sequence="7" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0007" sequence="8" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0008" sequence="9" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0009" sequence="10" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0001" sequence="11" direction="4" alternate="no" safe="no" />
+    </transit>
+  </transits>
+  <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+    <signalmastlogic source="ISM1:11-1:13">
+      <sourceSignalMast>ISM1:11-1:13</sourceSignalMast>
+      <destinationMast destination="ISM1:13-4:01">
+        <destinationSignalMast>ISM1:13-4:01</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM1:13-4:01">
+      <sourceSignalMast>ISM1:13-4:01</sourceSignalMast>
+      <destinationMast destination="ISM2:15-4:03">
+        <destinationSignalMast>ISM2:15-4:03</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM2:15-4:03">
+      <sourceSignalMast>ISM2:15-4:03</sourceSignalMast>
+      <destinationMast destination="ISM2:11-2:09">
+        <destinationSignalMast>ISM2:11-2:09</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM2:11-2:09">
+      <sourceSignalMast>ISM2:11-2:09</sourceSignalMast>
+      <destinationMast destination="ISM2:07-3:03">
+        <destinationSignalMast>ISM2:07-3:03</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM2:07-3:03">
+      <sourceSignalMast>ISM2:07-3:03</sourceSignalMast>
+      <destinationMast destination="ISM1:01-3:01">
+        <destinationSignalMast>ISM1:01-3:01</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM1:01-3:01">
+      <sourceSignalMast>ISM1:01-3:01</sourceSignalMast>
+      <destinationMast destination="ISM1:09-1:11">
+        <destinationSignalMast>ISM1:09-1:11</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM1:09-1:11">
+      <sourceSignalMast>ISM1:09-1:11</sourceSignalMast>
+      <destinationMast destination="ISM1:13-4:01">
+        <destinationSignalMast>ISM1:13-4:01</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Wed Aug 15 17:23:33 CEST 2018" rate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="0" showbutton="no" />
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="My Layout" x="865" y="0" height="1314" width="2534" windowheight="774" windowwidth="1055" panelheight="1314" panelwidth="2534" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="My Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#404040</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>2</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#404040</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>1</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <positionablelabel x="560" y="660" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL1:07" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="420" y="460" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL1:09" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="410" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL1:11" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="430" y="230" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL1:11" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="530" y="130" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL1:13" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="690" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL1:13" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="840" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL4:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="990" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL1:15" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1190" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL2:15" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1340" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL4:03" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1440" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL2:13" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1550" y="130" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL2:13" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1630" y="220" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL2:11" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1650" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL2:11" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1650" y="440" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL2:09" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1630" y="570" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL2:09" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1530" y="660" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL2:07" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1430" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL2:07" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1330" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL3:03" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1190" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL2:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="990" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL1:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="840" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL3:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="430" y="550" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BL1:09" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="990" y="650" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BV1" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1190" y="650" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="BV1" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <signalmasticon signalmast="ISM1:09-1:11" x="405" y="445" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM1:09-1:11 (IF$vsm:InfraBel-2013:Block($0004))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM1:13-4:01" x="769" y="104" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM1:13-4:01 (IF$vsm:InfraBel-2013:Block($0016))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM2:15-4:03" x="1269" y="104" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM2:15-4:03 (IF$vsm:InfraBel-2013:Block($0019))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM2:11-2:09" x="1672" y="367" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM2:11-2:09 (IF$vsm:InfraBel-2013:Block($0007))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM2:07-3:03" x="1400" y="670" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM2:07-3:03 (IF$vsm:InfraBel-2013:Block($0023))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM1:01-3:01" x="905" y="673" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM1:01-3:01 (IF$vsm:InfraBel-2013:Block($0026))</tooltip>
+    </signalmasticon>
+    <tracksegment ident="T1" blockname="IB2:09" connect1name="A4" type1="1" connect2name="A21" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" blockname="IB1:11" connect1name="A2" type1="1" connect2name="A15" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="45.00000000000001" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T4" blockname="IB2:13" connect1name="A3" type1="1" connect2name="A20" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T5" blockname="IB3:01" connect1name="A5" type1="1" connect2name="A9" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" blockname="IB1:07" connect1name="A6" type1="1" connect2name="A12" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T7" blockname="IB2:01" connect1name="A7" type1="1" connect2name="A10" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T8" blockname="IB1:11" connect1name="A8" type1="1" connect2name="A2" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T9" blockname="IB1:07" connect1name="A9" type1="1" connect2name="A6" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T10" blockname="IB1:01" connect1name="A10" type1="1" connect2name="A5" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T11" blockname="IB1:09" connect1name="A11" type1="1" connect2name="A8" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" blockname="IB1:09" connect1name="A12" type1="1" connect2name="A11" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T12" blockname="IB4:01" connect1name="A13" type1="1" connect2name="A25" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T13" blockname="IB1:13" connect1name="A14" type1="1" connect2name="A13" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T14" blockname="IB1:13" connect1name="A15" type1="1" connect2name="A14" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="44.999999999999986" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T16" blockname="IB3:03" connect1name="A17" type1="1" connect2name="A7" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T17" blockname="IB2:07" connect1name="A18" type1="1" connect2name="A17" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T18" blockname="IB2:11" connect1name="A19" type1="1" connect2name="A1" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T19" blockname="IB2:13" connect1name="A20" type1="1" connect2name="A22" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T20" blockname="IB2:07" connect1name="A21" type1="1" connect2name="A18" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T21" blockname="IB2:11" connect1name="A22" type1="1" connect2name="A19" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T22" blockname="IB2:15" connect1name="A23" type1="1" connect2name="A24" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T23" blockname="IB4:03" connect1name="A24" type1="1" connect2name="A3" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T24" blockname="IB1:15" connect1name="A25" type1="1" connect2name="A23" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T25" blockname="IB2:09" connect1name="A1" type1="1" connect2name="A4" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="A2" type="1" x="400.0" y="300.0" connect1name="T8" connect2name="T3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A3" type="1" x="1400.0" y="100.0" connect1name="T23" connect2name="T4" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A4" type="1" x="1700.0" y="500.0" connect1name="T1" connect2name="T25" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A5" type="1" x="900.0" y="700.0" connect1name="T10" connect2name="T5" westboundsignalmast="ISM1:01-3:01" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A6" type="1" x="600.0" y="700.0" connect1name="T9" connect2name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A7" type="1" x="1300.0" y="700.0" connect1name="T16" connect2name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A8" type="1" x="400.0" y="440.0" connect1name="T11" connect2name="T8" westboundsignalmast="ISM1:09-1:11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A9" type="1" x="800.0" y="700.0" connect1name="T5" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A10" type="1" x="1100.0" y="700.0" connect1name="T7" connect2name="T10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A11" type="1" x="400.0" y="500.0" connect1name="T2" connect2name="T11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A12" type="1" x="458.5786437988281" y="641.42138671875" connect1name="T6" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A13" type="1" x="800.0" y="100.0" connect1name="T13" connect2name="T12" eastboundsignalmast="ISM1:13-4:01" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A14" type="1" x="600.0" y="100.0" connect1name="T14" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A15" type="1" x="458.5786437988281" y="158.57864379882812" connect1name="T3" connect2name="T14" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A17" type="1" x="1400.0" y="700.0" connect1name="T17" connect2name="T16" westboundsignalmast="ISM2:07-3:03" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A18" type="1" x="1500.0" y="700.0" connect1name="T20" connect2name="T17" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A19" type="1" x="1700.0" y="300.0" connect1name="T21" connect2name="T18" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A20" type="1" x="1500.0" y="100.0" connect1name="T4" connect2name="T19" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A21" type="1" x="1641.42138671875" y="641.42138671875" connect1name="T1" connect2name="T20" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A22" type="1" x="1641.42138671875" y="158.57864379882812" connect1name="T19" connect2name="T21" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A23" type="1" x="1100.0" y="100.0" connect1name="T24" connect2name="T22" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A24" type="1" x="1300.0" y="100.0" connect1name="T22" connect2name="T23" eastboundsignalmast="ISM2:15-4:03" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A25" type="1" x="900.0" y="100.0" connect1name="T12" connect2name="T24" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A1" type="1" x="1700.0" y="400.0" connect1name="T18" connect2name="T25" eastboundsignalmast="ISM2:11-2:09" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Wed Aug 15 18:41:13 CEST 2018</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Wed Aug 15 18:41:24 CEST 2018</date>
+      <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Wed Aug 15 17:34:40 CEST 2018</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Wed Aug 15 17:35:01 CEST 2018</date>
+          <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Wed Aug 15 17:03:18 CEST 2018</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Wed Aug 15 17:03:29 CEST 2018</date>
+              <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Wed Aug 15 16:48:49 CEST 2018</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Wed Aug 15 16:49:07 CEST 2018</date>
+                  <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Wed Aug 15 16:15:12 CEST 2018</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Wed Aug 15 16:15:25 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Wed Aug 15 16:11:28 CEST 2018</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Wed Aug 15 16:11:39 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Wed Aug 15 16:14:12 CEST 2018</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Wed Aug 15 16:47:06 CEST 2018</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Wed Aug 15 17:00:16 CEST 2018</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Wed Aug 15 17:33:56 CEST 2018</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Wed Aug 15 18:32:37 CEST 2018</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Wed Aug 15 18:47:26 CEST 2018</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Aug 15 18:47:26 CEST 2018-->
+</layout-config>

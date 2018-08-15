@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Tue Aug 14 21:28:01 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Aug 15 18:30:34 CEST 2018-->
   <roster>
-    <locomotive id="loc8" fileName="loc04.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2018-08-10T20:08:16Z</dateUpdated>
+    <locomotive id="Witte Trein" fileName="Witte_Trein.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="4" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-08-15T15:27:50Z</dateUpdated>
       <decoder model="LD-G-32" family="Multiprotocol Decoder" comment="" />
       <locoaddress>
-        <dcclocoaddress number="3" longaddress="no" />
-        <number>3</number>
+        <dcclocoaddress number="4" longaddress="no" />
+        <number>4</number>
         <protocol>dcc_short</protocol>
       </locoaddress>
       <attributepairs>
