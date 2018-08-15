@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Aug 11 11:15:46 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Tue Aug 14 21:28:01 CEST 2018-->
   <locomotive id="loc8" fileName="loc04.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
     <dateUpdated>2018-08-10T20:08:16Z</dateUpdated>
     <decoder model="LD-G-32" family="Multiprotocol Decoder" comment="" />
