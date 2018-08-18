@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Aug 15 18:30:34 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Aug 16 20:59:01 CEST 2018-->
   <locomotive id="Witte Trein" fileName="Witte_Trein.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="4" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
     <dateUpdated>2018-08-15T15:27:50Z</dateUpdated>
     <decoder model="LD-G-32" family="Multiprotocol Decoder" comment="" />

@@ -2,8 +2,11 @@
 <?xml-stylesheet href="/xml/XSLT/blockValues.xsl" type="text/xsl"?>
 <!DOCTYPE block_values SYSTEM "/xml/DTD/block-values.dtd">
 <block_values>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Aug 15 18:47:39 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Aug 16 21:15:14 CEST 2018-->
   <blockvalues>
-    <block systemname="IB1" value="Witte Trein" valueClass="jmri.jmrit.roster.RosterEntry" />
+    <block systemname="IB6" value="Witte Trein" valueClass="jmri.jmrit.roster.RosterEntry" />
+    <block systemname="IB15" value="rode loc" valueClass="jmri.jmrit.roster.RosterEntry" />
+    <block systemname="IB16" value="rode loc" valueClass="jmri.jmrit.roster.RosterEntry" />
+    <block systemname="IB17" value="rode loc" valueClass="jmri.jmrit.roster.RosterEntry" />
   </blockvalues>
 </block_values>

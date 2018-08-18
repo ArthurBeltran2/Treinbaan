@@ -2,13 +2,13 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Aug 16 21:10:28 CEST 2018-->
-  <locomotive id="Witte Trein" fileName="Witte_Trein.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="4" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-08-15T15:27:50Z</dateUpdated>
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Aug 16 21:11:42 CEST 2018-->
+  <locomotive id="rode loc" fileName="rode_loc.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="6" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2018-08-16T19:11:42Z</dateUpdated>
     <decoder model="LD-G-32" family="Multiprotocol Decoder" comment="" />
     <locoaddress>
-      <dcclocoaddress number="4" longaddress="no" />
-      <number>4</number>
+      <dcclocoaddress number="6" longaddress="no" />
+      <number>6</number>
       <protocol>dcc_short</protocol>
     </locoaddress>
     <attributepairs>
@@ -91,14 +91,14 @@
         <varValue item="Speed related Diming enabled for X2" value="0" />
         <varValue item="alternative Dimming Intensity, Output X1 (0-15)" value="15" />
         <varValue item="alternative Dimming Intensity, Output X2 (0-15)" value="15" />
-        <varValue item="Primair adres" value="4" />
+        <varValue item="Primair adres" value="6" />
         <varValue item="Lang adres" value="0" />
         <varValue item="Adresformaat" value="0" />
         <varValue item="Decoderversie: " value="0" />
         <varValue item="Fabrikant ID: " value="0" />
         <varValue item="Rijrichting standaard" value="0" />
-        <varValue item="Rijstappen" value="1" />
-        <varValue item="Stroombron conversie" value="1" />
+        <varValue item="Rijstappen" value="0" />
+        <varValue item="Stroombron conversie" value="0" />
         <varValue item="Gebruik de snelheids tabel" value="0" />
         <varValue item="Kick Start" value="0" />
       </decoderDef>
@@ -110,7 +110,7 @@
       <CVvalue name="13" value="0" />
       <CVvalue name="19" value="0" />
       <CVvalue name="27" value="16" />
-      <CVvalue name="29" value="6" />
+      <CVvalue name="29" value="0" />
       <CVvalue name="33" value="1" />
       <CVvalue name="34" value="2" />
       <CVvalue name="35" value="0" />
@@ -165,7 +165,7 @@
       <CVvalue name="115" value="0" />
       <CVvalue name="116" value="0" />
       <CVvalue name="118" value="255" />
-      <CVvalue name="1" value="4" />
+      <CVvalue name="1" value="6" />
       <CVvalue name="17" value="0" />
       <CVvalue name="18" value="0" />
       <CVvalue name="7" value="0" />

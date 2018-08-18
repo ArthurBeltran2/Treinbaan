@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Aug 15 18:45:28 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Aug 16 21:11:42 CEST 2018-->
   <roster>
+    <locomotive id="rode loc" fileName="rode_loc.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="6" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-08-16T19:11:42Z</dateUpdated>
+      <decoder model="LD-G-32" family="Multiprotocol Decoder" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="6" longaddress="no" />
+        <number>6</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <attributepairs>
+        <keyvaluepair>
+          <key>DispatcherTrainType</key>
+          <value>STOP PERSONEN</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
     <locomotive id="Witte Trein" fileName="Witte_Trein.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="4" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2018-08-15T15:27:50Z</dateUpdated>
       <decoder model="LD-G-32" family="Multiprotocol Decoder" comment="" />
