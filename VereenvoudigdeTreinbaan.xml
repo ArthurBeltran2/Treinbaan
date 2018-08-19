@@ -376,13 +376,31 @@
       <systemName>IS999</systemName>
       <userName>Reset</userName>
     </sensor>
+    <sensor inverted="false">
+      <systemName>ISIVBM2:01</systemName>
+      <userName>IVBM2:01</userName>
+      <comment>Virtuele Vezetmelder set en rest door Logix</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISIVBM1:01</systemName>
+      <userName>IVBM1:01</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISTS01:01</systemName>
+      <userName>TSBM2:01</userName>
+      <comment>dEZE MOET GEWIJZIGD WORDEN NAAR EXTERNE BEZET MELDER</comment>
+    </sensor>
   </sensors>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="1:18 PM">
+    <memory value="1:34 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
       <systemName>IMRATEFACTOR</systemName>
+    </memory>
+    <memory value="onwaar">
+      <systemName>IMRIJRICHTINGISWIJZERZIN</systemName>
+      <userName>RijrichtingIsWijzerzin</userName>
     </memory>
   </memories>
   <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
@@ -398,8 +416,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -414,8 +432,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -424,8 +442,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -440,8 +458,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -456,8 +474,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -472,8 +490,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -488,8 +506,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -504,8 +522,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -520,8 +538,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -536,8 +554,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -552,8 +570,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -568,8 +586,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -584,8 +602,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -616,8 +634,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -632,8 +650,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -648,8 +666,8 @@
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Approach</disabledAspect>
         <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Advance Approach</disabledAspect>
       </disabledAspects>
     </virtualsignalmast>
   </signalmasts>
@@ -1210,14 +1228,29 @@
     <logix userName="LxIBM1:01" enabled="yes">
       <systemName>IX:AUTO:0001</systemName>
       <userName>LxIBM1:01</userName>
+      <comment>Set &amp; Reset IBM1:01</comment>
       <logixConditional systemName="IX:AUTO:0001C1" order="0" />
       <logixConditional systemName="IX:AUTO:0001C2" order="1" />
     </logix>
-    <logix userName="SetIBM1:02" enabled="yes">
+    <logix userName="LxIBM1:02" enabled="yes">
       <systemName>IX:AUTO:0002</systemName>
-      <userName>SetIBM1:02</userName>
+      <userName>LxIBM1:02</userName>
+      <comment>Set &amp; Reset IBM2:01</comment>
       <logixConditional systemName="IX:AUTO:0002C1" order="0" />
       <logixConditional systemName="IX:AUTO:0002C2" order="1" />
+    </logix>
+    <logix userName="LxVB2:01" enabled="no">
+      <systemName>IX:AUTO:0003</systemName>
+      <userName>LxVB2:01</userName>
+      <logixConditional systemName="IX:AUTO:0003C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0003C2" order="1" />
+      <logixConditional systemName="IX:AUTO:0003C3" order="2" />
+      <logixConditional systemName="IX:AUTO:0003C4" order="3" />
+    </logix>
+    <logix userName="BepaalRijrichting" enabled="no">
+      <systemName>IX:AUTO:0004</systemName>
+      <userName>BepaalRijrichting</userName>
+      <logixConditional systemName="IX:AUTO:0004C1" order="0" />
     </logix>
   </logixs>
   <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
@@ -1244,6 +1277,36 @@
       <userName>SetIBM1:02</userName>
       <conditionalStateVariable operator="4" negated="no" type="1" systemName="TS0:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="9" systemName="IBM1:02" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0003C1" userName="SetVB2:01_Condition1" antecedent="R1" logicType="3" triggerOnChange="no">
+      <systemName>IX:AUTO:0003C1</systemName>
+      <userName>SetVB2:01_Condition1</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IVBM2:01" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0003C2" userName="SetVB2:01_Condition2" antecedent="R1 and R2" logicType="3" triggerOnChange="no">
+      <systemName>IX:AUTO:0003C2</systemName>
+      <userName>SetVB2:01_Condition2</userName>
+      <conditionalStateVariable operator="5" negated="no" type="2" systemName="TSBM1:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="1" negated="no" type="23" systemName="RijrichtingIsWijzerzin" dataString="ONWAAR" num1="3" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IVBM2:01" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0003C3" userName="ResetVB2:01_Condition1" antecedent="R1 and R2" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0003C3</systemName>
+      <userName>ResetVB2:01_Condition1</userName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="TSBM1:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="1" negated="no" type="23" systemName="RijrichtingIsWijzerzin" dataString="WAAR" num1="3" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IVBM2:01" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0003C4" userName="ResetVB2:01_Condition2" antecedent="R1 and R2" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0003C4</systemName>
+      <userName>ResetVB2:01_Condition2</userName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="TSBM2:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="1" negated="no" type="23" systemName="RijrichtingIsWijzerzin" dataString="ONWAAR" num1="3" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IVBM2:01" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0004C1" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0004C1</systemName>
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Wed Aug 15 17:23:33 CEST 2018" rate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="0" showbutton="no" />
@@ -1429,104 +1492,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Aug 18 13:02:45 CEST 2018</date>
+      <date>Sun Aug 19 09:34:36 CEST 2018</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Aug 18 13:02:51 CEST 2018</date>
+      <date>Sun Aug 19 09:34:39 CEST 2018</date>
       <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Thu Aug 16 20:54:50 CEST 2018</date>
+          <date>Sat Aug 18 13:02:45 CEST 2018</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Thu Aug 16 20:54:52 CEST 2018</date>
+          <date>Sat Aug 18 13:02:51 CEST 2018</date>
           <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Thu Aug 16 20:48:11 CEST 2018</date>
+              <date>Thu Aug 16 20:54:50 CEST 2018</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Thu Aug 16 20:48:14 CEST 2018</date>
+              <date>Thu Aug 16 20:54:52 CEST 2018</date>
               <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Thu Aug 16 20:46:38 CEST 2018</date>
+                  <date>Thu Aug 16 20:48:11 CEST 2018</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Thu Aug 16 20:46:41 CEST 2018</date>
+                  <date>Thu Aug 16 20:48:14 CEST 2018</date>
                   <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Thu Aug 16 20:44:53 CEST 2018</date>
+                      <date>Thu Aug 16 20:46:38 CEST 2018</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Thu Aug 16 20:44:55 CEST 2018</date>
+                      <date>Thu Aug 16 20:46:41 CEST 2018</date>
                       <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Thu Aug 16 20:43:31 CEST 2018</date>
+                          <date>Thu Aug 16 20:44:53 CEST 2018</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Thu Aug 16 20:43:33 CEST 2018</date>
+                          <date>Thu Aug 16 20:44:55 CEST 2018</date>
                           <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Thu Aug 16 20:44:42 CEST 2018</date>
+                          <date>Thu Aug 16 20:45:30 CEST 2018</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Thu Aug 16 20:45:30 CEST 2018</date>
+                      <date>Thu Aug 16 20:48:07 CEST 2018</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Thu Aug 16 20:48:07 CEST 2018</date>
+                  <date>Thu Aug 16 20:48:55 CEST 2018</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Thu Aug 16 20:48:55 CEST 2018</date>
+              <date>Thu Aug 16 21:15:03 CEST 2018</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Thu Aug 16 21:15:03 CEST 2018</date>
+          <date>Sat Aug 18 13:18:23 CEST 2018</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Aug 18 13:18:23 CEST 2018</date>
+      <date>Sun Aug 19 13:34:48 CEST 2018</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Aug 18 13:18:23 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Aug 19 13:34:48 CEST 2018-->
 </layout-config>

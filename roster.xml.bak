@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Aug 16 21:11:04 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Aug 19 09:54:33 CEST 2018-->
   <roster>
     <locomotive id="rode loc" fileName="rode_loc.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="6" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2018-08-16T19:11:04Z</dateUpdated>
+      <dateUpdated>2018-08-16T19:11:42Z</dateUpdated>
       <decoder model="LD-G-32" family="Multiprotocol Decoder" comment="" />
       <locoaddress>
         <dcclocoaddress number="6" longaddress="no" />
