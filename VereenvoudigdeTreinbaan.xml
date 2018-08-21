@@ -8,89 +8,257 @@
     <modifier />
   </jmriversion>
   <sensors class="jmri.jmrix.tams.configurexml.TamsSensorManagerXml">
-    <sensor inverted="false">
+    <globalDebounceTimers>
+      <goingActive>0</goingActive>
+      <goingInActive>100</goingInActive>
+    </globalDebounceTimers>
+    <sensor inverted="true">
       <systemName>TS0:01</systemName>
       <userName>TSBM1:01</userName>
       <comment>Tams Bezetmelder 1:01</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:02</systemName>
       <userName>TSBM1:02</userName>
-      <comment>Tams Bezetmelder 1:02</comment>
+      <comment>Tams Bezetmelder 1:02  aangepaste versie: met Logix ook gemapt naar IBM2:01</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:03</systemName>
       <userName>TSBM1:03</userName>
       <comment>Tams Bezetmelder 1:03</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:04</systemName>
       <userName>TSBM1:04</userName>
       <comment>Tams Bezetmelder 1:04</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:05</systemName>
       <userName>TSBM1:05</userName>
       <comment>Tams Bezetmelder 1:05</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:06</systemName>
       <userName>TSBM1:06</userName>
       <comment>Tams Bezetmelder 1:06</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:07</systemName>
       <userName>TSBM1:07</userName>
       <comment>Tams Bezetmelder 1:07</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:08</systemName>
       <userName>TSBM1:08</userName>
-      <comment>Tams Bezetmelder 1:08</comment>
+      <comment>Tams Bezetmelder 1:08 aangepaste versie: met Logix ook gemapt naar IBM2:07</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:09</systemName>
       <userName>TSBM1:09</userName>
       <comment>Tams Bezetmelder 1:09</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:10</systemName>
       <userName>TSBM1:10</userName>
-      <comment>Tams Bezetmelder 1:10</comment>
+      <comment>Tams Bezetmelder 1:10 aangepaste versie: met Logix ook gemapt naar IBM2:09</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:11</systemName>
       <userName>TSBM1:11</userName>
       <comment>Tams Bezetmelder 1:11</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:12</systemName>
       <userName>TSBM1:12</userName>
-      <comment>Tams Bezetmelder 1:12</comment>
+      <comment>Tams Bezetmelder 1:12 aangepaste versie: met Logix ook gemapt naar IBM2:11</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:13</systemName>
       <userName>TSBM1:13</userName>
       <comment>Tams Bezetmelder 1:13</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:14</systemName>
       <userName>TSBM1:14</userName>
-      <comment>Tams Bezetmelder 1:14</comment>
+      <comment>Tams Bezetmelder 1:14 aangepaste versie: met Logix  ook gemapt naar IBM2:13</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:15</systemName>
       <userName>TSBM1:15</userName>
       <comment>Tams Bezetmelder 1:15</comment>
     </sensor>
-    <sensor inverted="false">
+    <sensor inverted="true">
       <systemName>TS0:16</systemName>
       <userName>TSBM1:16</userName>
-      <comment>Tams Bezetmelder 1:16</comment>
+      <comment>Tams Bezetmelder 1:16 aangepaste versie: met Logix ook gemapt naar IBM2:15</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:01</systemName>
+      <userName>TSBM2:01</userName>
+      <comment>Tams Bezetmelder 2:01</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:02</systemName>
+      <userName>TSBM2:02</userName>
+      <comment>Tams Bezetmelder 2:02</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:03</systemName>
+      <userName>TSBM2:03</userName>
+      <comment>Tams Bezetmelder 2:03</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:04</systemName>
+      <userName>TSBM2:04</userName>
+      <comment>Tams Bezetmelder 2:04</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:05</systemName>
+      <userName>TSBM2:05</userName>
+      <comment>Tams Bezetmelder 2:05</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:06</systemName>
+      <userName>TSBM2:06</userName>
+      <comment>Tams Bezetmelder 2:06</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:07</systemName>
+      <userName>TSBM2:07</userName>
+      <comment>Tams Bezetmelder 2:07</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:08</systemName>
+      <userName>TSBM2:08</userName>
+      <comment>Tams Bezetmelder 2:08 </comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:09</systemName>
+      <userName>TSBM2:09</userName>
+      <comment>Tams Bezetmelder 2:09</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:10</systemName>
+      <userName>TSBM2:10</userName>
+      <comment>Tams Bezetmelder 2:10</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:11</systemName>
+      <userName>TSBM2:11</userName>
+      <comment>Tams Bezetmelder 2:11</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:12</systemName>
+      <userName>TSBM2:12</userName>
+      <comment>Tams Bezetmelder 2:12</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:13</systemName>
+      <userName>TSBM2:13</userName>
+      <comment>Tams Bezetmelder 2:13</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:14</systemName>
+      <userName>TSBM2:14</userName>
+      <comment>Tams Bezetmelder 2:14</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:15</systemName>
+      <userName>TSBM2:15</userName>
+      <comment>Tams Bezetmelder 2:15</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS1:16</systemName>
+      <userName>TSBM2:16</userName>
+      <comment>Tams Bezetmelder 2:16</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:01</systemName>
+      <userName>TSBM3:01</userName>
+      <comment>Tams Bezetmelder 3:01</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:02</systemName>
+      <userName>TSBM3:02</userName>
+      <comment>Tams Bezetmelder 3:02</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:03</systemName>
+      <userName>TSBM3:03</userName>
+      <comment>Tams Bezetmelder 3:03</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:04</systemName>
+      <userName>TSBM3:04</userName>
+      <comment>Tams Bezetmelder 3:04</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:05</systemName>
+      <userName>TSBM3:05</userName>
+      <comment>Tams Bezetmelder 3:05</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:06</systemName>
+      <userName>TSBM3:06</userName>
+      <comment>Tams Bezetmelder 3:06</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:07</systemName>
+      <userName>TSBM3:07</userName>
+      <comment>Tams Bezetmelder 3:07</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:08</systemName>
+      <userName>TSBM3:08</userName>
+      <comment>Tams Bezetmelder 3:08</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:09</systemName>
+      <userName>TSBM3:09</userName>
+      <comment>Tams Bezetmelder 3:09</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:10</systemName>
+      <userName>TSBM3:10</userName>
+      <comment>Tams Bezetmelder 3:10</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:11</systemName>
+      <userName>TSBM3:11</userName>
+      <comment>Tams Bezetmelder 3:11</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:12</systemName>
+      <userName>TSBM3:12</userName>
+      <comment>Tams Bezetmelder 3:12</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:13</systemName>
+      <userName>TSBM3:13</userName>
+      <comment>Tams Bezetmelder 3:13</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:14</systemName>
+      <userName>TSBM3:14</userName>
+      <comment>Tams Bezetmelder 3:14</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:15</systemName>
+      <userName>TSBM3:15</userName>
+      <comment>Tams Bezetmelder 3:15</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS2:16</systemName>
+      <userName>TSBM3:16</userName>
+      <comment>Tams Bezetmelder 3:16</comment>
     </sensor>
   </sensors>
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
     <defaultInitialState>inactive</defaultInitialState>
+    <globalDebounceTimers>
+      <goingActive>0</goingActive>
+      <goingInActive>100</goingInActive>
+    </globalDebounceTimers>
     <sensor inverted="false">
       <systemName>IS801</systemName>
       <userName>IBM1:01</userName>
@@ -385,14 +553,9 @@
       <systemName>ISIVBM1:01</systemName>
       <userName>IVBM1:01</userName>
     </sensor>
-    <sensor inverted="false">
-      <systemName>ISTS01:01</systemName>
-      <userName>TSBM2:01</userName>
-      <comment>dEZE MOET GEWIJZIGD WORDEN NAAR EXTERNE BEZET MELDER</comment>
-    </sensor>
   </sensors>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="1:34 PM">
+    <memory value="10:13 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -1235,22 +1398,247 @@
     <logix userName="LxIBM1:02" enabled="yes">
       <systemName>IX:AUTO:0002</systemName>
       <userName>LxIBM1:02</userName>
-      <comment>Set &amp; Reset IBM2:01</comment>
+      <comment>Set &amp; Reset IBM1:02</comment>
       <logixConditional systemName="IX:AUTO:0002C1" order="0" />
       <logixConditional systemName="IX:AUTO:0002C2" order="1" />
     </logix>
-    <logix userName="LxVB2:01" enabled="no">
+    <logix userName="LxIBM1:03" enabled="yes">
       <systemName>IX:AUTO:0003</systemName>
-      <userName>LxVB2:01</userName>
+      <userName>LxIBM1:03</userName>
+      <comment>Set &amp; Reset IBM1:03</comment>
       <logixConditional systemName="IX:AUTO:0003C1" order="0" />
       <logixConditional systemName="IX:AUTO:0003C2" order="1" />
-      <logixConditional systemName="IX:AUTO:0003C3" order="2" />
-      <logixConditional systemName="IX:AUTO:0003C4" order="3" />
     </logix>
-    <logix userName="BepaalRijrichting" enabled="no">
+    <logix userName="LxIBM1:04" enabled="yes">
       <systemName>IX:AUTO:0004</systemName>
-      <userName>BepaalRijrichting</userName>
+      <userName>LxIBM1:04</userName>
+      <comment>Set &amp; Reset IBM1:04</comment>
       <logixConditional systemName="IX:AUTO:0004C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0004C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:05" enabled="yes">
+      <systemName>IX:AUTO:0005</systemName>
+      <userName>LxIBM1:05</userName>
+      <comment>Set &amp; Reset IBM1:05</comment>
+      <logixConditional systemName="IX:AUTO:0005C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0005C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:06" enabled="yes">
+      <systemName>IX:AUTO:0006</systemName>
+      <userName>LxIBM1:06</userName>
+      <comment>Set &amp; Reset IBM1:06</comment>
+      <logixConditional systemName="IX:AUTO:0006C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0006C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:07" enabled="yes">
+      <systemName>IX:AUTO:0007</systemName>
+      <userName>LxIBM1:07</userName>
+      <comment>Set &amp; Reset IBM1:07</comment>
+      <logixConditional systemName="IX:AUTO:0007C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0007C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:08" enabled="yes">
+      <systemName>IX:AUTO:0008</systemName>
+      <userName>LxIBM1:08</userName>
+      <comment>Set &amp; Reset IBM1:08</comment>
+      <logixConditional systemName="IX:AUTO:0008C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0008C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:09" enabled="yes">
+      <systemName>IX:AUTO:0009</systemName>
+      <userName>LxIBM1:09</userName>
+      <comment>Set &amp; Reset IBM1:09</comment>
+      <logixConditional systemName="IX:AUTO:0009C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0009C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:10" enabled="yes">
+      <systemName>IX:AUTO:0010</systemName>
+      <userName>LxIBM1:10</userName>
+      <comment>Set &amp; Reset IBM1:10</comment>
+      <logixConditional systemName="IX:AUTO:0010C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0010C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:11" enabled="yes">
+      <systemName>IX:AUTO:0011</systemName>
+      <userName>LxIBM1:11</userName>
+      <comment>Set &amp; Reset IBM1:11</comment>
+      <logixConditional systemName="IX:AUTO:0011C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0011C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:12" enabled="yes">
+      <systemName>IX:AUTO:0012</systemName>
+      <userName>LxIBM1:12</userName>
+      <comment>Set &amp; Reset IBM1:12</comment>
+      <logixConditional systemName="IX:AUTO:0012C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0012C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:13" enabled="yes">
+      <systemName>IX:AUTO:0013</systemName>
+      <userName>LxIBM1:13</userName>
+      <comment>Set &amp; Reset IBM1:13</comment>
+      <logixConditional systemName="IX:AUTO:0013C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0013C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:14" enabled="yes">
+      <systemName>IX:AUTO:0014</systemName>
+      <userName>LxIBM1:14</userName>
+      <comment>Set &amp; Reset IBM1:14</comment>
+      <logixConditional systemName="IX:AUTO:0014C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0014C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:15" enabled="yes">
+      <systemName>IX:AUTO:0015</systemName>
+      <userName>LxIBM1:15</userName>
+      <comment>Set &amp; Reset IBM1:15</comment>
+      <logixConditional systemName="IX:AUTO:0015C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0015C2" order="1" />
+    </logix>
+    <logix userName="LxIBM1:16" enabled="yes">
+      <systemName>IX:AUTO:0016</systemName>
+      <userName>LxIBM1:16</userName>
+      <comment>Set &amp; Reset IBM1:16</comment>
+      <logixConditional systemName="IX:AUTO:0016C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0016C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:01" enabled="yes">
+      <systemName>IX:AUTO:0017</systemName>
+      <userName>LxIBM2:01</userName>
+      <comment>Set &amp; Reset IBM2:01 aangepaste versie: externe TSBM1:02 is hier ook opgemapt</comment>
+      <logixConditional systemName="IX:AUTO:0017C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0017C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:02" enabled="yes">
+      <systemName>IX:AUTO:0018</systemName>
+      <userName>LxIBM2:02</userName>
+      <comment>Set &amp; Reset IBM2:02</comment>
+      <logixConditional systemName="IX:AUTO:0018C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0018C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:03" enabled="yes">
+      <systemName>IX:AUTO:0019</systemName>
+      <userName>LxIBM2:03</userName>
+      <comment>Set &amp; Reset IBM2:03</comment>
+      <logixConditional systemName="IX:AUTO:0019C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0019C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:04" enabled="yes">
+      <systemName>IX:AUTO:0020</systemName>
+      <userName>LxIBM2:04</userName>
+      <comment>Set &amp; Reset IBM2:04</comment>
+      <logixConditional systemName="IX:AUTO:0020C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0020C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:05" enabled="yes">
+      <systemName>IX:AUTO:0021</systemName>
+      <userName>LxIBM2:05</userName>
+      <comment>Set &amp; Reset IBM2:05</comment>
+      <logixConditional systemName="IX:AUTO:0021C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0021C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:06" enabled="yes">
+      <systemName>IX:AUTO:0022</systemName>
+      <userName>LxIBM2:06</userName>
+      <comment>Set &amp; Reset IBM2:06</comment>
+      <logixConditional systemName="IX:AUTO:0022C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0022C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:07" enabled="yes">
+      <systemName>IX:AUTO:0023</systemName>
+      <userName>LxIBM2:07</userName>
+      <comment>Set &amp; Reset IBM2:07 aangepaste versie: externe TSBM1:08 is hier ook opgemapt</comment>
+      <logixConditional systemName="IX:AUTO:0023C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0023C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:08" enabled="yes">
+      <systemName>IX:AUTO:0024</systemName>
+      <userName>LxIBM2:08</userName>
+      <comment>Set &amp; Reset IBM2:08</comment>
+      <logixConditional systemName="IX:AUTO:0024C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0024C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:09" enabled="yes">
+      <systemName>IX:AUTO:0025</systemName>
+      <userName>LxIBM2:09</userName>
+      <comment>Set &amp; Reset IBM2:09 aangepaste versie: externe TSBM1:10 is hier ook opgemapt</comment>
+      <logixConditional systemName="IX:AUTO:0025C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0025C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:10" enabled="yes">
+      <systemName>IX:AUTO:0026</systemName>
+      <userName>LxIBM2:10</userName>
+      <comment>Set &amp; Reset IBM2:10</comment>
+      <logixConditional systemName="IX:AUTO:0026C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0026C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:11" enabled="yes">
+      <systemName>IX:AUTO:0027</systemName>
+      <userName>LxIBM2:11</userName>
+      <comment>Set &amp; Reset IBM2:11  aangepaste versie: externe TSBM1:12 is hier ook opgemapt</comment>
+      <logixConditional systemName="IX:AUTO:0027C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0027C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:12" enabled="yes">
+      <systemName>IX:AUTO:0028</systemName>
+      <userName>LxIBM2:12</userName>
+      <comment>Set &amp; Reset IBM2:12</comment>
+      <logixConditional systemName="IX:AUTO:0028C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0028C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:13" enabled="yes">
+      <systemName>IX:AUTO:0029</systemName>
+      <userName>LxIBM2:13</userName>
+      <comment>Set &amp; Reset IBM2:13  aangepaste versie: externe TSBM1:13 is hier ook opgemapt</comment>
+      <logixConditional systemName="IX:AUTO:0029C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0029C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:14" enabled="yes">
+      <systemName>IX:AUTO:0030</systemName>
+      <userName>LxIBM2:14</userName>
+      <comment>Set &amp; Reset IBM2:14</comment>
+      <logixConditional systemName="IX:AUTO:0030C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0030C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:15" enabled="yes">
+      <systemName>IX:AUTO:0031</systemName>
+      <userName>LxIBM2:15</userName>
+      <comment>Set &amp; Reset IBM2:15  aangepaste versie: externe TSBM1:15 is hier ook opgemapt</comment>
+      <logixConditional systemName="IX:AUTO:0031C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0031C2" order="1" />
+    </logix>
+    <logix userName="LxIBM2:16" enabled="yes">
+      <systemName>IX:AUTO:0032</systemName>
+      <userName>LxIBM2:16</userName>
+      <comment>Set &amp; Reset IBM2:16</comment>
+      <logixConditional systemName="IX:AUTO:0032C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0032C2" order="1" />
+    </logix>
+    <logix userName="LxIBM3:01" enabled="yes">
+      <systemName>IX:AUTO:0034</systemName>
+      <userName>LxIBM3:01</userName>
+      <comment>Set &amp; Reset IBM3:01 aangepaste versie: IBM3:01 volgt IBM1:07</comment>
+      <logixConditional systemName="IX:AUTO:0034C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0034C2" order="1" />
+    </logix>
+    <logix userName="LxIBM3:03" enabled="yes">
+      <systemName>IX:AUTO:0035</systemName>
+      <userName>LxIBM3:03</userName>
+      <comment>Set &amp; Reset IBM3:03 aangepaste versie: IBM3:03 volgt IBM2:01</comment>
+      <logixConditional systemName="IX:AUTO:0035C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0035C2" order="1" />
+    </logix>
+    <logix userName="LxIBM4:01" enabled="yes">
+      <systemName>IX:AUTO:0036</systemName>
+      <userName>LxIBM4:01</userName>
+      <comment>Set &amp; Reset IBM4:01 aangepaste versie: IBM4:01 volgt IBM1:15</comment>
+      <logixConditional systemName="IX:AUTO:0036C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0036C2" order="1" />
+    </logix>
+    <logix userName="LxIBM4:03" enabled="yes">
+      <systemName>IX:AUTO:0037</systemName>
+      <userName>LxIBM4:03</userName>
+      <comment>Set &amp; Reset IBM4:03 aangepaste versie: IBM4:01 volgt IBM2:13</comment>
+      <logixConditional systemName="IX:AUTO:0037C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0037C2" order="1" />
     </logix>
   </logixs>
   <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
@@ -1263,7 +1651,7 @@
     <conditional systemName="IX:AUTO:0001C2" userName="SetIBM1:01" antecedent="R1" logicType="1" triggerOnChange="yes">
       <systemName>IX:AUTO:0001C2</systemName>
       <userName>SetIBM1:01</userName>
-      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TS0:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="9" systemName="IBM1:01" data="2" delay="0" string="" />
     </conditional>
     <conditional systemName="IX:AUTO:0002C1" userName="ReSetIBM1:02" antecedent="R1" logicType="1" triggerOnChange="yes">
@@ -1275,38 +1663,428 @@
     <conditional systemName="IX:AUTO:0002C2" userName="SetIBM1:02" antecedent="R1" logicType="1" triggerOnChange="yes">
       <systemName>IX:AUTO:0002C2</systemName>
       <userName>SetIBM1:02</userName>
-      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TS0:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="9" systemName="IBM1:02" data="2" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0003C1" userName="SetVB2:01_Condition1" antecedent="R1" logicType="3" triggerOnChange="no">
+    <conditional systemName="IX:AUTO:0003C1" userName="ReSetIBM1:03" antecedent="R1" logicType="1" triggerOnChange="yes">
       <systemName>IX:AUTO:0003C1</systemName>
-      <userName>SetVB2:01_Condition1</userName>
-      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalAction option="1" type="9" systemName="IVBM2:01" data="2" delay="0" string="" />
+      <userName>ReSetIBM1:03</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:03" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:03" data="4" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0003C2" userName="SetVB2:01_Condition2" antecedent="R1 and R2" logicType="3" triggerOnChange="no">
+    <conditional systemName="IX:AUTO:0003C2" userName="SetIBM1:03" antecedent="R1" logicType="1" triggerOnChange="yes">
       <systemName>IX:AUTO:0003C2</systemName>
-      <userName>SetVB2:01_Condition2</userName>
-      <conditionalStateVariable operator="5" negated="no" type="2" systemName="TSBM1:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalStateVariable operator="1" negated="no" type="23" systemName="RijrichtingIsWijzerzin" dataString="ONWAAR" num1="3" num2="0" triggersCalc="yes" />
-      <conditionalAction option="1" type="9" systemName="IVBM2:01" data="2" delay="0" string="" />
+      <userName>SetIBM1:03</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:03" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:03" data="2" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0003C3" userName="ResetVB2:01_Condition1" antecedent="R1 and R2" logicType="1" triggerOnChange="no">
-      <systemName>IX:AUTO:0003C3</systemName>
-      <userName>ResetVB2:01_Condition1</userName>
-      <conditionalStateVariable operator="4" negated="no" type="2" systemName="TSBM1:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalStateVariable operator="1" negated="no" type="23" systemName="RijrichtingIsWijzerzin" dataString="WAAR" num1="3" num2="0" triggersCalc="yes" />
-      <conditionalAction option="1" type="9" systemName="IVBM2:01" data="4" delay="0" string="" />
-    </conditional>
-    <conditional systemName="IX:AUTO:0003C4" userName="ResetVB2:01_Condition2" antecedent="R1 and R2" logicType="1" triggerOnChange="no">
-      <systemName>IX:AUTO:0003C4</systemName>
-      <userName>ResetVB2:01_Condition2</userName>
-      <conditionalStateVariable operator="4" negated="no" type="2" systemName="TSBM2:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalStateVariable operator="1" negated="no" type="23" systemName="RijrichtingIsWijzerzin" dataString="ONWAAR" num1="3" num2="0" triggersCalc="yes" />
-      <conditionalAction option="1" type="9" systemName="IVBM2:01" data="4" delay="0" string="" />
-    </conditional>
-    <conditional systemName="IX:AUTO:0004C1" antecedent="R1" logicType="1" triggerOnChange="yes">
+    <conditional systemName="IX:AUTO:0004C1" userName="ReSetIBM1:04" antecedent="R1" logicType="1" triggerOnChange="yes">
       <systemName>IX:AUTO:0004C1</systemName>
+      <userName>ReSetIBM1:04</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:04" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:04" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0004C2" userName="SetIBM1:04" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0004C2</systemName>
+      <userName>SetIBM1:04</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:04" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:04" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0005C1" userName="ReSetIBM1:05" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0005C1</systemName>
+      <userName>ReSetIBM1:05</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:05" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:05" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0005C2" userName="SetIBM1:05" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0005C2</systemName>
+      <userName>SetIBM1:05</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:05" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:05" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0006C1" userName="ReSetIBM1:06" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0006C1</systemName>
+      <userName>ReSetIBM1:06</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:06" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:06" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0006C2" userName="SetIBM1:06" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0006C2</systemName>
+      <userName>SetIBM1:06</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:06" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:06" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0007C1" userName="ReSetIBM1:07" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0007C1</systemName>
+      <userName>ReSetIBM1:07</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:07" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:07" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0007C2" userName="SetIBM1:07" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0007C2</systemName>
+      <userName>SetIBM1:07</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:07" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:07" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0008C1" userName="ReSetIBM1:08" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0008C1</systemName>
+      <userName>ReSetIBM1:08</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:08" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:08" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0008C2" userName="SetIBM1:08" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0008C2</systemName>
+      <userName>SetIBM1:08</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:08" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:08" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0009C1" userName="ReSetIBM1:09" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0009C1</systemName>
+      <userName>ReSetIBM1:09</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:09" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:09" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0009C2" userName="SetIBM1:09" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0009C2</systemName>
+      <userName>SetIBM1:09</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:09" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:09" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0010C1" userName="ReSetIBM1:10" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0010C1</systemName>
+      <userName>ReSetIBM1:10</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:10" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:10" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0010C2" userName="SetIBM1:10" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0010C2</systemName>
+      <userName>SetIBM1:10</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:10" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:10" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0011C1" userName="ReSetIBM1:11" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0011C1</systemName>
+      <userName>ReSetIBM1:11</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:11" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:11" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0011C2" userName="SetIBM1:11" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0011C2</systemName>
+      <userName>SetIBM1:11</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:11" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:11" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0012C1" userName="ReSetIBM1:12" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0012C1</systemName>
+      <userName>ReSetIBM1:12</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:12" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:12" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0012C2" userName="SetIBM1:12" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0012C2</systemName>
+      <userName>SetIBM1:12</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:12" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:12" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0013C1" userName="ReSetIBM1:13" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0013C1</systemName>
+      <userName>ReSetIBM1:13</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:13" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:13" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0013C2" userName="SetIBM1:13" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0013C2</systemName>
+      <userName>SetIBM1:13</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:13" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:13" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0014C1" userName="ReSetIBM1:14" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0014C1</systemName>
+      <userName>ReSetIBM1:14</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:14" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:14" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0014C2" userName="SetIBM1:14" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0014C2</systemName>
+      <userName>SetIBM1:14</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:14" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:14" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0015C1" userName="ReSetIBM1:15" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0015C1</systemName>
+      <userName>ReSetIBM1:15</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:15" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:15" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0015C2" userName="SetIBM1:15" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0015C2</systemName>
+      <userName>SetIBM1:15</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:15" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:15" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0016C1" userName="ReSetIBM1:16" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0016C1</systemName>
+      <userName>ReSetIBM1:16</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:16" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM1:16" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0016C2" userName="SetIBM1:16" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0016C2</systemName>
+      <userName>SetIBM1:16</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM1:16" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM1:16" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0017C1" userName="ReSetIBM2:01" antecedent="R1 and R2" logicType="2" triggerOnChange="no">
+      <systemName>IX:AUTO:0017C1</systemName>
+      <userName>ReSetIBM2:01</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:01" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0017C2" userName="SetIBM2:01" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0017C2</systemName>
+      <userName>SetIBM2:01</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:01" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0018C1" userName="ReSetIBM2:02" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0018C1</systemName>
+      <userName>ReSetIBM2:02</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:02" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0018C2" userName="SetIBM2:02" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0018C2</systemName>
+      <userName>SetIBM2:02</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:02" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0019C1" userName="ReSetIBM2:03" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0019C1</systemName>
+      <userName>ReSetIBM2:03</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:03" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:03" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0019C2" userName="SetIBM2:03" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0019C2</systemName>
+      <userName>SetIBM2:03</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:03" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:03" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0020C1" userName="ReSetIBM2:04" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0020C1</systemName>
+      <userName>ReSetIBM2:04</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:04" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:04" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0020C2" userName="SetIBM2:04" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0020C2</systemName>
+      <userName>SetIBM2:04</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:04" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:04" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0021C1" userName="ReSetIBM2:05" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0021C1</systemName>
+      <userName>ReSetIBM2:05</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:05" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:05" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0021C2" userName="SetIBM2:05" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0021C2</systemName>
+      <userName>SetIBM2:05</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:05" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:05" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0022C1" userName="ReSetIBM2:06" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0022C1</systemName>
+      <userName>ReSetIBM2:06</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:06" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:06" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0022C2" userName="SetIBM2:06" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0022C2</systemName>
+      <userName>SetIBM2:06</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:06" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:06" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0023C1" userName="ReSetIBM2:07" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0023C1</systemName>
+      <userName>ReSetIBM2:07</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:07" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:08" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:07" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0023C2" userName="SetIBM2:07" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0023C2</systemName>
+      <userName>SetIBM2:07</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:07" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:08" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:07" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0024C1" userName="ReSetIBM2:08" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0024C1</systemName>
+      <userName>ReSetIBM2:08</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:08" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:08" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0024C2" userName="SetIBM2:08" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0024C2</systemName>
+      <userName>SetIBM2:08</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:08" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:08" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0025C1" userName="ReSetIBM2:09" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0025C1</systemName>
+      <userName>ReSetIBM2:09</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:09" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:10" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:09" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0025C2" userName="SetIBM2:09" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0025C2</systemName>
+      <userName>SetIBM2:09</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:09" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:10" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:09" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0026C1" userName="ReSetIBM2:10" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0026C1</systemName>
+      <userName>ReSetIBM2:10</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:10" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:10" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0026C2" userName="SetIBM2:10" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0026C2</systemName>
+      <userName>SetIBM2:10</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:10" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:10" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0027C1" userName="ReSetIBM2:11" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0027C1</systemName>
+      <userName>ReSetIBM2:11</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:11" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:12" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:11" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0027C2" userName="SetIBM2:11" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0027C2</systemName>
+      <userName>SetIBM2:11</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:11" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:12" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:11" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0028C1" userName="ReSetIBM2:12" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0028C1</systemName>
+      <userName>ReSetIBM2:12</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:12" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:12" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0028C2" userName="SetIBM2:12" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0028C2</systemName>
+      <userName>SetIBM2:12</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:12" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:12" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0029C1" userName="ReSetIBM2:13" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0029C1</systemName>
+      <userName>ReSetIBM2:13</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:13" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:14" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:13" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0029C2" userName="SetIBM2:13" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0029C2</systemName>
+      <userName>SetIBM2:13</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:13" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:14" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:13" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0030C1" userName="ReSetIBM2:14" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0030C1</systemName>
+      <userName>ReSetIBM2:14</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:14" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:14" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0030C2" userName="SetIBM2:14" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0030C2</systemName>
+      <userName>SetIBM2:14</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:14" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:14" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0031C1" userName="ReSetIBM2:15" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0031C1</systemName>
+      <userName>ReSetIBM2:15</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:15" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:16" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:15" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0031C2" userName="SetIBM2:15" antecedent="R1 and R2" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0031C2</systemName>
+      <userName>SetIBM2:15</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:15" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:16" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:15" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0032C1" userName="ReSetIBM2:16" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0032C1</systemName>
+      <userName>ReSetIBM2:16</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:16" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM2:16" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0032C2" userName="SetIBM2:16" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0032C2</systemName>
+      <userName>SetIBM2:16</userName>
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:16" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM2:16" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0034C1" userName="ReSetIBM3:01" antecedent="R1" logicType="1" triggerOnChange="no">
+      <systemName>IX:AUTO:0034C1</systemName>
+      <userName>ReSetIBM3:01</userName>
+      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0007C1" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM3:01" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0034C2" userName="SetIBM3:01" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0034C2</systemName>
+      <userName>SetIBM3:01</userName>
+      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0007C2" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM3:01" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0035C1" userName="ReSetIBM3:03" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0035C1</systemName>
+      <userName>ReSetIBM3:03</userName>
+      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0017C1" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM3:03" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0035C2" userName="SetIBM3:03" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0035C2</systemName>
+      <userName>SetIBM3:03</userName>
+      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0017C2" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM3:03" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0036C1" userName="ReSetIBM4:01" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0036C1</systemName>
+      <userName>ReSetIBM4:01</userName>
+      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0015C1" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM4:01" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0036C2" userName="SetIBM4:01" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0036C2</systemName>
+      <userName>SetIBM4:01</userName>
+      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0015C2" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM4:01" data="2" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0037C1" userName="ReSetIBM4:03" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0037C1</systemName>
+      <userName>ReSetIBM4:03</userName>
+      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0029C1" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="2" type="9" systemName="IBM4:03" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0037C2" userName="SetIBM4:03" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0037C2</systemName>
+      <userName>SetIBM4:03</userName>
+      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0029C2" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="IBM4:03" data="2" delay="0" string="" />
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Wed Aug 15 17:23:33 CEST 2018" rate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="0" showbutton="no" />
@@ -1492,104 +2270,109 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun Aug 19 09:34:36 CEST 2018</date>
+      <date>Tue Aug 21 21:21:48 CEST 2018</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun Aug 19 09:34:39 CEST 2018</date>
+      <date>Tue Aug 21 21:21:50 CEST 2018</date>
       <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Sat Aug 18 13:02:45 CEST 2018</date>
+          <date>Tue Aug 21 20:34:29 CEST 2018</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Sat Aug 18 13:02:51 CEST 2018</date>
+          <date>Tue Aug 21 20:34:31 CEST 2018</date>
           <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Thu Aug 16 20:54:50 CEST 2018</date>
+              <date>Tue Aug 21 19:57:16 CEST 2018</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
+              <type>Load with errors</type>
+              <date>Tue Aug 21 19:57:24 CEST 2018</date>
+              <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+            </operation>
+            <operation>
               <type>Load OK</type>
-              <date>Thu Aug 16 20:54:52 CEST 2018</date>
+              <date>Tue Aug 21 19:58:54 CEST 2018</date>
               <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Thu Aug 16 20:48:11 CEST 2018</date>
+                  <date>Sun Aug 19 09:34:36 CEST 2018</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Thu Aug 16 20:48:14 CEST 2018</date>
+                  <date>Sun Aug 19 09:34:39 CEST 2018</date>
                   <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Thu Aug 16 20:46:38 CEST 2018</date>
+                      <date>Sat Aug 18 13:02:45 CEST 2018</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Thu Aug 16 20:46:41 CEST 2018</date>
+                      <date>Sat Aug 18 13:02:51 CEST 2018</date>
                       <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Thu Aug 16 20:44:53 CEST 2018</date>
+                          <date>Thu Aug 16 20:54:50 CEST 2018</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Thu Aug 16 20:44:55 CEST 2018</date>
+                          <date>Thu Aug 16 20:54:52 CEST 2018</date>
                           <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Thu Aug 16 20:45:30 CEST 2018</date>
+                          <date>Thu Aug 16 21:15:03 CEST 2018</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Thu Aug 16 20:48:07 CEST 2018</date>
+                      <date>Sat Aug 18 13:18:23 CEST 2018</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Thu Aug 16 20:48:55 CEST 2018</date>
+                  <date>Sun Aug 19 13:34:48 CEST 2018</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Thu Aug 16 21:15:03 CEST 2018</date>
+              <date>Tue Aug 21 20:04:50 CEST 2018</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Sat Aug 18 13:18:23 CEST 2018</date>
+          <date>Tue Aug 21 20:52:41 CEST 2018</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Aug 19 13:34:48 CEST 2018</date>
+      <date>Tue Aug 21 22:13:18 CEST 2018</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Aug 19 13:34:48 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Tue Aug 21 22:13:18 CEST 2018-->
 </layout-config>
