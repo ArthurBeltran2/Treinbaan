@@ -5,5 +5,13 @@
             <options/>
         </connection>
     </connections>
-    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd"/>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" name="jmri.jmrit.powerpanel.PowerButtonAction" type="Button">
+            <property name="systemPrefix" value=""/>
+        </perform>
+        <perform xmlns="" class="apps.configurexml.PerformFileModelXml" name="preference:VereenvoudigdeTreinbaan.xml" type="XmlFile"/>
+        <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" name="jmri.jmrit.beantable.SensorTableAction" type="Button">
+            <property name="systemPrefix" value=""/>
+        </perform>
+    </startup>
 </auxiliary-configuration>

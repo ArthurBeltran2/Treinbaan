@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
+        <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
+    </classPreferences>
+    <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
+        <comboBox xmlns="" lastSelected="Simulator" name="Tams"/>
+    </comboBoxLastValue>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout.showHelpBar</setting>
+    </settings>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Internal">
+            <columns>
+                <column hidden="false" name="Systeemnaam" order="0" width="46"/>
+                <column hidden="true" name="ForgetState" order="11" width="75"/>
+                <column hidden="false" name="Column4" order="4" width="81"/>
+                <column hidden="false" name="Opmerking" order="3" width="170"/>
+                <column hidden="true" name="Pull Up/Down" order="10" width="75"/>
+                <column hidden="true" name="QueryState" order="12" width="75"/>
+                <column hidden="false" name="Omgekeerd" order="5" width="88"/>
+                <column hidden="true" name="Actief-vertraging" order="8" width="75"/>
+                <column hidden="false" name="Gebruikersnaam" order="1" width="126"/>
+                <column hidden="false" name="Stand" order="2" width="123"/>
+                <column hidden="true" name="Pas programmawaarde voor vertraging toe" order="7" width="75"/>
+                <column hidden="false" name="Column6" order="6" width="62"/>
+                <column hidden="true" name="Inactief-vertraging" order="9" width="75"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="3" sortOrder="DESCENDING"/>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.RailComTableAction:RailCom IDs">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Tams">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.RouteTableAction:Wisselstraten">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalHeadTableAction:Seinschilden">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:Alle">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LRouteTableAction:LRoutes">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:ID Tags">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalGroupTableAction:Seingroepen">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LogixTableAction:Logix">
+            <columns>
+                <column hidden="false" name="Systeemnaam" order="0" width="102"/>
+                <column hidden="false" name="Ingeschakeld" order="2" width="123"/>
+                <column hidden="false" name="Column4" order="4" width="102"/>
+                <column hidden="false" name="Opmerking" order="3" width="460"/>
+                <column hidden="false" name="Gebruikersnaam" order="1" width="142"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TransitTableAction:Trajecten">
+            <columns>
+                <column hidden="false" name="Systeemnaam" order="0" width="78"/>
+                <column hidden="false" name="Stand" order="2" width="175"/>
+                <column hidden="false" name="Column6" order="6" width="86"/>
+                <column hidden="false" name="Column4" order="4" width="81"/>
+                <column hidden="false" name="Opmerking" order="3" width="126"/>
+                <column hidden="false" name="Column5" order="5" width="54"/>
+                <column hidden="false" name="Gebruikersnaam" order="1" width="142"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalMastLogicTableAction:Signalmastlogica">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.AudioTableAction">
+            <columns>
+                <column hidden="false" name="Systeemnaam" order="0" width="46"/>
+                <column hidden="false" name="Omschrijving" order="2" width="406"/>
+                <column hidden="false" name="Column4" order="4" width="81"/>
+                <column hidden="false" name="Opmerking" order="3" width="126"/>
+                <column hidden="false" name="Column5" order="5" width="71"/>
+                <column hidden="false" name="Gebruikersnaam" order="1" width="126"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.ReporterTableAction:Reporters">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:Internal">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:Tams">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.BlockTableAction:Blokken">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalMastTableAction:Seinmasten">
+            <columns>
+                <column hidden="false" name="Systeemnaam" order="0" width="46"/>
+                <column hidden="false" name="Column6" order="6" width="110"/>
+                <column hidden="false" name="Seinbetekenis" order="2" width="169"/>
+                <column hidden="false" name="Verlicht" order="7" width="70"/>
+                <column hidden="false" name="Column4" order="4" width="81"/>
+                <column hidden="false" name="Opmerking" order="3" width="126"/>
+                <column hidden="false" name="Column5" order="5" width="79"/>
+                <column hidden="false" name="Aangehouden" order="8" width="94"/>
+                <column hidden="false" name="Gebruikersnaam" order="1" width="126"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.MemoryTableAction:Geheugenvariabelen">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SectionTableAction:Baanvakken">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Alle">
+            <columns>
+                <column hidden="false" name="Systeemnaam" order="0" width="46"/>
+                <column hidden="true" name="ForgetState" order="11" width="75"/>
+                <column hidden="false" name="Column4" order="4" width="81"/>
+                <column hidden="false" name="Opmerking" order="3" width="524"/>
+                <column hidden="true" name="Pull Up/Down" order="10" width="75"/>
+                <column hidden="true" name="QueryState" order="12" width="75"/>
+                <column hidden="false" name="Omgekeerd" order="5" width="38"/>
+                <column hidden="true" name="Actief-vertraging" order="8" width="75"/>
+                <column hidden="false" name="Gebruikersnaam" order="1" width="126"/>
+                <column hidden="false" name="Stand" order="2" width="123"/>
+                <column hidden="true" name="Pas programmawaarde voor vertraging toe" order="7" width="75"/>
+                <column hidden="false" name="Column6" order="6" width="62"/>
+                <column hidden="true" name="Inactief-vertraging" order="9" width="75"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="3" sortOrder="DESCENDING"/>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:Alle">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:Internal">
+            <columns/>
+        </table>
+    </tableDetails>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="Verschuif Selectie" height="177.0" locX="70.0" locY="30.0" width="302.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.LogixTableAction">
+            <properties>
+                <property>
+                    <key>Edit Mode</key>
+                    <value class="java.lang.String">LISTEDIT</value>
+                </property>
+                <property>
+                    <key>Selection Mode</key>
+                    <value class="java.lang.String">USEMULTI</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.nixieclock.NixieClockFrame:Nixie Klok" height="71.0" locX="31.0" locY="31.0" width="191.0"/>
+        <window xmlns="" class="jmri.jmrix.tams.swing.monitor.TamsMonPane.FilterField">
+            <properties>
+                <property>
+                    <key>jmri.jmrix.tams.swing.monitor.TamsMonPane.FilterField</key>
+                    <value class="java.lang.String"/>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:RailCom IDs" height="1160.0" locX="0.0" locY="0.0" width="1306.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.oblock.TableFrames:OBlock Table" height="610.0" locX="10.0" locY="30.0" width="1116.0"/>
+        <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Voorkeuren" height="459.0" locX="0.0" locY="0.0" width="877.0"/>
+        <window xmlns="" class="Verkeersleider Opties" locX="0.0" locY="0.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="549.0" locX="851.0" locY="601.0" width="1058.0">
+            <properties>
+                <property>
+                    <key>toolBarSide</key>
+                    <value class="java.lang.String">float</value>
+                </property>
+                <property>
+                    <key>DropDownListsDisplayOrder.Kies de naam van de tweede fysieke wissel op de baan.</key>
+                    <value class="java.lang.String">DISPLAYNAME</value>
+                </property>
+                <property>
+                    <key>DropDownListsDisplayOrder</key>
+                    <value class="java.lang.String">USERNAME</value>
+                </property>
+                <property>
+                    <key>zoom</key>
+                    <value class="java.lang.Double">0.75</value>
+                </property>
+                <property>
+                    <key>toolBarFontSize</key>
+                    <value class="java.lang.Float">11.0</value>
+                </property>
+                <property>
+                    <key>DropDownListsDisplayOrder.Kies het adres in van de fysieke wissel op de baan.</key>
+                    <value class="java.lang.String">DISPLAYNAME</value>
+                </property>
+                <property>
+                    <key>DropDownListsDisplayOrder.Kies de Terugmelder bij het te plaatsen symbool, of vul een nieuwe naam in.</key>
+                    <value class="java.lang.String">DISPLAYNAME</value>
+                </property>
+                <property>
+                    <key>DropDownListsDisplayOrder.Kies het Seinschild bij het te plaatsen symbool, of vul een nieuwe naam in.</key>
+                    <value class="java.lang.String">DISPLAYNAME</value>
+                </property>
+                <property>
+                    <key>DropDownListsDisplayOrder.Vul de naam in van het Blok dat hoort bij de nieuwe Wissel, Kruising of Spoorsegment.</key>
+                    <value class="java.lang.String">DISPLAYNAME</value>
+                </property>
+                <property>
+                    <key>DropDownListsDisplayOrder.Selecteer om een Blok-etiket op het paneel te plaatsen met de volgende Shift-klik.</key>
+                    <value class="java.lang.String">DISPLAYNAME</value>
+                </property>
+                <property>
+                    <key>DropDownListsDisplayOrder.Kies de Bezetmelder bij het nieuwe Blok; geen invoer = geen wijziging.</key>
+                    <value class="java.lang.String">DISPLAYNAME</value>
+                </property>
+                <property>
+                    <key>DropDownListsDisplayOrder.Vul de naam in van de Geheugenvariabele die getoond moet worden op het te plaatsen Geheugen-etiket.</key>
+                    <value class="java.lang.String">DISPLAYNAME</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.simpleclock.SimpleClockFrame" height="410.0" locX="0.0" locY="0.0" width="302.0"/>
+        <window xmlns="" class="Wijs Extra Baanvak toe" height="153.0" locX="0.0" locY="0.0" width="264.0"/>
+        <window xmlns="" class="jmri.jmrit.picker.PickFrame" height="382.0" locX="843.0" locY="4.0" width="381.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Logix" height="1160.0" locX="0.0" locY="0.0" width="1141.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.signalmast.AddSignalMastJFrame:Maak/Bewerk Seinmast" locX="281.0" locY="468.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="Kopieer Logix" height="184.0" locX="50.0" locY="30.0" width="496.0"/>
+        <window xmlns="" class="jmri.jmrit.dispatcher.AutoTrainsFrame" locX="974.0" locY="0.0"/>
+        <window xmlns="" class="Voeg Logix toe" height="184.0" locX="50.0" locY="30.0" width="496.0"/>
+        <window xmlns="" class="Bekijk Acties" height="378.0" locX="50.0" locY="60.0" width="778.0"/>
+        <window xmlns="" class="Beschikbare JMRI Rijregelaars" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
+        <window xmlns="" class="Variabele bewerken" height="199.0" locX="145.0" locY="382.0" width="563.0"/>
+        <window xmlns="" class="Plaats Seinmasten bij Blokgrens" locX="70.0" locY="30.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingFrame" locX="281.0" locY="557.0"/>
+        <window xmlns="" class="Actie bewerken" height="199.0" locX="62.0" locY="62.0" width="887.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame">
+            <properties>
+                <property>
+                    <key>dividerLocation</key>
+                    <value class="java.lang.Integer">28</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Baanvakken" height="458.0" locX="0.0" locY="0.0" width="926.0"/>
+        <window xmlns="" class="Maak Traject" height="526.0" locX="129.0" locY="247.0" width="695.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:4" locX="186.0" locY="186.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:2" locX="124.0" locY="124.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame" locX="288.0" locY="516.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:3" locX="155.0" locY="155.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame:1" locX="93.0" locY="93.0"/>
+        <window xmlns="" class="Activeer Nieuwe Trein" locX="124.0" locY="124.0"/>
+        <window xmlns="" class="jmri.jmrit.dispatcher.DispatcherFrame" locX="-4.0" locY="3.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.AbstractTableAction$1" height="1176.0" locX="-8.0" locY="-8.0" width="1936.0"/>
+        <window xmlns="" class="PanelPro" height="299.0" locX="1407.0" locY="304.0" width="499.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Terugmelders:1" height="578.0" locX="537.0" locY="74.0" width="1189.0"/>
+        <window xmlns="" class="jmri.jmrit.analogclock.AnalogClockFrame:Analoge Klok" height="200.0" locX="18.0" locY="780.0" width="200.0"/>
+        <window xmlns="" class="Gereedschapsbalk: My Layout" height="249.0" locX="1413.0" locY="19.0" width="499.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Terugmelders" height="533.0" locX="988.0" locY="103.0" width="926.0"/>
+    </windowDetails>
+</auxiliary-configuration>

@@ -252,6 +252,21 @@
       <userName>TSBM3:16</userName>
       <comment>Tams Bezetmelder 3:16</comment>
     </sensor>
+    <sensor inverted="true">
+      <systemName>TS3:01</systemName>
+      <userName>TSBM4:01</userName>
+      <comment>Tams Bezetmelder 4:01</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS3:02</systemName>
+      <userName>TSBM4:02</userName>
+      <comment>Tams Bezetmelder 4:02</comment>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>TS3:03</systemName>
+      <userName>TSBM4:03</userName>
+      <comment>Tams Bezetmelder 4:03</comment>
+    </sensor>
   </sensors>
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
     <defaultInitialState>inactive</defaultInitialState>
@@ -267,27 +282,22 @@
     <sensor inverted="false">
       <systemName>IS802</systemName>
       <userName>IBM1:02</userName>
-      <comment>Interne Bezetmelder 1:02</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS803</systemName>
       <userName>IBM1:03</userName>
-      <comment>Interne Bezetmelder 1:03</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS804</systemName>
       <userName>IBM1:04</userName>
-      <comment>Interne Bezetmelder 1:04</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS805</systemName>
       <userName>IBM1:05</userName>
-      <comment>Interne Bezetmelder 1:05</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS806</systemName>
       <userName>IBM1:06</userName>
-      <comment>Interne Bezetmelder 1:06</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>ISCLOCKRUNNING</systemName>
@@ -306,7 +316,6 @@
     <sensor inverted="false">
       <systemName>IS808</systemName>
       <userName>IBM1:08</userName>
-      <comment>Interne Bezetmelder 1:08</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS809</systemName>
@@ -316,7 +325,6 @@
     <sensor inverted="false">
       <systemName>IS810</systemName>
       <userName>IBM1:10</userName>
-      <comment>Interne Bezetmelder 1:10</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS811</systemName>
@@ -326,7 +334,6 @@
     <sensor inverted="false">
       <systemName>IS812</systemName>
       <userName>IBM1:12</userName>
-      <comment>Interne Bezetmelder 1:12</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS813</systemName>
@@ -336,7 +343,6 @@
     <sensor inverted="false">
       <systemName>IS814</systemName>
       <userName>IBM1:14</userName>
-      <comment>Interne Bezetmelder 1:14</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS815</systemName>
@@ -367,6 +373,7 @@
     <sensor inverted="false">
       <systemName>IS823</systemName>
       <userName>IBM2:07</userName>
+      <comment>Interne Bezetmelder 2:07</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS824</systemName>
@@ -375,6 +382,7 @@
     <sensor inverted="false">
       <systemName>IS825</systemName>
       <userName>IBM2:09</userName>
+      <comment>Interne Bezetmelder 2:09</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS826</systemName>
@@ -383,6 +391,7 @@
     <sensor inverted="false">
       <systemName>IS827</systemName>
       <userName>IBM2:11</userName>
+      <comment>Interne Bezetmelder 2:11</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS818</systemName>
@@ -399,6 +408,7 @@
     <sensor inverted="false">
       <systemName>IS829</systemName>
       <userName>IBM2:13</userName>
+      <comment>Interne Bezetmelder 2:13</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS830</systemName>
@@ -407,6 +417,7 @@
     <sensor inverted="false">
       <systemName>IS831</systemName>
       <userName>IBM2:15</userName>
+      <comment>Interne Bezetmelder 2:15</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS832</systemName>
@@ -415,6 +426,7 @@
     <sensor inverted="false">
       <systemName>IS833</systemName>
       <userName>IBM3:01</userName>
+      <comment>Interne Bezetmelder 3:01</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS834</systemName>
@@ -423,6 +435,7 @@
     <sensor inverted="false">
       <systemName>IS835</systemName>
       <userName>IBM3:03</userName>
+      <comment>Interne Bezetmelder 3:03</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS836</systemName>
@@ -479,6 +492,7 @@
     <sensor inverted="false">
       <systemName>IS850</systemName>
       <userName>IBM4:01</userName>
+      <comment>Interne Bezetmelder 4:01</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS851</systemName>
@@ -487,6 +501,7 @@
     <sensor inverted="false">
       <systemName>IS852</systemName>
       <userName>IBM4:03</userName>
+      <comment>Interne Bezetmelder 4:03</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS853</systemName>
@@ -545,20 +560,15 @@
       <userName>Reset</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISIVBM2:01</systemName>
-      <userName>IVBM2:01</userName>
-      <comment>Virtuele Vezetmelder set en rest door Logix</comment>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISIVBM1:01</systemName>
       <userName>IVBM1:01</userName>
     </sensor>
   </sensors>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="10:13 PM">
+    <memory value="2:49 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
-    <memory value="1.0">
+    <memory value="100.0">
       <systemName>IMRATEFACTOR</systemName>
     </memory>
     <memory value="onwaar">
@@ -592,16 +602,6 @@
           <value class="java.lang.Boolean">true</value>
         </property>
       </properties>
-      <unlit allowed="no" />
-      <disabledAspects>
-        <disabledAspect>Restricting</disabledAspect>
-        <disabledAspect>Slow Approach</disabledAspect>
-        <disabledAspect>Advance Approach</disabledAspect>
-      </disabledAspects>
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:InfraBel-2013:Block($0011)</systemName>
-      <userName>ISM2:09-2:11</userName>
       <unlit allowed="no" />
       <disabledAspects>
         <disabledAspect>Restricting</disabledAspect>
@@ -901,7 +901,7 @@
       <systemName>IB18</systemName>
       <userName>IB4:01</userName>
     </block>
-    <block systemName="IB1" length="1000.0" curve="0">
+    <block systemName="IB1" length="1100.0" curve="0">
       <systemName>IB1</systemName>
       <userName>IB1:07</userName>
       <permissive>no</permissive>
@@ -909,7 +909,7 @@
       <path todir="64" fromdir="128" block="IB7" />
       <path todir="144" fromdir="96" block="IB3" />
     </block>
-    <block systemName="IB3" length="1000.0" curve="0">
+    <block systemName="IB3" length="1020.0" curve="0">
       <systemName>IB3</systemName>
       <userName>IB1:09</userName>
       <permissive>no</permissive>
@@ -917,7 +917,7 @@
       <path todir="16" fromdir="32" block="IB4" />
       <path todir="96" fromdir="144" block="IB1" />
     </block>
-    <block systemName="IB4" length="1000.0" curve="0">
+    <block systemName="IB4" length="1050.0" curve="0">
       <systemName>IB4</systemName>
       <userName>IB1:11</userName>
       <permissive>no</permissive>
@@ -925,7 +925,7 @@
       <path todir="32" fromdir="16" block="IB3" />
       <path todir="80" fromdir="160" block="IB6" />
     </block>
-    <block systemName="IB6" length="1000.0" curve="1">
+    <block systemName="IB6" length="1370.0" curve="1">
       <systemName>IB6</systemName>
       <userName>IB1:13</userName>
       <permissive>no</permissive>
@@ -933,7 +933,7 @@
       <path todir="160" fromdir="80" block="IB4" />
       <path todir="64" fromdir="128" block="IB18" />
     </block>
-    <block systemName="IB7" length="1000.0" curve="0">
+    <block systemName="IB7" length="840.0" curve="0">
       <systemName>IB7</systemName>
       <userName>IB3:01</userName>
       <permissive>no</permissive>
@@ -941,7 +941,7 @@
       <path todir="64" fromdir="128" block="IB8" />
       <path todir="128" fromdir="64" block="IB1" />
     </block>
-    <block systemName="IB8" length="1000.0" curve="0">
+    <block systemName="IB8" length="999.99805" curve="0">
       <systemName>IB8</systemName>
       <userName>IB1:01</userName>
       <permissive>no</permissive>
@@ -949,7 +949,7 @@
       <path todir="128" fromdir="64" block="IB7" />
       <path todir="64" fromdir="128" block="IB9" />
     </block>
-    <block systemName="IB9" length="1000.0" curve="0">
+    <block systemName="IB9" length="1310.0" curve="0">
       <systemName>IB9</systemName>
       <userName>IB2:01</userName>
       <permissive>no</permissive>
@@ -957,7 +957,7 @@
       <path todir="128" fromdir="64" block="IB8" />
       <path todir="64" fromdir="128" block="IB10" />
     </block>
-    <block systemName="IB10" length="1000.0" curve="0">
+    <block systemName="IB10" length="1270.0" curve="0">
       <systemName>IB10</systemName>
       <userName>IB3:03</userName>
       <permissive>no</permissive>
@@ -965,7 +965,7 @@
       <path todir="128" fromdir="64" block="IB9" />
       <path todir="64" fromdir="128" block="IB11" />
     </block>
-    <block systemName="IB11" length="1000.0" curve="0">
+    <block systemName="IB11" length="2108.2" curve="0">
       <systemName>IB11</systemName>
       <userName>IB2:07</userName>
       <permissive>no</permissive>
@@ -973,7 +973,7 @@
       <path todir="80" fromdir="160" block="IB12" />
       <path todir="128" fromdir="64" block="IB10" />
     </block>
-    <block systemName="IB12" length="1000.0" curve="0">
+    <block systemName="IB12" length="900.0" curve="0">
       <systemName>IB12</systemName>
       <userName>IB2:09</userName>
       <permissive>no</permissive>
@@ -981,7 +981,7 @@
       <path todir="160" fromdir="80" block="IB11" />
       <path todir="16" fromdir="32" block="IB13" />
     </block>
-    <block systemName="IB13" length="1000.0" curve="0">
+    <block systemName="IB13" length="1070.0" curve="0">
       <systemName>IB13</systemName>
       <userName>IB2:11</userName>
       <permissive>no</permissive>
@@ -989,7 +989,7 @@
       <path todir="32" fromdir="16" block="IB12" />
       <path todir="144" fromdir="96" block="IB14" />
     </block>
-    <block systemName="IB14" length="1000.0" curve="1">
+    <block systemName="IB14" length="1050.0" curve="1">
       <systemName>IB14</systemName>
       <userName>IB2:13</userName>
       <permissive>no</permissive>
@@ -997,7 +997,7 @@
       <path todir="96" fromdir="144" block="IB13" />
       <path todir="128" fromdir="64" block="IB15" />
     </block>
-    <block systemName="IB15" length="1000.0" curve="0">
+    <block systemName="IB15" length="710.0" curve="0">
       <systemName>IB15</systemName>
       <userName>IB4:03</userName>
       <permissive>no</permissive>
@@ -1005,7 +1005,7 @@
       <path todir="64" fromdir="128" block="IB14" />
       <path todir="128" fromdir="64" block="IB16" />
     </block>
-    <block systemName="IB16" length="1000.0" curve="0">
+    <block systemName="IB16" length="1570.0" curve="0">
       <systemName>IB16</systemName>
       <userName>IB2:15</userName>
       <permissive>no</permissive>
@@ -1013,7 +1013,7 @@
       <path todir="64" fromdir="128" block="IB15" />
       <path todir="128" fromdir="64" block="IB17" />
     </block>
-    <block systemName="IB17" length="1000.0" curve="0">
+    <block systemName="IB17" length="1240.0" curve="0">
       <systemName>IB17</systemName>
       <userName>IB1:15</userName>
       <permissive>no</permissive>
@@ -1021,7 +1021,7 @@
       <path todir="64" fromdir="128" block="IB16" />
       <path todir="128" fromdir="64" block="IB18" />
     </block>
-    <block systemName="IB18" length="1000.0" curve="0">
+    <block systemName="IB18" length="330.0" curve="0">
       <systemName>IB18</systemName>
       <userName>IB4:01</userName>
       <permissive>no</permissive>
@@ -1044,7 +1044,7 @@
       <systemName>ILB4</systemName>
       <userName>IB1:11</userName>
     </layoutblock>
-    <layoutblock systemName="ILB5" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB5" occupancysensor="IBM3:03" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB5</systemName>
       <userName>IB3:03</userName>
     </layoutblock>
@@ -1191,6 +1191,21 @@
       <transitsection sectionname="IY:AUTO:0009" sequence="10" direction="4" alternate="no" safe="no" />
       <transitsection sectionname="IY:AUTO:0001" sequence="11" direction="4" alternate="no" safe="no" />
     </transit>
+    <transit systemName="IZ2" userName="Traject Start Baanvak 2">
+      <systemName>IZ2</systemName>
+      <userName>Traject Start Baanvak 2</userName>
+      <transitsection sectionname="IY:AUTO:0002" sequence="1" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0003" sequence="2" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0004" sequence="3" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0005" sequence="4" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0006" sequence="5" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0007" sequence="6" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0008" sequence="7" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0009" sequence="8" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0001" sequence="9" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0010" sequence="10" direction="4" alternate="no" safe="no" />
+      <transitsection sectionname="IY:AUTO:0002" sequence="11" direction="4" alternate="no" safe="no" />
+    </transit>
     <transit systemName="IZ3" userName="Traject Start Baanvak 4">
       <systemName>IZ3</systemName>
       <userName>Traject Start Baanvak 4</userName>
@@ -1295,6 +1310,84 @@
   <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
+    <signalmastlogic source="ISM2:15-4:03">
+      <sourceSignalMast>ISM2:15-4:03</sourceSignalMast>
+      <destinationMast destination="ISM4:03-2:13">
+        <destinationSignalMast>ISM4:03-2:13</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM1:09-1:11">
+      <sourceSignalMast>ISM1:09-1:11</sourceSignalMast>
+      <destinationMast destination="ISM1:11-1:13">
+        <destinationSignalMast>ISM1:11-1:13</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM2:11-2:09">
+      <sourceSignalMast>ISM2:11-2:09</sourceSignalMast>
+      <destinationMast destination="ISM2:09-2:07">
+        <destinationSignalMast>ISM2:09-2:07</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM1:01-3:01">
+      <sourceSignalMast>ISM1:01-3:01</sourceSignalMast>
+      <destinationMast destination="ISM3:01-1:07">
+        <destinationSignalMast>ISM3:01-1:07</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM3:01-1:07">
+      <sourceSignalMast>ISM3:01-1:07</sourceSignalMast>
+      <destinationMast destination="ISM1:07-1:09">
+        <destinationSignalMast>ISM1:07-1:09</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM1:07-1:09">
+      <sourceSignalMast>ISM1:07-1:09</sourceSignalMast>
+      <destinationMast destination="ISM1:09-1:11">
+        <destinationSignalMast>ISM1:09-1:11</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
     <signalmastlogic source="ISM1:11-1:13">
       <sourceSignalMast>ISM1:11-1:13</sourceSignalMast>
       <destinationMast destination="ISM1:13-4:01">
@@ -1310,6 +1403,32 @@
     </signalmastlogic>
     <signalmastlogic source="ISM1:13-4:01">
       <sourceSignalMast>ISM1:13-4:01</sourceSignalMast>
+      <destinationMast destination="ISM4:01-1:15">
+        <destinationSignalMast>ISM4:01-1:15</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM4:01-1:15">
+      <sourceSignalMast>ISM4:01-1:15</sourceSignalMast>
+      <destinationMast destination="ISM1:15-2:15">
+        <destinationSignalMast>ISM1:15-2:15</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM1:15-2:15">
+      <sourceSignalMast>ISM1:15-2:15</sourceSignalMast>
       <destinationMast destination="ISM2:15-4:03">
         <destinationSignalMast>ISM2:15-4:03</destinationSignalMast>
         <comment />
@@ -1321,8 +1440,21 @@
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
-    <signalmastlogic source="ISM2:15-4:03">
-      <sourceSignalMast>ISM2:15-4:03</sourceSignalMast>
+    <signalmastlogic source="ISM4:03-2:13">
+      <sourceSignalMast>ISM4:03-2:13</sourceSignalMast>
+      <destinationMast destination="ISM2:13-2:11">
+        <destinationSignalMast>ISM2:13-2:11</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM2:13-2:11">
+      <sourceSignalMast>ISM2:13-2:11</sourceSignalMast>
       <destinationMast destination="ISM2:11-2:09">
         <destinationSignalMast>ISM2:11-2:09</destinationSignalMast>
         <comment />
@@ -1334,8 +1466,8 @@
         <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
-    <signalmastlogic source="ISM2:11-2:09">
-      <sourceSignalMast>ISM2:11-2:09</sourceSignalMast>
+    <signalmastlogic source="ISM2:09-2:07">
+      <sourceSignalMast>ISM2:09-2:07</sourceSignalMast>
       <destinationMast destination="ISM2:07-3:03">
         <destinationSignalMast>ISM2:07-3:03</destinationSignalMast>
         <comment />
@@ -1349,34 +1481,34 @@
     </signalmastlogic>
     <signalmastlogic source="ISM2:07-3:03">
       <sourceSignalMast>ISM2:07-3:03</sourceSignalMast>
+      <destinationMast destination="ISM3:03-2:01">
+        <destinationSignalMast>ISM3:03-2:01</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM3:03-2:01">
+      <sourceSignalMast>ISM3:03-2:01</sourceSignalMast>
+      <destinationMast destination="ISM2:01-1:01">
+        <destinationSignalMast>ISM2:01-1:01</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="ISM2:01-1:01">
+      <sourceSignalMast>ISM2:01-1:01</sourceSignalMast>
       <destinationMast destination="ISM1:01-3:01">
         <destinationSignalMast>ISM1:01-3:01</destinationSignalMast>
-        <comment />
-        <enabled>yes</enabled>
-        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
-        <useLayoutEditor>yes</useLayoutEditor>
-        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
-        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <lockTurnouts>no</lockTurnouts>
-      </destinationMast>
-    </signalmastlogic>
-    <signalmastlogic source="ISM1:01-3:01">
-      <sourceSignalMast>ISM1:01-3:01</sourceSignalMast>
-      <destinationMast destination="ISM1:09-1:11">
-        <destinationSignalMast>ISM1:09-1:11</destinationSignalMast>
-        <comment />
-        <enabled>yes</enabled>
-        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
-        <useLayoutEditor>yes</useLayoutEditor>
-        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
-        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
-        <lockTurnouts>no</lockTurnouts>
-      </destinationMast>
-    </signalmastlogic>
-    <signalmastlogic source="ISM1:09-1:11">
-      <sourceSignalMast>ISM1:09-1:11</sourceSignalMast>
-      <destinationMast destination="ISM1:13-4:01">
-        <destinationSignalMast>ISM1:13-4:01</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -1395,35 +1527,35 @@
       <logixConditional systemName="IX:AUTO:0001C1" order="0" />
       <logixConditional systemName="IX:AUTO:0001C2" order="1" />
     </logix>
-    <logix userName="LxIBM1:02" enabled="yes">
+    <logix userName="LxIBM1:02" enabled="no">
       <systemName>IX:AUTO:0002</systemName>
       <userName>LxIBM1:02</userName>
       <comment>Set &amp; Reset IBM1:02</comment>
       <logixConditional systemName="IX:AUTO:0002C1" order="0" />
       <logixConditional systemName="IX:AUTO:0002C2" order="1" />
     </logix>
-    <logix userName="LxIBM1:03" enabled="yes">
+    <logix userName="LxIBM1:03" enabled="no">
       <systemName>IX:AUTO:0003</systemName>
       <userName>LxIBM1:03</userName>
       <comment>Set &amp; Reset IBM1:03</comment>
       <logixConditional systemName="IX:AUTO:0003C1" order="0" />
       <logixConditional systemName="IX:AUTO:0003C2" order="1" />
     </logix>
-    <logix userName="LxIBM1:04" enabled="yes">
+    <logix userName="LxIBM1:04" enabled="no">
       <systemName>IX:AUTO:0004</systemName>
       <userName>LxIBM1:04</userName>
       <comment>Set &amp; Reset IBM1:04</comment>
       <logixConditional systemName="IX:AUTO:0004C1" order="0" />
       <logixConditional systemName="IX:AUTO:0004C2" order="1" />
     </logix>
-    <logix userName="LxIBM1:05" enabled="yes">
+    <logix userName="LxIBM1:05" enabled="no">
       <systemName>IX:AUTO:0005</systemName>
       <userName>LxIBM1:05</userName>
       <comment>Set &amp; Reset IBM1:05</comment>
       <logixConditional systemName="IX:AUTO:0005C1" order="0" />
       <logixConditional systemName="IX:AUTO:0005C2" order="1" />
     </logix>
-    <logix userName="LxIBM1:06" enabled="yes">
+    <logix userName="LxIBM1:06" enabled="no">
       <systemName>IX:AUTO:0006</systemName>
       <userName>LxIBM1:06</userName>
       <comment>Set &amp; Reset IBM1:06</comment>
@@ -1437,7 +1569,7 @@
       <logixConditional systemName="IX:AUTO:0007C1" order="0" />
       <logixConditional systemName="IX:AUTO:0007C2" order="1" />
     </logix>
-    <logix userName="LxIBM1:08" enabled="yes">
+    <logix userName="LxIBM1:08" enabled="no">
       <systemName>IX:AUTO:0008</systemName>
       <userName>LxIBM1:08</userName>
       <comment>Set &amp; Reset IBM1:08</comment>
@@ -1451,7 +1583,7 @@
       <logixConditional systemName="IX:AUTO:0009C1" order="0" />
       <logixConditional systemName="IX:AUTO:0009C2" order="1" />
     </logix>
-    <logix userName="LxIBM1:10" enabled="yes">
+    <logix userName="LxIBM1:10" enabled="no">
       <systemName>IX:AUTO:0010</systemName>
       <userName>LxIBM1:10</userName>
       <comment>Set &amp; Reset IBM1:10</comment>
@@ -1465,7 +1597,7 @@
       <logixConditional systemName="IX:AUTO:0011C1" order="0" />
       <logixConditional systemName="IX:AUTO:0011C2" order="1" />
     </logix>
-    <logix userName="LxIBM1:12" enabled="yes">
+    <logix userName="LxIBM1:12" enabled="no">
       <systemName>IX:AUTO:0012</systemName>
       <userName>LxIBM1:12</userName>
       <comment>Set &amp; Reset IBM1:12</comment>
@@ -1479,7 +1611,7 @@
       <logixConditional systemName="IX:AUTO:0013C1" order="0" />
       <logixConditional systemName="IX:AUTO:0013C2" order="1" />
     </logix>
-    <logix userName="LxIBM1:14" enabled="yes">
+    <logix userName="LxIBM1:14" enabled="no">
       <systemName>IX:AUTO:0014</systemName>
       <userName>LxIBM1:14</userName>
       <comment>Set &amp; Reset IBM1:14</comment>
@@ -1493,7 +1625,7 @@
       <logixConditional systemName="IX:AUTO:0015C1" order="0" />
       <logixConditional systemName="IX:AUTO:0015C2" order="1" />
     </logix>
-    <logix userName="LxIBM1:16" enabled="yes">
+    <logix userName="LxIBM1:16" enabled="no">
       <systemName>IX:AUTO:0016</systemName>
       <userName>LxIBM1:16</userName>
       <comment>Set &amp; Reset IBM1:16</comment>
@@ -1507,35 +1639,35 @@
       <logixConditional systemName="IX:AUTO:0017C1" order="0" />
       <logixConditional systemName="IX:AUTO:0017C2" order="1" />
     </logix>
-    <logix userName="LxIBM2:02" enabled="yes">
+    <logix userName="LxIBM2:02" enabled="no">
       <systemName>IX:AUTO:0018</systemName>
       <userName>LxIBM2:02</userName>
       <comment>Set &amp; Reset IBM2:02</comment>
       <logixConditional systemName="IX:AUTO:0018C1" order="0" />
       <logixConditional systemName="IX:AUTO:0018C2" order="1" />
     </logix>
-    <logix userName="LxIBM2:03" enabled="yes">
+    <logix userName="LxIBM2:03" enabled="no">
       <systemName>IX:AUTO:0019</systemName>
       <userName>LxIBM2:03</userName>
       <comment>Set &amp; Reset IBM2:03</comment>
       <logixConditional systemName="IX:AUTO:0019C1" order="0" />
       <logixConditional systemName="IX:AUTO:0019C2" order="1" />
     </logix>
-    <logix userName="LxIBM2:04" enabled="yes">
+    <logix userName="LxIBM2:04" enabled="no">
       <systemName>IX:AUTO:0020</systemName>
       <userName>LxIBM2:04</userName>
       <comment>Set &amp; Reset IBM2:04</comment>
       <logixConditional systemName="IX:AUTO:0020C1" order="0" />
       <logixConditional systemName="IX:AUTO:0020C2" order="1" />
     </logix>
-    <logix userName="LxIBM2:05" enabled="yes">
+    <logix userName="LxIBM2:05" enabled="no">
       <systemName>IX:AUTO:0021</systemName>
       <userName>LxIBM2:05</userName>
       <comment>Set &amp; Reset IBM2:05</comment>
       <logixConditional systemName="IX:AUTO:0021C1" order="0" />
       <logixConditional systemName="IX:AUTO:0021C2" order="1" />
     </logix>
-    <logix userName="LxIBM2:06" enabled="yes">
+    <logix userName="LxIBM2:06" enabled="no">
       <systemName>IX:AUTO:0022</systemName>
       <userName>LxIBM2:06</userName>
       <comment>Set &amp; Reset IBM2:06</comment>
@@ -1549,7 +1681,7 @@
       <logixConditional systemName="IX:AUTO:0023C1" order="0" />
       <logixConditional systemName="IX:AUTO:0023C2" order="1" />
     </logix>
-    <logix userName="LxIBM2:08" enabled="yes">
+    <logix userName="LxIBM2:08" enabled="no">
       <systemName>IX:AUTO:0024</systemName>
       <userName>LxIBM2:08</userName>
       <comment>Set &amp; Reset IBM2:08</comment>
@@ -1563,7 +1695,7 @@
       <logixConditional systemName="IX:AUTO:0025C1" order="0" />
       <logixConditional systemName="IX:AUTO:0025C2" order="1" />
     </logix>
-    <logix userName="LxIBM2:10" enabled="yes">
+    <logix userName="LxIBM2:10" enabled="no">
       <systemName>IX:AUTO:0026</systemName>
       <userName>LxIBM2:10</userName>
       <comment>Set &amp; Reset IBM2:10</comment>
@@ -1577,7 +1709,7 @@
       <logixConditional systemName="IX:AUTO:0027C1" order="0" />
       <logixConditional systemName="IX:AUTO:0027C2" order="1" />
     </logix>
-    <logix userName="LxIBM2:12" enabled="yes">
+    <logix userName="LxIBM2:12" enabled="no">
       <systemName>IX:AUTO:0028</systemName>
       <userName>LxIBM2:12</userName>
       <comment>Set &amp; Reset IBM2:12</comment>
@@ -1587,11 +1719,11 @@
     <logix userName="LxIBM2:13" enabled="yes">
       <systemName>IX:AUTO:0029</systemName>
       <userName>LxIBM2:13</userName>
-      <comment>Set &amp; Reset IBM2:13  aangepaste versie: externe TSBM1:13 is hier ook opgemapt</comment>
+      <comment>Set &amp; Reset IBM2:13  aangepaste versie: externe TSBM1:14 is hier ook opgemapt</comment>
       <logixConditional systemName="IX:AUTO:0029C1" order="0" />
       <logixConditional systemName="IX:AUTO:0029C2" order="1" />
     </logix>
-    <logix userName="LxIBM2:14" enabled="yes">
+    <logix userName="LxIBM2:14" enabled="no">
       <systemName>IX:AUTO:0030</systemName>
       <userName>LxIBM2:14</userName>
       <comment>Set &amp; Reset IBM2:14</comment>
@@ -1601,11 +1733,11 @@
     <logix userName="LxIBM2:15" enabled="yes">
       <systemName>IX:AUTO:0031</systemName>
       <userName>LxIBM2:15</userName>
-      <comment>Set &amp; Reset IBM2:15  aangepaste versie: externe TSBM1:15 is hier ook opgemapt</comment>
+      <comment>Set &amp; Reset IBM2:15  aangepaste versie: externe TSBM1:16 is hier ook opgemapt</comment>
       <logixConditional systemName="IX:AUTO:0031C1" order="0" />
       <logixConditional systemName="IX:AUTO:0031C2" order="1" />
     </logix>
-    <logix userName="LxIBM2:16" enabled="yes">
+    <logix userName="LxIBM2:16" enabled="no">
       <systemName>IX:AUTO:0032</systemName>
       <userName>LxIBM2:16</userName>
       <comment>Set &amp; Reset IBM2:16</comment>
@@ -1613,32 +1745,32 @@
       <logixConditional systemName="IX:AUTO:0032C2" order="1" />
     </logix>
     <logix userName="LxIBM3:01" enabled="yes">
-      <systemName>IX:AUTO:0034</systemName>
+      <systemName>IX:AUTO:0038</systemName>
       <userName>LxIBM3:01</userName>
-      <comment>Set &amp; Reset IBM3:01 aangepaste versie: IBM3:01 volgt IBM1:07</comment>
-      <logixConditional systemName="IX:AUTO:0034C1" order="0" />
-      <logixConditional systemName="IX:AUTO:0034C2" order="1" />
+      <comment>Set &amp; Reset IBM3:01 aangepaste versie: externe TSBM1:03 is hier ook opgemapt</comment>
+      <logixConditional systemName="IX:AUTO:0038C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0038C2" order="1" />
     </logix>
     <logix userName="LxIBM3:03" enabled="yes">
-      <systemName>IX:AUTO:0035</systemName>
+      <systemName>IX:AUTO:0039</systemName>
       <userName>LxIBM3:03</userName>
-      <comment>Set &amp; Reset IBM3:03 aangepaste versie: IBM3:03 volgt IBM2:01</comment>
-      <logixConditional systemName="IX:AUTO:0035C1" order="0" />
-      <logixConditional systemName="IX:AUTO:0035C2" order="1" />
+      <comment>Set &amp; Reset IBM3:03 aangepaste versie: externe TSBM1:04 is hier ook opgemapt</comment>
+      <logixConditional systemName="IX:AUTO:0039C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0039C2" order="1" />
     </logix>
     <logix userName="LxIBM4:01" enabled="yes">
-      <systemName>IX:AUTO:0036</systemName>
+      <systemName>IX:AUTO:0040</systemName>
       <userName>LxIBM4:01</userName>
-      <comment>Set &amp; Reset IBM4:01 aangepaste versie: IBM4:01 volgt IBM1:15</comment>
-      <logixConditional systemName="IX:AUTO:0036C1" order="0" />
-      <logixConditional systemName="IX:AUTO:0036C2" order="1" />
+      <comment>Set &amp; Reset IBM4:01 aangepaste versie: externe TSBM1:05 is hier ook opgemapt</comment>
+      <logixConditional systemName="IX:AUTO:0040C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0040C2" order="1" />
     </logix>
     <logix userName="LxIBM4:03" enabled="yes">
-      <systemName>IX:AUTO:0037</systemName>
+      <systemName>IX:AUTO:0041</systemName>
       <userName>LxIBM4:03</userName>
-      <comment>Set &amp; Reset IBM4:03 aangepaste versie: IBM4:01 volgt IBM2:13</comment>
-      <logixConditional systemName="IX:AUTO:0037C1" order="0" />
-      <logixConditional systemName="IX:AUTO:0037C2" order="1" />
+      <comment>Set &amp; Reset IBM4:03 aangepaste versie: externe TSBM1:06 is hier ook opgempat</comment>
+      <logixConditional systemName="IX:AUTO:0041C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0041C2" order="1" />
     </logix>
   </logixs>
   <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
@@ -2038,57 +2170,73 @@
       <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM2:16" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="9" systemName="IBM2:16" data="2" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0034C1" userName="ReSetIBM3:01" antecedent="R1" logicType="1" triggerOnChange="no">
-      <systemName>IX:AUTO:0034C1</systemName>
+    <conditional systemName="IX:AUTO:0038C1" userName="ReSetIBM3:01" antecedent="R1 and R2 and R3" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0038C1</systemName>
       <userName>ReSetIBM3:01</userName>
-      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0007C1" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM3:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:03" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:07" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="2" type="9" systemName="IBM3:01" data="4" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0034C2" userName="SetIBM3:01" antecedent="R1" logicType="1" triggerOnChange="yes">
-      <systemName>IX:AUTO:0034C2</systemName>
+    <conditional systemName="IX:AUTO:0038C2" userName="SetIBM3:01" antecedent="R1 and R2 and R3" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0038C2</systemName>
       <userName>SetIBM3:01</userName>
-      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0007C2" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM3:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:03" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:07" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="9" systemName="IBM3:01" data="2" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0035C1" userName="ReSetIBM3:03" antecedent="R1" logicType="1" triggerOnChange="yes">
-      <systemName>IX:AUTO:0035C1</systemName>
+    <conditional systemName="IX:AUTO:0039C1" userName="ReSetIBM3:03" antecedent="R1 and R2 and R3" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0039C1</systemName>
       <userName>ReSetIBM3:03</userName>
-      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0017C1" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM3:03" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:04" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="2" type="9" systemName="IBM3:03" data="4" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0035C2" userName="SetIBM3:03" antecedent="R1" logicType="1" triggerOnChange="yes">
-      <systemName>IX:AUTO:0035C2</systemName>
+    <conditional systemName="IX:AUTO:0039C2" userName="SetIBM3:03" antecedent="R1 and R2 and R3" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0039C2</systemName>
       <userName>SetIBM3:03</userName>
-      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0017C2" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM3:03" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:04" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:02" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="9" systemName="IBM3:03" data="2" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0036C1" userName="ReSetIBM4:01" antecedent="R1" logicType="1" triggerOnChange="yes">
-      <systemName>IX:AUTO:0036C1</systemName>
+    <conditional systemName="IX:AUTO:0040C1" userName="ReSetIBM4:01" antecedent="R1 and R2 and R3" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0040C1</systemName>
       <userName>ReSetIBM4:01</userName>
-      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0015C1" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM4:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:05" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:15" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="2" type="9" systemName="IBM4:01" data="4" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0036C2" userName="SetIBM4:01" antecedent="R1" logicType="1" triggerOnChange="yes">
-      <systemName>IX:AUTO:0036C2</systemName>
+    <conditional systemName="IX:AUTO:0040C2" userName="SetIBM4:01" antecedent="R1 and R2 and R3" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0040C2</systemName>
       <userName>SetIBM4:01</userName>
-      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0015C2" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM4:01" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:05" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:15" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="9" systemName="IBM4:01" data="2" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0037C1" userName="ReSetIBM4:03" antecedent="R1" logicType="1" triggerOnChange="yes">
-      <systemName>IX:AUTO:0037C1</systemName>
+    <conditional systemName="IX:AUTO:0041C1" userName="ReSetIBM4:03" antecedent="R1 and R2 and R3" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0041C1</systemName>
       <userName>ReSetIBM4:03</userName>
-      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0029C1" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM4:03" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:06" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:14" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="2" type="9" systemName="IBM4:03" data="4" delay="0" string="" />
     </conditional>
-    <conditional systemName="IX:AUTO:0037C2" userName="SetIBM4:03" antecedent="R1" logicType="1" triggerOnChange="yes">
-      <systemName>IX:AUTO:0037C2</systemName>
+    <conditional systemName="IX:AUTO:0041C2" userName="SetIBM4:03" antecedent="R1 and R2 and R3" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0041C2</systemName>
       <userName>SetIBM4:03</userName>
-      <conditionalStateVariable operator="4" negated="no" type="5" systemName="IX:AUTO:0029C2" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="1" systemName="TSBM4:03" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:06" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="5" negated="no" type="1" systemName="TSBM1:14" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="9" systemName="IBM4:03" data="2" delay="0" string="" />
     </conditional>
   </conditionals>
-  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Wed Aug 15 17:23:33 CEST 2018" rate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="0" showbutton="no" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="My Layout" x="851" y="564" height="1212" width="1950" windowheight="586" windowwidth="1058" panelheight="1212" panelwidth="1950" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="#CC00CC" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Aug 26 17:23:00 CEST 2018" rate="100.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="2" showbutton="yes" />
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="My Layout" x="851" y="601" height="1212" width="1949" windowheight="549" windowwidth="1058" panelheight="1212" panelwidth="1949" sliders="yes" scrollable="both" editable="no" positionable="no" controlling="yes" animating="yes" showhelpbar="yes" drawgrid="no" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="#CC00CC" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="My Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -2115,109 +2263,150 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="200" y="610" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:07" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="190" y="580" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:07" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="60" y="410" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:09" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="80" y="190" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:11" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="50" y="310" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:11" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="250" y="30" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:13" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="70" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:11" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="470" y="30" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL4:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="170" y="80" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:13" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="630" y="30" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" text="BL1:15" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="330" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:13" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="830" y="30" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" text="BL2:15" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="480" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL4:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="970" y="30" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL4:03" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="630" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:15" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1150" y="30" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:13" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="830" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:15" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1250" y="130" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:11" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="980" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL4:03" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1250" y="410" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:09" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1080" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:13" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1170" y="570" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" text="BL2:07" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1190" y="80" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:13" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="970" y="580" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" text="BL3:03" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1270" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:11" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="830" y="580" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" text="BL2:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1290" y="290" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:11" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="630" y="580" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" text="BL1:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1290" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:09" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="480" y="580" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL3:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1270" y="520" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:09" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="80" y="460" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:09" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1170" y="610" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:07" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="630" y="550" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV1" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1070" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:07" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
-      <tooltip>Text Label</tooltip>
-    </positionablelabel>
-    <positionablelabel x="970" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL3:03" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
-      <tooltip>Text Label</tooltip>
-    </positionablelabel>
-    <positionablelabel x="830" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL2:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
-      <tooltip>Text Label</tooltip>
-    </positionablelabel>
-    <positionablelabel x="630" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
-      <tooltip>Text Label</tooltip>
-    </positionablelabel>
-    <positionablelabel x="480" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL3:01" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
-      <tooltip>Text Label</tooltip>
-    </positionablelabel>
-    <positionablelabel x="70" y="500" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BL1:09" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
-      <tooltip>Text Label</tooltip>
-    </positionablelabel>
-    <positionablelabel x="630" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV1" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
-      <tooltip>Text Label</tooltip>
-    </positionablelabel>
-    <positionablelabel x="830" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV1" size="16" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
-      <tooltip>Text Label</tooltip>
-    </positionablelabel>
-    <signalmasticon signalmast="ISM1:09-1:11" x="45" y="395" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
-      <tooltip>ISM1:09-1:11 (IF$vsm:InfraBel-2013:Block($0004))</tooltip>
-    </signalmasticon>
-    <signalmasticon signalmast="ISM1:13-4:01" x="409" y="54" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
-      <tooltip>ISM1:13-4:01 (IF$vsm:InfraBel-2013:Block($0016))</tooltip>
-    </signalmasticon>
-    <signalmasticon signalmast="ISM2:15-4:03" x="909" y="54" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
-      <tooltip>ISM2:15-4:03 (IF$vsm:InfraBel-2013:Block($0019))</tooltip>
-    </signalmasticon>
-    <signalmasticon signalmast="ISM2:11-2:09" x="1312" y="317" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
-      <tooltip>ISM2:11-2:09 (IF$vsm:InfraBel-2013:Block($0007))</tooltip>
-    </signalmasticon>
-    <signalmasticon signalmast="ISM2:07-3:03" x="1040" y="620" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
-      <tooltip>ISM2:07-3:03 (IF$vsm:InfraBel-2013:Block($0023))</tooltip>
-    </signalmasticon>
-    <signalmasticon signalmast="ISM1:01-3:01" x="540" y="620" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+    <signalmasticon signalmast="ISM1:01-3:01" x="545" y="583" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
       <tooltip>ISM1:01-3:01 (IF$vsm:InfraBel-2013:Block($0026))</tooltip>
     </signalmasticon>
-    <locoicon x="1840" y="1142" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="6" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" icon="yes" dockX="0" dockY="0" rosterentry="rode loc" class="jmri.jmrit.display.configurexml.LocoIconXml">
-      <icon url="program:resources/icons/markers/loco-white.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </icon>
-    </locoicon>
-    <locoicon x="1840" y="1142" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="4" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" icon="yes" dockX="0" dockY="0" rosterentry="Witte Trein" class="jmri.jmrit.display.configurexml.LocoIconXml">
-      <icon url="program:resources/icons/markers/loco-white.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </icon>
-    </locoicon>
+    <signalmasticon signalmast="ISM3:01-1:07" x="445" y="583" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM3:01-1:07 (IF$vsm:InfraBel-2013:Block($0027))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM1:07-1:09" x="105" y="527" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="292" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM1:07-1:09 (IF$vsm:InfraBel-2013:Block($0028))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM1:09-1:11" x="45" y="355" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM1:09-1:11 (IF$vsm:InfraBel-2013:Block($0004))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM1:11-1:13" x="93" y="75" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="22" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM1:11-1:13 (IF$vsm:InfraBel-2013:Block($0015))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM1:13-4:01" x="409" y="14" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM1:13-4:01 (IF$vsm:InfraBel-2013:Block($0016))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM4:01-1:15" x="509" y="14" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM4:01-1:15 (IF$vsm:InfraBel-2013:Block($0029))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM1:15-2:15" x="709" y="14" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM1:15-2:15 (IF$vsm:InfraBel-2013:Block($0018))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM2:15-4:03" x="909" y="14" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM2:15-4:03 (IF$vsm:InfraBel-2013:Block($0019))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM4:03-2:13" x="1009" y="14" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM4:03-2:13 (IF$vsm:InfraBel-2013:Block($0020))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM2:13-2:11" x="1240" y="63" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="113" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM2:13-2:11 (IF$vsm:InfraBel-2013:Block($0021))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM2:09-2:07" x="1260" y="510" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="203" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM2:09-2:07 (IF$vsm:InfraBel-2013:Block($0022))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM2:07-3:03" x="1045" y="583" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM2:07-3:03 (IF$vsm:InfraBel-2013:Block($0023))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM3:03-2:01" x="945" y="583" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM3:03-2:01 (IF$vsm:InfraBel-2013:Block($0024))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM2:01-1:01" x="745" y="583" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM2:01-1:01 (IF$vsm:InfraBel-2013:Block($0025))</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="ISM2:11-2:09" x="1312" y="277" level="9" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="false" degrees="180" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>ISM2:11-2:09 (IF$vsm:InfraBel-2013:Block($0007))</tooltip>
+    </signalmasticon>
+    <positionablelabel x="480" y="550" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV31" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="200" y="550" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV2" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="80" y="440" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV2" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="80" y="210" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV3" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="250" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV3" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="470" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV41" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="630" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV4" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="830" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV4" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="970" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV43" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1150" y="50" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV5" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1250" y="150" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV5" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1250" y="430" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV6" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="1170" y="550" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV6" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="970" y="550" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV33" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="830" y="550" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="BV1" size="16" style="0" red="204" green="0" blue="204" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
     <tracksegment ident="T1" blockname="IB2:09" connect1name="A4" type1="1" connect2name="A21" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="45.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="IB1:11" connect1name="A2" type1="1" connect2name="A15" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="45.00000000000001" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" blockname="IB2:13" connect1name="A3" type1="1" connect2name="A20" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -2242,137 +2431,132 @@
     <tracksegment ident="T23" blockname="IB4:03" connect1name="A24" type1="1" connect2name="A3" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T24" blockname="IB1:15" connect1name="A25" type1="1" connect2name="A23" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T25" blockname="IB2:09" connect1name="A1" type1="1" connect2name="A4" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <positionablepoint ident="A2" type="1" x="40.0" y="250.0" connect1name="T8" connect2name="T3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A3" type="1" x="1040.0" y="50.0" connect1name="T23" connect2name="T4" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A4" type="1" x="1340.0" y="450.0" connect1name="T1" connect2name="T25" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A5" type="1" x="540.0" y="650.0" connect1name="T10" connect2name="T5" westboundsignalmast="ISM1:01-3:01" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A6" type="1" x="240.0" y="650.0" connect1name="T9" connect2name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A7" type="1" x="940.0" y="650.0" connect1name="T16" connect2name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A8" type="1" x="40.0" y="390.0" connect1name="T11" connect2name="T8" westboundsignalmast="ISM1:09-1:11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A9" type="1" x="440.0" y="650.0" connect1name="T5" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A10" type="1" x="740.0" y="650.0" connect1name="T7" connect2name="T10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A11" type="1" x="40.0" y="450.0" connect1name="T2" connect2name="T11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A12" type="1" x="99.0" y="591.0" connect1name="T6" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A13" type="1" x="440.0" y="50.0" connect1name="T13" connect2name="T12" eastboundsignalmast="ISM1:13-4:01" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A14" type="1" x="240.0" y="50.0" connect1name="T14" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A15" type="1" x="99.0" y="109.0" connect1name="T3" connect2name="T14" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A17" type="1" x="1040.0" y="650.0" connect1name="T17" connect2name="T16" westboundsignalmast="ISM2:07-3:03" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A18" type="1" x="1140.0" y="650.0" connect1name="T20" connect2name="T17" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A19" type="1" x="1340.0" y="250.0" connect1name="T21" connect2name="T18" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A20" type="1" x="1140.0" y="50.0" connect1name="T4" connect2name="T19" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A21" type="1" x="1281.0" y="591.0" connect1name="T1" connect2name="T20" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A22" type="1" x="1281.0" y="109.0" connect1name="T19" connect2name="T21" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A23" type="1" x="740.0" y="50.0" connect1name="T24" connect2name="T22" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A24" type="1" x="940.0" y="50.0" connect1name="T22" connect2name="T23" eastboundsignalmast="ISM2:15-4:03" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A25" type="1" x="540.0" y="50.0" connect1name="T12" connect2name="T24" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A1" type="1" x="1340.0" y="350.0" connect1name="T18" connect2name="T25" eastboundsignalmast="ISM2:11-2:09" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A2" type="1" x="40.0" y="210.0" connect1name="T8" connect2name="T3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A3" type="1" x="1040.0" y="10.0" connect1name="T23" connect2name="T4" eastboundsignalmast="ISM4:03-2:13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A4" type="1" x="1340.0" y="410.0" connect1name="T1" connect2name="T25" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A5" type="1" x="540.0" y="610.0" connect1name="T10" connect2name="T5" westboundsignalmast="ISM1:01-3:01" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A6" type="1" x="240.0" y="610.0" connect1name="T9" connect2name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A7" type="1" x="940.0" y="610.0" connect1name="T16" connect2name="T7" westboundsignalmast="ISM3:03-2:01" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A8" type="1" x="40.0" y="350.0" connect1name="T11" connect2name="T8" westboundsignalmast="ISM1:09-1:11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A9" type="1" x="440.0" y="610.0" connect1name="T5" connect2name="T9" westboundsignalmast="ISM3:01-1:07" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A10" type="1" x="740.0" y="610.0" connect1name="T7" connect2name="T10" westboundsignalmast="ISM2:01-1:01" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A11" type="1" x="40.0" y="410.0" connect1name="T2" connect2name="T11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A12" type="1" x="99.0" y="551.0" connect1name="T6" connect2name="T2" westboundsignalmast="ISM1:07-1:09" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A13" type="1" x="440.0" y="10.0" connect1name="T13" connect2name="T12" eastboundsignalmast="ISM1:13-4:01" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A14" type="1" x="240.0" y="10.0" connect1name="T14" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A15" type="1" x="99.0" y="69.0" connect1name="T3" connect2name="T14" eastboundsignalmast="ISM1:11-1:13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A17" type="1" x="1040.0" y="610.0" connect1name="T17" connect2name="T16" westboundsignalmast="ISM2:07-3:03" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A18" type="1" x="1140.0" y="610.0" connect1name="T20" connect2name="T17" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A19" type="1" x="1340.0" y="210.0" connect1name="T21" connect2name="T18" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A20" type="1" x="1140.0" y="10.0" connect1name="T4" connect2name="T19" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A21" type="1" x="1281.0" y="551.0" connect1name="T1" connect2name="T20" westboundsignalmast="ISM2:09-2:07" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A22" type="1" x="1281.0" y="69.0" connect1name="T19" connect2name="T21" eastboundsignalmast="ISM2:13-2:11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A23" type="1" x="740.0" y="10.0" connect1name="T24" connect2name="T22" eastboundsignalmast="ISM1:15-2:15" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A24" type="1" x="940.0" y="10.0" connect1name="T22" connect2name="T23" eastboundsignalmast="ISM2:15-4:03" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A25" type="1" x="540.0" y="10.0" connect1name="T12" connect2name="T24" eastboundsignalmast="ISM4:01-1:15" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A1" type="1" x="1340.0" y="310.0" connect1name="T18" connect2name="T25" eastboundsignalmast="ISM2:11-2:09" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Aug 21 21:21:48 CEST 2018</date>
+      <date>Sun Aug 26 15:27:04 CEST 2018</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Aug 21 21:21:50 CEST 2018</date>
-      <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+      <date>Sun Aug 26 15:27:09 CEST 2018</date>
+      <filename>/C:/Users/John/JMRI/VereenvoudigdeTreinbaan_V0.1/VereenvoudigdeTreinbaan.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Tue Aug 21 20:34:29 CEST 2018</date>
+          <date>Sun Aug 26 15:18:11 CEST 2018</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Tue Aug 21 20:34:31 CEST 2018</date>
-          <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+          <date>Sun Aug 26 15:18:15 CEST 2018</date>
+          <filename>/C:/Users/John/JMRI/VereenvoudigdeTreinbaan_V0.1/VereenvoudigdeTreinbaan.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Tue Aug 21 19:57:16 CEST 2018</date>
+              <date>Sun Aug 26 14:59:50 CEST 2018</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
-              <type>Load with errors</type>
-              <date>Tue Aug 21 19:57:24 CEST 2018</date>
-              <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
-            </operation>
-            <operation>
               <type>Load OK</type>
-              <date>Tue Aug 21 19:58:54 CEST 2018</date>
-              <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+              <date>Sun Aug 26 14:59:55 CEST 2018</date>
+              <filename>/C:/Users/John/JMRI/VereenvoudigdeTreinbaan_V0.1/VereenvoudigdeTreinbaan.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sun Aug 19 09:34:36 CEST 2018</date>
+                  <date>Sun Aug 26 13:34:03 CEST 2018</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sun Aug 19 09:34:39 CEST 2018</date>
-                  <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+                  <date>Sun Aug 26 13:34:05 CEST 2018</date>
+                  <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan_V0.1/VereenvoudigdeTreinbaan.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sat Aug 18 13:02:45 CEST 2018</date>
+                      <date>Sun Aug 26 13:18:07 CEST 2018</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sat Aug 18 13:02:51 CEST 2018</date>
-                      <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+                      <date>Sun Aug 26 13:18:09 CEST 2018</date>
+                      <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan_V0.1/VereenvoudigdeTreinbaan.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Thu Aug 16 20:54:50 CEST 2018</date>
+                          <date>Sun Aug 26 13:06:40 CEST 2018</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Thu Aug 16 20:54:52 CEST 2018</date>
-                          <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan/VereenvoudigdeTreinbaan.xml</filename>
+                          <date>Sun Aug 26 13:06:43 CEST 2018</date>
+                          <filename>/C:/Users/filip/JMRI/VereenvoudigdeTreinbaan_V0.1/VereenvoudigdeTreinbaan.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Thu Aug 16 21:15:03 CEST 2018</date>
+                          <date>Sun Aug 26 13:15:44 CEST 2018</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sat Aug 18 13:18:23 CEST 2018</date>
+                      <date>Sun Aug 26 13:31:43 CEST 2018</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sun Aug 19 13:34:48 CEST 2018</date>
+                  <date>Sun Aug 26 13:56:49 CEST 2018</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Tue Aug 21 20:04:50 CEST 2018</date>
+              <date>Sun Aug 26 15:17:12 CEST 2018</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Tue Aug 21 20:52:41 CEST 2018</date>
+          <date>Sun Aug 26 15:24:48 CEST 2018</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Aug 21 22:13:18 CEST 2018</date>
+      <date>Sun Aug 26 15:55:33 CEST 2018</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Tue Aug 21 22:13:18 CEST 2018-->
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Aug 26 15:55:33 CEST 2018-->
 </layout-config>

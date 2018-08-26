@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/dispatcher-traininfo.xsl" type="text/xsl"?>
+<!DOCTYPE traininfofile SYSTEM "/xml/DTD/dispatcher-traininfo.dtd">
+<traininfofile>
+  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Aug 26 14:03:17 CEST 2018-->
+  <traininfo version="2" transitname="IZ1(Traject Start Baanvak 1)" transitid="IZ1" trainname="Witte Trein" dccaddress=" " trainintransit="yes" startblockname="IB8(IB1:01)-1" startblockid="IB8" startblockseq="1" endblockname="IB10(IB3:03)" endblockid="IB10" endblockseq="10" trainfromroster="yes" trainfromtrains="no" trainfromuser="no" priority="5" resetwhendone="yes" delayedrestart="no" reverseatend="no" terminatewhendone="no" departuretimehr="8" departuretimemin="0" traintype="EXPRES PERSONEN" autorun="yes" loadatstartup="no" allocatealltheway="no" allocationmethod="-1" speedfactor="1.0" maxspeed="0.31" ramprate="Geen" resistancewheels="yes" runinreverse="no" sounddecoder="no" maxtrainlength="100.0" usespeedprofile="no" stopbyspeedprofile="no" stopbyspeedprofileadjust="1.0" />
+</traininfofile>
